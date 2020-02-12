@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:10:51 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.73" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_HISTORICOFUNCAO.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/Agent_zipado_2016_8.zip)#VIEW_GD_HISTORICOFUNCAO.csv" name="HISTORICOFUNCAO_Output" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_HISTORICOFUNCAO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODFUNCAOATUAL" name="FKCODFUNCAOATUAL" type="string"/>
+<Field label="FKCODFUNCAOANTERIOR" name="FKCODFUNCAOANTERIOR" type="string"/>
+<Field label="PKHISTORICOFUNCAO" name="PKHISTORICOFUNCAO" type="string"/>
+<Field label="Descricao Mudanca Funcao" name="Descricao_Mudanca_Funcao" type="string"/>
+<Field label="Mudancao de Funcao" name="Mudancao_de_Funcao" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Mudanca Funcao" name="Data_de_Mudanca_Funcao" type="date"/>
+<Field label="Livre0 Hist.Funcao" name="Livre0_Hist_Funcao" type="string"/>
+<Field label="Livre1 Hist.Funcao" name="Livre1_Hist_Funcao" type="string"/>
+<Field label="Livre2 Hist.Funcao" name="Livre2_Hist_Funcao" type="string"/>
+<Field label="Livre3 Hist.Funcao" name="Livre3_Hist_Funcao" type="string"/>
+<Field label="Livre4 Hist.Funcao" name="Livre4_Hist_Funcao" type="string"/>
+<Field label="Livre5 Hist.Funcao" name="Livre5_Hist_Funcao" type="decimal"/>
+<Field label="Livre6 Hist.Funcao" name="Livre6_Hist_Funcao" type="decimal"/>
+<Field label="Livre7 Hist.Funcao" name="Livre7_Hist_Funcao" type="decimal"/>
+<Field label="Livre8 Hist.Funcao" name="Livre8_Hist_Funcao" type="decimal"/>
+<Field eofAsDelimiter="false" label="Livre9 Hist.Funcao" name="Livre9_Hist_Funcao" type="decimal"/>
+<Field name="DUMMY" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOFUNCAO.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_HISTORICOFUNCAO.csv" name="HISTORICOFUNCAO_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOFUNCAO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODFUNCAOATUAL" name="FKCODFUNCAOATUAL" type="string"/>
+<Field label="FKCODFUNCAOANTERIOR" name="FKCODFUNCAOANTERIOR" type="string"/>
+<Field label="PKHISTORICOFUNCAO" name="PKHISTORICOFUNCAO" type="string"/>
+<Field label="Descricao Mudanca Funcao" name="Descricao_Mudanca_Funcao" type="string"/>
+<Field label="Mudancao de Funcao" name="Mudancao_de_Funcao" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Data de Mudanca Funcao" name="Data_de_Mudanca_Funcao" type="string"/>
+<Field label="Livre0 Hist.Funcao" name="Livre0_Hist_Funcao" type="string"/>
+<Field label="Livre1 Hist.Funcao" name="Livre1_Hist_Funcao" type="string"/>
+<Field label="Livre2 Hist.Funcao" name="Livre2_Hist_Funcao" type="string"/>
+<Field label="Livre3 Hist.Funcao" name="Livre3_Hist_Funcao" type="string"/>
+<Field label="Livre4 Hist.Funcao" name="Livre4_Hist_Funcao" type="string"/>
+<Field label="Livre5 Hist.Funcao" name="Livre5_Hist_Funcao" type="string"/>
+<Field label="Livre6 Hist.Funcao" name="Livre6_Hist_Funcao" type="string"/>
+<Field label="Livre7 Hist.Funcao" name="Livre7_Hist_Funcao" type="string"/>
+<Field label="Livre8 Hist.Funcao" name="Livre8_Hist_Funcao" type="string"/>
+<Field eofAsDelimiter="false" label="Livre9 Hist.Funcao" name="Livre9_Hist_Funcao" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="682" guiY="22" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1096" guiY="22" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="289" guiY="22" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFUNCAOATUAL == null) or (trim($in.0.FKCODFUNCAOATUAL) == '')) { $out.0.FKCODFUNCAOATUAL = 'N/A'; } else { $out.0.FKCODFUNCAOATUAL = translate(trim(upperCase($in.0.FKCODFUNCAOATUAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }	
+	if(($in.0.FKCODFUNCAOANTERIOR == null) or (trim($in.0.FKCODFUNCAOANTERIOR) == '')) { $out.0.FKCODFUNCAOANTERIOR = 'N/A'; } else { $out.0.FKCODFUNCAOANTERIOR = translate(trim(upperCase($in.0.FKCODFUNCAOANTERIOR)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }	
+	if(($in.0.PKHISTORICOFUNCAO == null) or (trim($in.0.PKHISTORICOFUNCAO) == '')) { $out.0.PKHISTORICOFUNCAO = 'N/A'; } else { $out.0.PKHISTORICOFUNCAO = translate(trim(upperCase($in.0.PKHISTORICOFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	
+	
+	if(($in.0.Descricao_Mudanca_Funcao == null) or (trim($in.0.Descricao_Mudanca_Funcao) == '')) { $out.0.Descricao_Mudanca_Funcao = 'N/A'; } else { $out.0.Descricao_Mudanca_Funcao = translate(trim(upperCase($in.0.Descricao_Mudanca_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Mudancao_de_Funcao == null) or (trim($in.0.Mudancao_de_Funcao) == '')) { $out.0.Mudancao_de_Funcao = 'N/A'; } else { $out.0.Mudancao_de_Funcao = translate(trim(upperCase($in.0.Mudancao_de_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	
+	
+	
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data; 
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	
+	if(($in.0.Data_de_Mudanca_Funcao == null) or (trim($in.0.Data_de_Mudanca_Funcao) == '')) {
+		$out.0.Data_de_Mudanca_Funcao = null;
+	} else {
+		data = str2date($in.0.Data_de_Mudanca_Funcao, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Mudanca_Funcao = null;
+		} else {
+			$out.0.Data_de_Mudanca_Funcao = data;
+		}
+	}
+	
+
+	if(($in.0.Livre0_Hist_Funcao == null) or (trim($in.0.Livre0_Hist_Funcao) == '')) { $out.0.Livre0_Hist_Funcao = 'N/A'; } else { $out.0.Livre0_Hist_Funcao = translate(trim(upperCase($in.0.Livre0_Hist_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Hist_Funcao == null) or (trim($in.0.Livre1_Hist_Funcao) == '')) { $out.0.Livre1_Hist_Funcao = 'N/A'; } else { $out.0.Livre1_Hist_Funcao = translate(trim(upperCase($in.0.Livre1_Hist_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Hist_Funcao == null) or (trim($in.0.Livre2_Hist_Funcao) == '')) { $out.0.Livre2_Hist_Funcao = 'N/A'; } else { $out.0.Livre2_Hist_Funcao = translate(trim(upperCase($in.0.Livre2_Hist_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Hist_Funcao == null) or (trim($in.0.Livre3_Hist_Funcao) == '')) { $out.0.Livre3_Hist_Funcao = 'N/A'; } else { $out.0.Livre3_Hist_Funcao = translate(trim(upperCase($in.0.Livre3_Hist_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Hist_Funcao == null) or (trim($in.0.Livre4_Hist_Funcao) == '')) { $out.0.Livre4_Hist_Funcao = 'N/A'; } else { $out.0.Livre4_Hist_Funcao = translate(trim(upperCase($in.0.Livre4_Hist_Funcao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Hist_Funcao == null) or (trim($in.0.Livre5_Hist_Funcao) == 'INDEFINIDO')) { $out.0.Livre5_Hist_Funcao = 0; } else { $out.0.Livre5_Hist_Funcao = str2decimal($in.0.Livre5_Hist_Funcao); }
+	if(($in.0.Livre6_Hist_Funcao == null) or (trim($in.0.Livre6_Hist_Funcao) == 'INDEFINIDO')) { $out.0.Livre6_Hist_Funcao = 0; } else { $out.0.Livre6_Hist_Funcao = str2decimal($in.0.Livre6_Hist_Funcao); }
+	if(($in.0.Livre7_Hist_Funcao == null) or (trim($in.0.Livre7_Hist_Funcao) == 'INDEFINIDO')) { $out.0.Livre7_Hist_Funcao = 0; } else { $out.0.Livre7_Hist_Funcao = str2decimal($in.0.Livre7_Hist_Funcao); }
+	if(($in.0.Livre8_Hist_Funcao == null) or (trim($in.0.Livre8_Hist_Funcao) == 'INDEFINIDO')) { $out.0.Livre8_Hist_Funcao = 0; } else { $out.0.Livre8_Hist_Funcao = str2decimal($in.0.Livre8_Hist_Funcao); }
+	if(($in.0.Livre9_Hist_Funcao == null) or (trim($in.0.Livre9_Hist_Funcao) == 'INDEFINIDO')) { $out.0.Livre9_Hist_Funcao = 0; } else { $out.0.Livre9_Hist_Funcao = str2decimal($in.0.Livre9_Hist_Funcao); }
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="905" guiY="22" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.historicodefuncoes.pkhistoricofuncao} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="482" guiY="22" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_HISTORICOFUNCAO.csv" guiName="VIEW_GD_HISTORICOFUNCAO" guiX="17" guiY="22" id="VIEW_GD_HISTORICOFUNCAO" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="HISTORICO_FUNCAO:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_HISTORICOFUNCAO:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.historicodefuncoes" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.historicodefuncoes&quot;,&quot;datasetTitle&quot;:&quot;Histórico de Funções&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.descricaodamudancadefuncao&quot;,&quot;title&quot;:&quot;Descrição da Mudança de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_descricaodamudancadefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.descricaodamudancadefuncao&quot;,&quot;title&quot;:&quot;Descrição da Mudança de Função&quot;,&quot;prettyId&quot;:&quot;descricaodamudancadefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Descricao_Mudanca_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.livre0histdefuncao&quot;,&quot;title&quot;:&quot;Livre0 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_livre0histdefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.livre0histdefuncao&quot;,&quot;title&quot;:&quot;Livre0 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre0histdefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Hist_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.livre1histdefuncao&quot;,&quot;title&quot;:&quot;Livre1 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_livre1histdefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.livre1histdefuncao&quot;,&quot;title&quot;:&quot;Livre1 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre1histdefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Hist_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.livre2histdefuncao&quot;,&quot;title&quot;:&quot;Livre2 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_livre2histdefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.livre2histdefuncao&quot;,&quot;title&quot;:&quot;Livre2 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre2histdefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Hist_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.livre3histdefuncao&quot;,&quot;title&quot;:&quot;Livre3 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_livre3histdefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.livre3histdefuncao&quot;,&quot;title&quot;:&quot;Livre3 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre3histdefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Hist_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.livre4histdefuncao&quot;,&quot;title&quot;:&quot;Livre4 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_livre4histdefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.livre4histdefuncao&quot;,&quot;title&quot;:&quot;Livre4 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre4histdefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Hist_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.mudancadefuncao&quot;,&quot;title&quot;:&quot;Mudança de Função&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_mudancadefuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.mudancadefuncao&quot;,&quot;title&quot;:&quot;Mudança de Função&quot;,&quot;prettyId&quot;:&quot;mudancadefuncao&quot;,&quot;assignedMetadataField&quot;:&quot;Mudancao_de_Funcao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.pkhistoricofuncao&quot;,&quot;title&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_pkhistoricofuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.pkhistoricofuncao&quot;,&quot;title&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;prettyId&quot;:&quot;pkhistoricofuncao&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.pkhistoricofuncao&quot;,&quot;title&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;prettyId&quot;:&quot;pkhistoricofuncao&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncoes_pkcodfuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFUNCAOATUAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datademudanca.date&quot;,&quot;title&quot;:&quot;Date (Data de Mudança)&quot;,&quot;prettyId&quot;:&quot;datademudanca&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Mudanca_Funcao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datademudanca.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Mudança)&quot;,&quot;prettyId&quot;:&quot;datademudanca_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datademudanca.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Mudança)&quot;,&quot;prettyId&quot;:&quot;datademudanca_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodefuncoes.dummy&quot;,&quot;title&quot;:&quot;Dummy&quot;,&quot;prettyId&quot;:&quot;dummy&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;DUMMY&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodefuncoes.livre5histdefuncao&quot;,&quot;title&quot;:&quot;Livre5 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre5histdefuncao&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Hist_Funcao&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodefuncoes.livre6histdefuncao&quot;,&quot;title&quot;:&quot;Livre6 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre6histdefuncao&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Hist_Funcao&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodefuncoes.livre7histdefuncao&quot;,&quot;title&quot;:&quot;Livre7 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre7histdefuncao&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Hist_Funcao&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodefuncoes.livre8histdefuncao&quot;,&quot;title&quot;:&quot;Livre8 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre8histdefuncao&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Hist_Funcao&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodefuncoes.livre9histdefuncao&quot;,&quot;title&quot;:&quot;Livre9 Hist. de Função&quot;,&quot;prettyId&quot;:&quot;livre9histdefuncao&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Hist_Funcao&quot;}}],&quot;dateFacts&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[]}}" enabled="enabled" guiName="HISTÓRICO FUNÇÃO" guiX="713" guiY="241" id="HISTORICO_FUNCAO" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

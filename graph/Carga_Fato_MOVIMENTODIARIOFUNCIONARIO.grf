@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:24:14 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.66" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" name="MOVIMENTODIARIOFUNCIONARIO_Output" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="FKCODDEPARTAMENTO" name="FKCODDEPARTAMENTO" type="string"/>
+<Field label="FKCODCUSTO" name="FKCODCUSTO" type="string"/>
+<Field label="PKMOVIMENTODIARIOFUNC" name="PKMOVIMENTODIARIOFUNC" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Comp. Mov. Diario" name="Data_de_Comp_Mov_Diario" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field label="Livre0 Mov. Diario" name="Livre0_Mov_Diario" type="string"/>
+<Field label="Livre1 Mov. Diario" name="Livre1_Mov_Diario" type="string"/>
+<Field label="Livre2 Mov. Diario" name="Livre2_Mov_Diario" type="string"/>
+<Field label="Livre3 Mov. Diario" name="Livre3_Mov_Diario" type="string"/>
+<Field label="Livre4 Mov. Diario" name="Livre4_Mov_Diario" type="string"/>
+<Field name="Abono" type="decimal"/>
+<Field label="Atraso" name="Atraso" type="decimal"/>
+<Field label="Falta" name="Falta" type="decimal"/>
+<Field label="Horas.Trabalhada" name="Horas_Trabalhada" type="decimal"/>
+<Field label="Extra Executado" name="Extra_Executado" type="decimal"/>
+<Field label="Adicional" name="Adicional" type="decimal"/>
+<Field label="Base" name="Base" type="decimal"/>
+<Field label="Extra Autorizado" name="Extra_Autorizado" type="decimal"/>
+<Field label="Tempo Ref." name="Tempo_Ref" type="decimal"/>
+<Field label="Compensado" name="Compensado" type="decimal"/>
+<Field label="Descanso" name="Descanso" type="decimal"/>
+<Field label="Feriado" name="Feriado" type="decimal"/>
+<Field label="Extra Calculado" name="Extra_Calculado" type="decimal"/>
+<Field label="Atraso Calculado" name="Atraso_Calculado" type="decimal"/>
+<Field label="Falta Calculado" name="Falta_Calculado" type="decimal"/>
+<Field label="Livre5 Mov. Diario" name="Livre5_Mov_Diario" type="decimal"/>
+<Field label="Livre6 Mov. Diario" name="Livre6_Mov_Diario" type="decimal"/>
+<Field label="Livre7 Mov. Diario" name="Livre7_Mov_Diario" type="decimal"/>
+<Field label="Livre8 Mov. Diario" name="Livre8_Mov_Diario" type="decimal"/>
+<Field label="Livre9 Mov. Diario" name="Livre9_Mov_Diario" type="decimal"/>
+<Field eofAsDelimiter="false" label="Recno_ Mov. Diario" name="Recno__Mov_Diario" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" name="MOVIMENTODIARIOFUNCIONARIO_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="FKCODDEPARTAMENTO" name="FKCODDEPARTAMENTO" type="string"/>
+<Field label="FKCODCUSTO" name="FKCODCUSTO" type="string"/>
+<Field label="PKMOVIMENTODIARIOFUNC" name="PKMOVIMENTODIARIOFUNC" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Comp. Mov. Diario" name="Data_de_Comp_Mov_Diario" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Livre0 Mov. Diario" name="Livre0_Mov_Diario" type="string"/>
+<Field label="Livre1 Mov. Diario" name="Livre1_Mov_Diario" type="string"/>
+<Field label="Livre2 Mov. Diario" name="Livre2_Mov_Diario" type="string"/>
+<Field label="Livre3 Mov. Diario" name="Livre3_Mov_Diario" type="string"/>
+<Field label="Livre4 Mov. Diario" name="Livre4_Mov_Diario" type="string"/>
+<Field label="Abono" name="Abono" type="string"/>
+<Field label="Atraso" name="Atraso" type="string"/>
+<Field label="Falta" name="Falta" type="string"/>
+<Field label="Horas.Trabalhada" name="Horas_Trabalhada" type="string"/>
+<Field label="Extra Executado" name="Extra_Executado" type="string"/>
+<Field label="Adicional" name="Adicional" type="string"/>
+<Field label="Base" name="Base" type="string"/>
+<Field label="Extra Autorizado" name="Extra_Autorizado" type="string"/>
+<Field label="Tempo Ref." name="Tempo_Ref" type="string"/>
+<Field label="Compensado" name="Compensado" type="string"/>
+<Field label="Descanso" name="Descanso" type="string"/>
+<Field label="Feriado" name="Feriado" type="string"/>
+<Field label="Extra Calculado" name="Extra_Calculado" type="string"/>
+<Field label="Atraso Calculado" name="Atraso_Calculado" type="string"/>
+<Field label="Falta Calculado" name="Falta_Calculado" type="string"/>
+<Field label="Livre5 Mov. Diario" name="Livre5_Mov_Diario" type="string"/>
+<Field label="Livre6 Mov. Diario" name="Livre6_Mov_Diario" type="string"/>
+<Field label="Livre7 Mov. Diario" name="Livre7_Mov_Diario" type="string"/>
+<Field label="Livre8 Mov. Diario" name="Livre8_Mov_Diario" type="string"/>
+<Field label="Livre9 Mov. Diario" name="Livre9_Mov_Diario" type="string"/>
+<Field eofAsDelimiter="false" label="Recno_ Mov. Diario" name="Recno__Mov_Diario" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="708" guiY="21" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1085" guiY="21" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="350" guiY="23" id="REFORMAT17" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSECAO == null) or (trim($in.0.FKCODSECAO) == '')) { $out.0.FKCODSECAO = 'N/A'; } else { $out.0.FKCODSECAO = translate(trim(upperCase($in.0.FKCODSECAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFUNCAO == null) or (trim($in.0.FKCODFUNCAO) == '')) { $out.0.FKCODFUNCAO = 'N/A'; } else { $out.0.FKCODFUNCAO = translate(trim(upperCase($in.0.FKCODFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSITUACAO == null) or (trim($in.0.FKCODSITUACAO) == '')) { $out.0.FKCODSITUACAO = 'N/A'; } else { $out.0.FKCODSITUACAO = translate(trim(upperCase($in.0.FKCODSITUACAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODDEPARTAMENTO == null) or (trim($in.0.FKCODDEPARTAMENTO) == '')) { $out.0.FKCODDEPARTAMENTO = 'N/A'; } else { $out.0.FKCODDEPARTAMENTO = translate(trim(upperCase($in.0.FKCODDEPARTAMENTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCUSTO == null) or (trim($in.0.FKCODCUSTO) == '')) { $out.0.FKCODCUSTO = 'N/A'; } else { $out.0.FKCODCUSTO = translate(trim(upperCase($in.0.FKCODCUSTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKMOVIMENTODIARIOFUNC == null) or (trim($in.0.PKMOVIMENTODIARIOFUNC) == '')) { $out.0.PKMOVIMENTODIARIOFUNC = 'N/A'; } else { $out.0.PKMOVIMENTODIARIOFUNC = translate(trim(upperCase($in.0.PKMOVIMENTODIARIOFUNC)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Comp_Mov_Diario == null) or (trim($in.0.Data_de_Comp_Mov_Diario) == '')) {
+		$out.0.Data_de_Comp_Mov_Diario = null;
+	} else {
+		data = str2date($in.0.Data_de_Comp_Mov_Diario, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Comp_Mov_Diario = null;
+		} else {
+			$out.0.Data_de_Comp_Mov_Diario = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Livre0_Mov_Diario == null) or (trim($in.0.Livre0_Mov_Diario) == '')) { $out.0.Livre0_Mov_Diario = 'N/A'; } else { $out.0.Livre0_Mov_Diario = translate(trim(upperCase($in.0.Livre0_Mov_Diario)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Mov_Diario == null) or (trim($in.0.Livre1_Mov_Diario) == '')) { $out.0.Livre1_Mov_Diario = 'N/A'; } else { $out.0.Livre1_Mov_Diario = translate(trim(upperCase($in.0.Livre1_Mov_Diario)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Mov_Diario == null) or (trim($in.0.Livre2_Mov_Diario) == '')) { $out.0.Livre2_Mov_Diario = 'N/A'; } else { $out.0.Livre2_Mov_Diario = translate(trim(upperCase($in.0.Livre2_Mov_Diario)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Mov_Diario == null) or (trim($in.0.Livre3_Mov_Diario) == '')) { $out.0.Livre3_Mov_Diario = 'N/A'; } else { $out.0.Livre3_Mov_Diario = translate(trim(upperCase($in.0.Livre3_Mov_Diario)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Mov_Diario == null) or (trim($in.0.Livre4_Mov_Diario) == '')) { $out.0.Livre4_Mov_Diario = 'N/A'; } else { $out.0.Livre4_Mov_Diario = translate(trim(upperCase($in.0.Livre4_Mov_Diario)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+
+	if(($in.0.Abono == null) or (trim($in.0.Abono) == '')) { $out.0.Abono = 0; } else { $out.0.Abono = str2decimal($in.0.Abono); }	
+	if(($in.0.Atraso == null) or (trim($in.0.Atraso) == '')) { $out.0.Atraso = 0; } else { $out.0.Atraso = str2decimal($in.0.Atraso); }
+	if(($in.0.Falta == null) or (trim($in.0.Falta) == '')) { $out.0.Falta = 0; } else { $out.0.Falta = str2decimal($in.0.Falta); }
+	if(($in.0.Horas_Trabalhada == null) or (trim($in.0.Horas_Trabalhada) == '')) { $out.0.Horas_Trabalhada = 0; } else { $out.0.Horas_Trabalhada = str2decimal($in.0.Horas_Trabalhada); }
+	if(($in.0.Extra_Executado == null) or (trim($in.0.Extra_Executado) == '')) { $out.0.Extra_Executado = 0; } else { $out.0.Extra_Executado = str2decimal($in.0.Extra_Executado); }
+	if(($in.0.Adicional == null) or (trim($in.0.Adicional) == '')) { $out.0.Adicional = 0; } else { $out.0.Adicional = str2decimal($in.0.Adicional); }
+	if(($in.0.Base == null) or (trim($in.0.Base) == '')) { $out.0.Base = 0; } else { $out.0.Base = str2decimal($in.0.Base); }
+	if(($in.0.Extra_Autorizado == null) or (trim($in.0.Extra_Autorizado) == '')) { $out.0.Extra_Autorizado = 0; } else { $out.0.Extra_Autorizado = str2decimal($in.0.Extra_Autorizado); }
+	if(($in.0.Tempo_Ref == null) or (trim($in.0.Tempo_Ref) == '')) { $out.0.Tempo_Ref = 0; } else { $out.0.Tempo_Ref = str2decimal($in.0.Tempo_Ref); }
+	if(($in.0.Compensado == null) or (trim($in.0.Compensado) == '')) { $out.0.Compensado = 0; } else { $out.0.Compensado = str2decimal($in.0.Compensado); }
+	if(($in.0.Descanso == null) or (trim($in.0.Descanso) == '')) { $out.0.Descanso = 0; } else { $out.0.Descanso = str2decimal($in.0.Descanso); }
+	if(($in.0.Feriado == null) or (trim($in.0.Feriado) == '')) { $out.0.Feriado = 0; } else { $out.0.Feriado = str2decimal($in.0.Feriado); }
+	if(($in.0.Extra_Calculado == null) or (trim($in.0.Extra_Calculado) == '')) { $out.0.Extra_Calculado = 0; } else { $out.0.Extra_Calculado = str2decimal($in.0.Extra_Calculado); }
+	if(($in.0.Atraso_Calculado == null) or (trim($in.0.Atraso_Calculado) == '')) { $out.0.Atraso_Calculado = 0; } else { $out.0.Atraso_Calculado = str2decimal($in.0.Atraso_Calculado); }
+	if(($in.0.Falta_Calculado == null) or (trim($in.0.Falta_Calculado) == '')) { $out.0.Falta_Calculado = 0; } else { $out.0.Falta_Calculado = str2decimal($in.0.Falta_Calculado); }
+	if(($in.0.Livre5_Mov_Diario == null) or (trim($in.0.Livre5_Mov_Diario) == 'INDEFINIDO')) { $out.0.Livre5_Mov_Diario = 0; } else { $out.0.Livre5_Mov_Diario = str2decimal($in.0.Livre5_Mov_Diario); }
+	if(($in.0.Livre6_Mov_Diario == null) or (trim($in.0.Livre6_Mov_Diario) == 'INDEFINIDO')) { $out.0.Livre6_Mov_Diario = 0; } else { $out.0.Livre6_Mov_Diario = str2decimal($in.0.Livre6_Mov_Diario); }
+	if(($in.0.Livre7_Mov_Diario == null) or (trim($in.0.Livre7_Mov_Diario) == 'INDEFINIDO')) { $out.0.Livre7_Mov_Diario = 0; } else { $out.0.Livre7_Mov_Diario = str2decimal($in.0.Livre7_Mov_Diario); }
+	if(($in.0.Livre8_Mov_Diario == null) or (trim($in.0.Livre8_Mov_Diario) == 'INDEFINIDO')) { $out.0.Livre8_Mov_Diario = 0; } else { $out.0.Livre8_Mov_Diario = str2decimal($in.0.Livre8_Mov_Diario); }
+	if(($in.0.Livre9_Mov_Diario == null) or (trim($in.0.Livre9_Mov_Diario) == 'INDEFINIDO')) { $out.0.Livre9_Mov_Diario = 0; } else { $out.0.Livre9_Mov_Diario = str2decimal($in.0.Livre9_Mov_Diario); }
+	if(($in.0.Recno__Mov_Diario == null) or (trim($in.0.Recno__Mov_Diario) == '')) { $out.0.Recno__Mov_Diario = 0; } else { $out.0.Recno__Mov_Diario = str2decimal($in.0.Recno__Mov_Diario); }
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="889" guiY="21" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.movimentodia.pkmovimentodiariofunc} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="525" guiY="21" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_MOVIMENTODIARIOFUNCIONARIO.csv" guiName="VIEW_GD_MOVIMENTODIARIOFUNCIONARIO" guiX="-1" guiY="21" id="VIEW_GD_MOVIMENTODIARIOFUNCIONARIO1" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT17:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="MOVIMENTO_DIARIO_FUNCIONARIO:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_MOVIMENTODIARIOFUNCIONARIO1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT17:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.movimentodia" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.movimentodia&quot;,&quot;datasetTitle&quot;:&quot;Movimento Diário Funcionário&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.livre0movdiario&quot;,&quot;title&quot;:&quot;Livre0 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_livre0movdiario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.livre0movdiario&quot;,&quot;title&quot;:&quot;Livre0 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre0movdiario&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Mov_Diario&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.livre1movdiario&quot;,&quot;title&quot;:&quot;Livre1 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_livre1movdiario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.livre1movdiario&quot;,&quot;title&quot;:&quot;Livre1 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre1movdiario&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Mov_Diario&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.livre2movdiario&quot;,&quot;title&quot;:&quot;Livre2 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_livre2movdiario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.livre2movdiario&quot;,&quot;title&quot;:&quot;Livre2 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre2movdiario&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Mov_Diario&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.livre3movdiario&quot;,&quot;title&quot;:&quot;Livre3 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_livre3movdiario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.livre3movdiario&quot;,&quot;title&quot;:&quot;Livre3 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre3movdiario&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Mov_Diario&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.livre4movdiario&quot;,&quot;title&quot;:&quot;Livre4 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_livre4movdiario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.livre4movdiario&quot;,&quot;title&quot;:&quot;Livre4 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre4movdiario&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Mov_Diario&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.pkmovimentodiariofunc&quot;,&quot;title&quot;:&quot;PKMOVIMENTODIARIOFUNC&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_pkmovimentodiariofunc&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.pkmovimentodiariofunc&quot;,&quot;title&quot;:&quot;PKMOVIMENTODIARIOFUNC&quot;,&quot;prettyId&quot;:&quot;pkmovimentodiariofunc&quot;,&quot;assignedMetadataField&quot;:&quot;PKMOVIMENTODIARIOFUNC&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.pkmovimentodiariofunc&quot;,&quot;title&quot;:&quot;PKMOVIMENTODIARIOFUNC&quot;,&quot;prettyId&quot;:&quot;pkmovimentodiariofunc&quot;,&quot;assignedMetadataField&quot;:&quot;PKMOVIMENTODIARIOFUNC&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentodia.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_movimentodia_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentodia.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastroccustofolhadepagamento_pkcodcusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCUSTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodedepartamentos_pkcoddepartamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodedepartamentos__pkcoddepartamento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODDEPARTAMENTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodedepartamentos__pkcoddepartamento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncoes_pkcodfuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFUNCAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesecoes_pkcodsecao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSECAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesituacoesdofuncionario_pkcodsituacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSITUACAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadecompentencia.date&quot;,&quot;title&quot;:&quot;Date (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Comp_Mov_Diario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.atraso&quot;,&quot;title&quot;:&quot;Abono&quot;,&quot;prettyId&quot;:&quot;atraso&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Abono&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.base&quot;,&quot;title&quot;:&quot;Adicional&quot;,&quot;prettyId&quot;:&quot;base&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Adicional&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.falta&quot;,&quot;title&quot;:&quot;Atraso&quot;,&quot;prettyId&quot;:&quot;falta&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Atraso&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.faltacalculado&quot;,&quot;title&quot;:&quot;Atraso Calculado&quot;,&quot;prettyId&quot;:&quot;faltacalculado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Atraso_Calculado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.extraautorizado&quot;,&quot;title&quot;:&quot;Base&quot;,&quot;prettyId&quot;:&quot;extraautorizado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Base&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.descanso&quot;,&quot;title&quot;:&quot;Compensado&quot;,&quot;prettyId&quot;:&quot;descanso&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Compensado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.feriado&quot;,&quot;title&quot;:&quot;Descanso&quot;,&quot;prettyId&quot;:&quot;feriado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Descanso&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.temporef&quot;,&quot;title&quot;:&quot;Extra Autorizado&quot;,&quot;prettyId&quot;:&quot;temporef&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Extra_Autorizado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.atrasocalculado&quot;,&quot;title&quot;:&quot;Extra Calculado&quot;,&quot;prettyId&quot;:&quot;atrasocalculado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Extra_Calculado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.adicional&quot;,&quot;title&quot;:&quot;Extra Executado&quot;,&quot;prettyId&quot;:&quot;adicional&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Extra_Executado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.horastrabalhada&quot;,&quot;title&quot;:&quot;Falta&quot;,&quot;prettyId&quot;:&quot;horastrabalhada&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Falta&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.livre5movdiario&quot;,&quot;title&quot;:&quot;Falta Calculado&quot;,&quot;prettyId&quot;:&quot;livre5movdiario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Falta_Calculado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.extracalculado&quot;,&quot;title&quot;:&quot;Feriado&quot;,&quot;prettyId&quot;:&quot;extracalculado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Feriado&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.extraexecutado&quot;,&quot;title&quot;:&quot;Horas.Trabalhada&quot;,&quot;prettyId&quot;:&quot;extraexecutado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Horas_Trabalhada&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.livre6movdiario&quot;,&quot;title&quot;:&quot;Livre5 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre6movdiario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Mov_Diario&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.livre7movdiario&quot;,&quot;title&quot;:&quot;Livre6 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre7movdiario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Mov_Diario&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.livre8movdiario&quot;,&quot;title&quot;:&quot;Livre7 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre8movdiario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Mov_Diario&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.livre9movdiario&quot;,&quot;title&quot;:&quot;Livre8 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;livre9movdiario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Mov_Diario&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.recno_movdiario&quot;,&quot;title&quot;:&quot;Livre9 Mov. Diario&quot;,&quot;prettyId&quot;:&quot;recno_movdiario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Mov_Diario&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.abono&quot;,&quot;title&quot;:&quot;Recno_ Mov. Diario&quot;,&quot;prettyId&quot;:&quot;abono&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Recno__Mov_Diario&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentodia.compensado&quot;,&quot;title&quot;:&quot;Tempo Ref.&quot;,&quot;prettyId&quot;:&quot;compensado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Tempo_Ref&quot;}}],&quot;dateFacts&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[]}}" enabled="enabled" guiName="MOVIMENTO DIÁRIO FUNCIONÁRIO" guiX="690" guiY="279" id="MOVIMENTO_DIARIO_FUNCIONARIO" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

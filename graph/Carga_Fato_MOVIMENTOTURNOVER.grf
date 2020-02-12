@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:28:46 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.68" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata39" previewAttachment="${DATA_SOURCE_DIR}/RM/VIEW_GD_MOVIMENTOTURNOVER.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="VIEW_GD_MOVIMENTOTURNOVER.csv" name="MOVIMENTOTURNOVER_Output" previewAttachment="${DATA_SOURCE_DIR}/RM/VIEW_GD_MOVIMENTOTURNOVER.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field name="FKCODCUSTO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="PKPERIODOS" name="PKPERIODOS" type="string"/>
+<Field label="Ano de Competencia Periodo" name="Ano_de_Competencia_Periodo" type="string"/>
+<Field label="Mes de Competencia Periodo" name="Mes_de_Competencia_Periodo" type="string"/>
+<Field format="yyyyMMdd" label="Data de Competencia" name="Data_de_Competencia" type="date"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field label="Tipo de Admissao Periodo" name="Tipo_de_Admissao_Periodo" type="string"/>
+<Field label="Tipo de Demissao Periodo" name="Tipo_de_Demissao_Periodo" type="string"/>
+<Field format="yyyyMMdd" label="Data de Admissao Periodo" name="Data_de_Admissao_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Data de Demissao Periodo" name="Data_de_Demissao_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Data de Transferencia Periodo" name="Data_de_Transferencia_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Dt.Base Inicial Periodo" name="Dt_Base_Inicial_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Dt.Base Final Periodo" name="Dt_Base_Final_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Data Movimento Periodo" name="Data_Movimento_Periodo" type="date"/>
+<Field label="Livre0 Turnover" name="Livre0_Turnover" type="string"/>
+<Field label="Livre1 Turnover" name="Livre1_Turnover" type="string"/>
+<Field label="Livre2 Turnover" name="Livre2_Turnover" type="string"/>
+<Field label="Livre3 Turnover" name="Livre3_Turnover" type="string"/>
+<Field label="Livre4 Turnover" name="Livre4_Turnover" type="string"/>
+<Field label="Livre5 Turnover" name="Livre5_Turnover" type="decimal"/>
+<Field label="Livre6 Turnover" name="Livre6_Turnover" type="decimal"/>
+<Field label="Livre7 Turnover" name="Livre7_Turnover" type="decimal"/>
+<Field label="Livre8 Turnover" name="Livre8_Turnover" type="decimal"/>
+<Field label="Livre9 Turnover" name="Livre9_Turnover" type="decimal"/>
+<Field name="Tempo_de_Casa_Meses" type="decimal"/>
+<Field name="Tempo_de_Casa_Anos" type="decimal"/>
+<Field name="Tempo_de_Casa_Dias" type="decimal"/>
+<Field label="Qtde. Inicio do Periodo" name="Qtde_Inicio_do_Periodo" type="decimal"/>
+<Field label="Qtde. Admitidos no Periodo" name="Qtde_Admitidos_no_Periodo" type="decimal"/>
+<Field label="Qtde. Demitidos no Periodo" name="Qtde_Demitidos_no_Periodo" type="decimal"/>
+<Field label="Qtde. Final do Periodo" name="Qtde_Final_do_Periodo" type="decimal"/>
+<Field label="Qtde. Admitidos por Transferencia - Periodo" name="Qtde_Admitidos_por_Transferencia_Periodo" type="decimal"/>
+<Field label="Qtde. Demitidos por Transferencia - Periodo" name="Qtde_Demitidos_por_Transferencia_Periodo" type="decimal"/>
+<Field label="Qtde. Admitidos T Casa Periodo" name="Qtde_Admitidos_T_Casa_Periodo" type="decimal"/>
+<Field eofAsDelimiter="false" label="Qtde. Demitidos T Casa Periodo" name="Qtde_Demitidos_T_Casa_Periodo" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_MOVIMENTOTURNOVER.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_MOVIMENTOTURNOVER.csv" name="MOVIMENTOTURNOVER_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_MOVIMENTOTURNOVER.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODCUSTO" name="FKCODCUSTO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="PKPERIODOS" name="PKPERIODOS" type="string"/>
+<Field label="Ano de Competencia Periodo" name="Ano_de_Competencia_Periodo" type="string"/>
+<Field label="Mes de Competencia Periodo" name="Mes_de_Competencia_Periodo" type="string"/>
+<Field label="Data de Competencia" name="Data_de_Competencia" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Tipo de Admissao Periodo" name="Tipo_de_Admissao_Periodo" type="string"/>
+<Field label="Tipo de Demissao Periodo" name="Tipo_de_Demissao_Periodo" type="string"/>
+<Field label="Data de Admissao Periodo" name="Data_de_Admissao_Periodo" type="string"/>
+<Field label="Data de Demissao Periodo" name="Data_de_Demissao_Periodo" type="string"/>
+<Field label="Data de Transferencia Periodo" name="Data_de_Transferencia_Periodo" type="string"/>
+<Field label="Dt.Base Inicial Periodo" name="Dt_Base_Inicial_Periodo" type="string"/>
+<Field label="Dt.Base Final Periodo" name="Dt_Base_Final_Periodo" type="string"/>
+<Field label="Data Movimento Periodo" name="Data_Movimento_Periodo" type="string"/>
+<Field label="Livre0 Turnover" name="Livre0_Turnover" type="string"/>
+<Field label="Livre1 Turnover" name="Livre1_Turnover" type="string"/>
+<Field label="Livre2 Turnover" name="Livre2_Turnover" type="string"/>
+<Field label="Livre3 Turnover" name="Livre3_Turnover" type="string"/>
+<Field label="Livre4 Turnover" name="Livre4_Turnover" type="string"/>
+<Field label="Livre5 Turnover" name="Livre5_Turnover" type="string"/>
+<Field label="Livre6 Turnover" name="Livre6_Turnover" type="string"/>
+<Field label="Livre7 Turnover" name="Livre7_Turnover" type="string"/>
+<Field label="Livre8 Turnover" name="Livre8_Turnover" type="string"/>
+<Field label="Livre9 Turnover" name="Livre9_Turnover" type="string"/>
+<Field label="Tempo de Casa Meses" name="Tempo_de_Casa_Meses" type="string"/>
+<Field label="Tempo de Casa Anos" name="Tempo_de_Casa_Anos" type="string"/>
+<Field label="Tempo de Casa Dias" name="Tempo_de_Casa_Dias" type="string"/>
+<Field label="Qtde. Inicio do Periodo" name="Qtde_Inicio_do_Periodo" type="string"/>
+<Field label="Qtde. Admitidos no Periodo" name="Qtde_Admitidos_no_Periodo" type="string"/>
+<Field label="Qtde. Demitidos no Periodo" name="Qtde_Demitidos_no_Periodo" type="string"/>
+<Field label="Qtde. Final do Periodo" name="Qtde_Final_do_Periodo" type="string"/>
+<Field label="Qtde. Admitidos por Transferencia - Periodo" name="Qtde_Admitidos_por_Transferencia_Periodo" type="string"/>
+<Field label="Qtde. Demitidos por Transferencia - Periodo" name="Qtde_Demitidos_por_Transferencia_Periodo" type="string"/>
+<Field label="Qtde. Admitidos T Casa Periodo" name="Qtde_Admitidos_T_Casa_Periodo" type="string"/>
+<Field eofAsDelimiter="false" label="Qtde. Demitidos T Casa Periodo" name="Qtde_Demitidos_T_Casa_Periodo" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="694" guiY="28" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Competencia);$Max_Date:=max($Data_de_Competencia);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1094" guiY="28" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="302" guiY="28" id="REFORMAT16" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSECAO == null) or (trim($in.0.FKCODSECAO) == '')) { $out.0.FKCODSECAO = 'N/A'; } else { $out.0.FKCODSECAO = translate(trim(upperCase($in.0.FKCODSECAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCUSTO == null) or (trim($in.0.FKCODCUSTO) == '')) { $out.0.FKCODCUSTO = 'N/A'; } else { $out.0.FKCODCUSTO = translate(trim(upperCase($in.0.FKCODCUSTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFUNCAO == null) or (trim($in.0.FKCODFUNCAO) == '')) { $out.0.FKCODFUNCAO = 'N/A'; } else { $out.0.FKCODFUNCAO = translate(trim(upperCase($in.0.FKCODFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSITUACAO == null) or (trim($in.0.FKCODSITUACAO) == '')) { $out.0.FKCODSITUACAO = 'N/A'; } else { $out.0.FKCODSITUACAO = translate(trim(upperCase($in.0.FKCODSITUACAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKPERIODOS == null) or (trim($in.0.PKPERIODOS) == '')) { $out.0.PKPERIODOS = 'N/A'; } else { $out.0.PKPERIODOS = translate(trim(upperCase($in.0.PKPERIODOS)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+
+
+
+	$out.0.Ano_de_Competencia_Periodo = $in.0.Ano_de_Competencia_Periodo;
+	$out.0.Mes_de_Competencia_Periodo = $in.0.Mes_de_Competencia_Periodo;
+	
+
+	
+	if(($in.0.Data_de_Competencia == null) or (trim($in.0.Data_de_Competencia) == '')) {
+		$out.0.Data_de_Competencia = null;
+	} else {
+		data = str2date($in.0.Data_de_Competencia, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Competencia = null;
+		} else {
+			$out.0.Data_de_Competencia = data;
+		}
+	}
+	
+	
+
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+	
+	$out.0.Tipo_de_Admissao_Periodo = $in.0.Tipo_de_Admissao_Periodo;
+	$out.0.Tipo_de_Demissao_Periodo = $in.0.Tipo_de_Demissao_Periodo;
+	
+
+	
+	if(($in.0.Data_de_Admissao_Periodo == null) or (trim($in.0.Data_de_Admissao_Periodo) == '')) {
+		$out.0.Data_de_Admissao_Periodo = null;
+	} else {
+		data = str2date($in.0.Data_de_Admissao_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Admissao_Periodo = null;
+		} else {
+			$out.0.Data_de_Admissao_Periodo = data;
+		}
+	}
+
+	
+		if(($in.0.Data_de_Demissao_Periodo == null) or (trim($in.0.Data_de_Demissao_Periodo) == '')) {
+		$out.0.Data_de_Demissao_Periodo = null;
+	} else {
+		data = str2date($in.0.Data_de_Demissao_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Demissao_Periodo = null;
+		} else {
+			$out.0.Data_de_Demissao_Periodo = data;
+		}
+	}
+	
+	
+		if(($in.0.Data_de_Transferencia_Periodo == null) or (trim($in.0.Data_de_Transferencia_Periodo) == '')) {
+		$out.0.Data_de_Transferencia_Periodo = null;
+	} else {
+		data = str2date($in.0.Data_de_Transferencia_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Transferencia_Periodo = null;
+		} else {
+			$out.0.Data_de_Transferencia_Periodo = data;
+		}
+	}
+	
+		if(($in.0.Dt_Base_Inicial_Periodo == null) or (trim($in.0.Dt_Base_Inicial_Periodo) == '')) {
+		$out.0.Dt_Base_Inicial_Periodo = null;
+	} else {
+		data = str2date($in.0.Dt_Base_Inicial_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Dt_Base_Inicial_Periodo = null;
+		} else {
+			$out.0.Dt_Base_Inicial_Periodo = data;
+		}
+	}
+
+		if(($in.0.Dt_Base_Final_Periodo == null) or (trim($in.0.Dt_Base_Final_Periodo) == '')) {
+		$out.0.Dt_Base_Final_Periodo = null;
+	} else {
+		data = str2date($in.0.Dt_Base_Final_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Dt_Base_Final_Periodo = null;
+		} else {
+			$out.0.Dt_Base_Final_Periodo = data;
+		}
+	}
+
+		if(($in.0.Data_Movimento_Periodo == null) or (trim($in.0.Data_Movimento_Periodo) == '')) {
+		$out.0.Data_Movimento_Periodo = null;
+	} else {
+		data = str2date($in.0.Data_Movimento_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Movimento_Periodo = null;
+		} else {
+			$out.0.Data_Movimento_Periodo = data;
+		}
+	}
+
+	$out.0.Livre0_Turnover = $in.0.Livre0_Turnover;
+	$out.0.Livre1_Turnover = $in.0.Livre1_Turnover;
+	$out.0.Livre2_Turnover = $in.0.Livre2_Turnover;
+	$out.0.Livre3_Turnover = $in.0.Livre3_Turnover;
+	$out.0.Livre4_Turnover = $in.0.Livre4_Turnover;
+	
+
+	
+	if(($in.0.Livre5_Turnover == null) or (trim($in.0.Livre5_Turnover) == 'INDEFINIDO')) { $out.0.Livre5_Turnover = 0; } else { $out.0.Livre5_Turnover = str2decimal($in.0.Livre5_Turnover); }
+	if(($in.0.Livre6_Turnover == null) or (trim($in.0.Livre6_Turnover) == 'INDEFINIDO')) { $out.0.Livre6_Turnover = 0; } else { $out.0.Livre6_Turnover = str2decimal($in.0.Livre6_Turnover); }
+	if(($in.0.Livre7_Turnover == null) or (trim($in.0.Livre7_Turnover) == 'INDEFINIDO')) { $out.0.Livre7_Turnover = 0; } else { $out.0.Livre7_Turnover = str2decimal($in.0.Livre7_Turnover); }
+	if(($in.0.Livre8_Turnover == null) or (trim($in.0.Livre8_Turnover) == 'INDEFINIDO')) { $out.0.Livre8_Turnover = 0; } else { $out.0.Livre8_Turnover = str2decimal($in.0.Livre8_Turnover); }
+	if(($in.0.Livre9_Turnover == null) or (trim($in.0.Livre9_Turnover) == 'INDEFINIDO')) { $out.0.Livre9_Turnover = 0; } else { $out.0.Livre9_Turnover = str2decimal($in.0.Livre9_Turnover); }
+	
+
+	
+    if(($in.0.Tempo_de_Casa_Meses == null) or (trim($in.0.Tempo_de_Casa_Meses) == 'INDEFINIDO')) { $out.0.Tempo_de_Casa_Meses = 0; } else { $out.0.Tempo_de_Casa_Meses = str2decimal($in.0.Tempo_de_Casa_Meses); }
+    if(($in.0.Tempo_de_Casa_Anos == null) or (trim($in.0.Tempo_de_Casa_Anos) == 'INDEFINIDO')) { $out.0.Tempo_de_Casa_Anos = 0; } else { $out.0.Tempo_de_Casa_Anos = str2decimal($in.0.Tempo_de_Casa_Anos); }
+    if(($in.0.Tempo_de_Casa_Dias == null) or (trim($in.0.Tempo_de_Casa_Dias) == 'INDEFINIDO')) { $out.0.Tempo_de_Casa_Dias = 0; } else { $out.0.Tempo_de_Casa_Dias = str2decimal($in.0.Tempo_de_Casa_Dias); }
+	if(($in.0.Qtde_Inicio_do_Periodo == null) or (trim($in.0.Qtde_Inicio_do_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Inicio_do_Periodo = 0; } else { $out.0.Qtde_Inicio_do_Periodo = str2decimal($in.0.Qtde_Inicio_do_Periodo); }
+	if(($in.0.Qtde_Admitidos_no_Periodo == null) or (trim($in.0.Qtde_Admitidos_no_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Admitidos_no_Periodo = 0; } else { $out.0.Qtde_Admitidos_no_Periodo = str2decimal($in.0.Qtde_Admitidos_no_Periodo); }
+	if(($in.0.Qtde_Demitidos_no_Periodo == null) or (trim($in.0.Qtde_Demitidos_no_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Demitidos_no_Periodo = 0; } else { $out.0.Qtde_Demitidos_no_Periodo = str2decimal($in.0.Qtde_Demitidos_no_Periodo); }	
+	if(($in.0.Qtde_Final_do_Periodo == null) or (trim($in.0.Qtde_Final_do_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Final_do_Periodo = 0; } else { $out.0.Qtde_Final_do_Periodo = str2decimal($in.0.Qtde_Final_do_Periodo); }		
+	if(($in.0.Qtde_Admitidos_por_Transferencia_Periodo == null) or (trim($in.0.Qtde_Admitidos_por_Transferencia_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Admitidos_por_Transferencia_Periodo = 0; } else { $out.0.Qtde_Admitidos_por_Transferencia_Periodo = str2decimal($in.0.Qtde_Admitidos_por_Transferencia_Periodo); }		
+	if(($in.0.Qtde_Demitidos_por_Transferencia_Periodo == null) or (trim($in.0.Qtde_Demitidos_por_Transferencia_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Demitidos_por_Transferencia_Periodo = 0; } else { $out.0.Qtde_Demitidos_por_Transferencia_Periodo = str2decimal($in.0.Qtde_Demitidos_por_Transferencia_Periodo); }		
+	if(($in.0.Qtde_Admitidos_T_Casa_Periodo == null) or (trim($in.0.Qtde_Admitidos_T_Casa_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Admitidos_T_Casa_Periodo = 0; } else { $out.0.Qtde_Admitidos_T_Casa_Periodo = str2decimal($in.0.Qtde_Admitidos_T_Casa_Periodo); }		
+	if(($in.0.Qtde_Demitidos_T_Casa_Periodo == null) or (trim($in.0.Qtde_Demitidos_T_Casa_Periodo) == 'INDEFINIDO')) { $out.0.Qtde_Demitidos_T_Casa_Periodo = 0; } else { $out.0.Qtde_Demitidos_T_Casa_Periodo = str2decimal($in.0.Qtde_Demitidos_T_Casa_Periodo); }		
+	
+	
+	
+
+
+
+
+
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="893" guiY="28" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.movimentoturnover.pkperiodos} WHERE {datadecompentencia.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="499" guiY="28" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_MOVIMENTOTURNOVER.csv" guiName="VIEW_GD_MOVIMENTOTURNOVER" guiX="11" guiY="28" id="VIEW_GD_MOVIMENTOTURNOVER1" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT16:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (in)" metadata="Metadata39" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata39" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata39" outPort="Port 1 (out)" toNode="MOVIMENTO_TURNOVER:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_MOVIMENTOTURNOVER1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="REFORMAT16:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.movimentoturnover" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.movimentoturnover&quot;,&quot;datasetTitle&quot;:&quot;Movimento Turnover&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.livre0turnover&quot;,&quot;title&quot;:&quot;Livre0 Turnover&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_livre0turnover&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.livre0turnover&quot;,&quot;title&quot;:&quot;Livre0 Turnover&quot;,&quot;prettyId&quot;:&quot;livre0turnover&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Turnover&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.livre1turnover&quot;,&quot;title&quot;:&quot;Livre1 Turnover&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_livre1turnover&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.livre1turnover&quot;,&quot;title&quot;:&quot;Livre1 Turnover&quot;,&quot;prettyId&quot;:&quot;livre1turnover&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Turnover&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.livre2turnover&quot;,&quot;title&quot;:&quot;Livre2 Turnover&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_livre2turnover&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.livre2turnover&quot;,&quot;title&quot;:&quot;Livre2 Turnover&quot;,&quot;prettyId&quot;:&quot;livre2turnover&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Turnover&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.livre3turnover&quot;,&quot;title&quot;:&quot;Livre3 Turnover&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_livre3turnover&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.livre3turnover&quot;,&quot;title&quot;:&quot;Livre3 Turnover&quot;,&quot;prettyId&quot;:&quot;livre3turnover&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Turnover&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.livre4turnover&quot;,&quot;title&quot;:&quot;Livre4 Turnover&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_livre4turnover&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.livre4turnover&quot;,&quot;title&quot;:&quot;Livre4 Turnover&quot;,&quot;prettyId&quot;:&quot;livre4turnover&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Turnover&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.pkperiodos&quot;,&quot;title&quot;:&quot;PKPERIODOS&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_pkperiodos&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.pkperiodos&quot;,&quot;title&quot;:&quot;PKPERIODOS&quot;,&quot;prettyId&quot;:&quot;pkperiodos&quot;,&quot;assignedMetadataField&quot;:&quot;PKPERIODOS&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.pkperiodos&quot;,&quot;title&quot;:&quot;PKPERIODOS&quot;,&quot;prettyId&quot;:&quot;pkperiodos&quot;,&quot;assignedMetadataField&quot;:&quot;PKPERIODOS&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.tipodeadmissao&quot;,&quot;title&quot;:&quot;Tipo de Admissão&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_tipodeadmissao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.tipodeadmissao&quot;,&quot;title&quot;:&quot;Tipo de Admissão&quot;,&quot;prettyId&quot;:&quot;tipodeadmissao&quot;,&quot;assignedMetadataField&quot;:&quot;Tipo_de_Admissao_Periodo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.movimentoturnover.tipodedemissao&quot;,&quot;title&quot;:&quot;Tipo de Demissão&quot;,&quot;prettyId&quot;:&quot;attr_movimentoturnover_tipodedemissao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.movimentoturnover.tipodedemissao&quot;,&quot;title&quot;:&quot;Tipo de Demissão&quot;,&quot;prettyId&quot;:&quot;tipodedemissao&quot;,&quot;assignedMetadataField&quot;:&quot;Tipo_de_Demissao_Periodo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastroccustofolhadepagamento_pkcodcusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCUSTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncoes_pkcodfuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFUNCAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesecoes_pkcodsecao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSECAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesituacoesdofuncionario_pkcodsituacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSITUACAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataadmissao.date&quot;,&quot;title&quot;:&quot;Date (Data Admissao)&quot;,&quot;prettyId&quot;:&quot;dataadmissao&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Admissao_Periodo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataadmissao.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Admissao)&quot;,&quot;prettyId&quot;:&quot;dataadmissao_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataadmissao.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Admissao)&quot;,&quot;prettyId&quot;:&quot;dataadmissao_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_da_Carga&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadecompentencia.date&quot;,&quot;title&quot;:&quot;Date (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Competencia&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datademissao.date&quot;,&quot;title&quot;:&quot;Date (Data Demissao)&quot;,&quot;prettyId&quot;:&quot;datademissao&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Demissao_Periodo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datademissao.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Demissao)&quot;,&quot;prettyId&quot;:&quot;datademissao_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datademissao.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Demissao)&quot;,&quot;prettyId&quot;:&quot;datademissao_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadetransferencia.date&quot;,&quot;title&quot;:&quot;Date (Data de Transferência)&quot;,&quot;prettyId&quot;:&quot;datadetransferencia&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Transferencia_Periodo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadetransferencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Transferência)&quot;,&quot;prettyId&quot;:&quot;datadetransferencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadetransferencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Transferência)&quot;,&quot;prettyId&quot;:&quot;datadetransferencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.livre5turnover&quot;,&quot;title&quot;:&quot;Livre5 Turnover&quot;,&quot;prettyId&quot;:&quot;livre5turnover&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Turnover&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.livre6turnover&quot;,&quot;title&quot;:&quot;Livre6 Turnover&quot;,&quot;prettyId&quot;:&quot;livre6turnover&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Turnover&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.livre7turnover&quot;,&quot;title&quot;:&quot;Livre7 Turnover&quot;,&quot;prettyId&quot;:&quot;livre7turnover&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Turnover&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.livre8turnover&quot;,&quot;title&quot;:&quot;Livre8 Turnover&quot;,&quot;prettyId&quot;:&quot;livre8turnover&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Turnover&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.livre9turnover&quot;,&quot;title&quot;:&quot;Livre9 Turnover&quot;,&quot;prettyId&quot;:&quot;livre9turnover&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Turnover&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadedeadmitidos&quot;,&quot;title&quot;:&quot;Quantidade de Admitidos&quot;,&quot;prettyId&quot;:&quot;quantidadedeadmitidos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Admitidos_no_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadedeadmitidosportransferencia&quot;,&quot;title&quot;:&quot;Quantidade de Admitidos por Transferência&quot;,&quot;prettyId&quot;:&quot;quantidadedeadmitidosportransferencia&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Admitidos_por_Transferencia_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadedeadmitidostcasaperiodo&quot;,&quot;title&quot;:&quot;Quantidade de Admitidos T Casa Período&quot;,&quot;prettyId&quot;:&quot;quantidadedeadmitidostcasaperiodo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Admitidos_T_Casa_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadededemitidos&quot;,&quot;title&quot;:&quot;Quantidade de Demitidos&quot;,&quot;prettyId&quot;:&quot;quantidadededemitidos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Demitidos_no_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadededemitidosportransferencia&quot;,&quot;title&quot;:&quot;Quantidade de Demitidos por Transferência&quot;,&quot;prettyId&quot;:&quot;quantidadededemitidosportransferencia&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Demitidos_por_Transferencia_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadededemitidostcasaperiodo&quot;,&quot;title&quot;:&quot;Quantidade de Demitidos T Casa Período&quot;,&quot;prettyId&quot;:&quot;quantidadededemitidostcasaperiodo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Demitidos_T_Casa_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadefinal&quot;,&quot;title&quot;:&quot;Quantidade Final&quot;,&quot;prettyId&quot;:&quot;quantidadefinal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Final_do_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.quantidadeinicial&quot;,&quot;title&quot;:&quot;Quantidade Inicial&quot;,&quot;prettyId&quot;:&quot;quantidadeinicial&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Inicio_do_Periodo&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.tempodecasaanos&quot;,&quot;title&quot;:&quot;Tempo de Casa Anos&quot;,&quot;prettyId&quot;:&quot;tempodecasaanos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Tempo_de_Casa_Anos&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.tempodecasadias&quot;,&quot;title&quot;:&quot;Tempo de Casa Dias&quot;,&quot;prettyId&quot;:&quot;tempodecasadias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Tempo_de_Casa_Dias&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.movimentoturnover.tempodecasameses&quot;,&quot;title&quot;:&quot;Tempo de Casa Meses&quot;,&quot;prettyId&quot;:&quot;tempodecasameses&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Tempo_de_Casa_Meses&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="MOVIMENTO TURNOVER" guiX="688" guiY="269" id="MOVIMENTO_TURNOVER" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

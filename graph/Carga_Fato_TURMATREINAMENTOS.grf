@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:47:52 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.63" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_TURMATREINAMENTOS.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/Agent_zipado_2016_8.zip)#VIEW_GD_TURMATREINAMENTOS.csv" name="TURMATREINAMENTOS_Output" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_TURMATREINAMENTOS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKTURMA" name="PKTURMA" type="string"/>
+<Field label="Codigo da Turma" name="Codigo_da_Turma" type="string"/>
+<Field label="Codigo da Entidade" name="Codigo_da_Entidade" type="string"/>
+<Field label="Nome da Entidade" name="Nome_da_Entidade" type="string"/>
+<Field label="Nome da Turma" name="Nome_da_Turma" type="string"/>
+<Field label="Turma Ativa" name="Turma_Ativa" type="string"/>
+<Field label="Numero de Vagas" name="Numero_de_Vagas" type="long"/>
+<Field label="Local" name="Local" type="string"/>
+<Field label="Horario Inicial" name="Horario_Inicial" type="long"/>
+<Field label="Horario Final" name="Horario_Final" type="long"/>
+<Field label="Carga Horaria da Turma" name="Carga_Horaria_da_Turma" type="long"/>
+<Field label="Carga Horaria do Curso" name="Carga_Horaria_do_Curso" type="long"/>
+<Field label="Codigo do Curso" name="Codigo_do_Curso" type="string"/>
+<Field label="Nome do Cursro" name="Nome_do_Cursro" type="string"/>
+<Field label="Descricao do Curso" name="Descricao_do_Curso" type="string"/>
+<Field format="yyyyMMdd" label="Data Inicio" name="Data_Inicio" type="date"/>
+<Field format="yyyyMMdd" label="Data Final" name="Data_Final" type="date"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field label="Livre0 Turmas" name="Livre0_Turmas" type="string"/>
+<Field label="Livre1 Turmas" name="Livre1_Turmas" type="string"/>
+<Field label="Livre2 Turmas" name="Livre2_Turmas" type="string"/>
+<Field label="Livre3 Turmas" name="Livre3_Turmas" type="string"/>
+<Field label="Livre4 Turmas" name="Livre4_Turmas" type="string"/>
+<Field label="Livre5 Turmas" name="Livre5_Turmas" type="decimal"/>
+<Field label="Livre6 Turmas" name="Livre6_Turmas" type="decimal"/>
+<Field label="Livre7 Turmas" name="Livre7_Turmas" type="decimal"/>
+<Field label="Livre8 Turmas" name="Livre8_Turmas" type="decimal"/>
+<Field eofAsDelimiter="false" label="Livre9 Turmas" name="Livre9_Turmas" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_TURMATREINAMENTOS.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_TURMATREINAMENTOS.csv" name="TURMATREINAMENTOS_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_TURMATREINAMENTOS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKTURMA" name="PKTURMA" type="string"/>
+<Field label="Codigo da Turma" name="Codigo_da_Turma" type="string"/>
+<Field label="Codigo da Entidade" name="Codigo_da_Entidade" type="string"/>
+<Field label="Nome da Entidade" name="Nome_da_Entidade" type="string"/>
+<Field label="Nome da Turma" name="Nome_da_Turma" type="string"/>
+<Field label="Turma Ativa" name="Turma_Ativa" type="string"/>
+<Field label="Numero de Vagas" name="Numero_de_Vagas" type="string"/>
+<Field label="Local" name="Local" type="string"/>
+<Field label="Horario Inicial" name="Horario_Inicial" type="string"/>
+<Field label="Horario Final" name="Horario_Final" type="string"/>
+<Field label="Carga Horaria da Turma" name="Carga_Horaria_da_Turma" type="string"/>
+<Field label="Carga Horaria do Curso" name="Carga_Horaria_do_Curso" type="string"/>
+<Field label="Codigo do Curso" name="Codigo_do_Curso" type="string"/>
+<Field label="Nome do Cursro" name="Nome_do_Cursro" type="string"/>
+<Field label="Descricao do Curso" name="Descricao_do_Curso" type="string"/>
+<Field label="Data Inicio" name="Data_Inicio" type="string"/>
+<Field label="Data Final" name="Data_Final" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Livre0 Turmas" name="Livre0_Turmas" type="string"/>
+<Field label="Livre1 Turmas" name="Livre1_Turmas" type="string"/>
+<Field label="Livre2 Turmas" name="Livre2_Turmas" type="string"/>
+<Field label="Livre3 Turmas" name="Livre3_Turmas" type="string"/>
+<Field label="Livre4 Turmas" name="Livre4_Turmas" type="string"/>
+<Field label="Livre5 Turmas" name="Livre5_Turmas" type="string"/>
+<Field label="Livre6 Turmas" name="Livre6_Turmas" type="string"/>
+<Field label="Livre7 Turmas" name="Livre7_Turmas" type="string"/>
+<Field label="Livre8 Turmas" name="Livre8_Turmas" type="string"/>
+<Field eofAsDelimiter="false" label="Livre9 Turmas" name="Livre9_Turmas" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="680" guiY="23" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1096" guiY="23" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="309" guiY="23" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKPESSOA == null) or (trim($in.0.FKPESSOA) == '')) { $out.0.FKPESSOA = 'N/A'; } else { $out.0.FKPESSOA = translate(trim(upperCase($in.0.FKPESSOA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKTURMA == null) or (trim($in.0.PKTURMA) == '')) { $out.0.PKTURMA = 'N/A'; } else { $out.0.PKTURMA = translate(trim(upperCase($in.0.PKTURMA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+
+	if(($in.0.Codigo_da_Turma == null) or (trim($in.0.Codigo_da_Turma) == '')) { $out.0.Codigo_da_Turma = 'N/A'; } else { $out.0.Codigo_da_Turma = translate(trim(upperCase($in.0.Codigo_da_Turma)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Codigo_da_Entidade == null) or (trim($in.0.Codigo_da_Entidade) == '')) { $out.0.Codigo_da_Entidade = 'N/A'; } else { $out.0.Codigo_da_Entidade = translate(trim(upperCase($in.0.Codigo_da_Entidade)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Nome_da_Entidade == null) or (trim($in.0.Nome_da_Entidade) == '')) { $out.0.Nome_da_Entidade = 'N/A'; } else { $out.0.Nome_da_Entidade = translate(trim(upperCase($in.0.Nome_da_Entidade)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Nome_da_Turma == null) or (trim($in.0.Nome_da_Turma) == '')) { $out.0.Nome_da_Turma = 'N/A'; } else { $out.0.Nome_da_Turma = translate(trim(upperCase($in.0.Nome_da_Turma)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Turma_Ativa == null) or (trim($in.0.Turma_Ativa) == '')) { $out.0.Turma_Ativa = 'N/A'; } else { $out.0.Turma_Ativa = translate(trim(upperCase($in.0.Turma_Ativa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Numero_de_Vagas == null) or (trim($in.0.Numero_de_Vagas) == '')) { $out.0.Numero_de_Vagas = 0; } else { $out.0.Numero_de_Vagas = str2long($in.0.Numero_de_Vagas); }
+	if(($in.0.Local == null) or (trim($in.0.Local) == '')) { $out.0.Local = 'N/A'; } else { $out.0.Local = translate(trim(upperCase($in.0.Local)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Horario_Inicial == null) or (trim($in.0.Horario_Inicial) == '')) { $out.0.Horario_Inicial = 0; } else { $out.0.Horario_Inicial = str2long($in.0.Horario_Inicial); }
+	if(($in.0.Carga_Horaria_da_Turma == null) or (trim($in.0.Carga_Horaria_da_Turma) == '')) { $out.0.Carga_Horaria_da_Turma = 0; } else { $out.0.Carga_Horaria_da_Turma = str2long($in.0.Carga_Horaria_da_Turma); }
+	if(($in.0.Horario_Final == null) or (trim($in.0.Horario_Final) == '')) { $out.0.Horario_Final = 0; } else { $out.0.Horario_Final = str2long($in.0.Horario_Final); }
+	if(($in.0.Carga_Horaria_do_Curso == null) or (trim($in.0.Carga_Horaria_do_Curso) == '')) { $out.0.Carga_Horaria_do_Curso = 0; } else { $out.0.Carga_Horaria_do_Curso = str2long($in.0.Carga_Horaria_do_Curso); }
+
+	if(($in.0.Codigo_do_Curso == null) or (trim($in.0.Codigo_do_Curso) == '')) { $out.0.Codigo_do_Curso = 'N/A'; } else { $out.0.Codigo_do_Curso = translate(trim(upperCase($in.0.Codigo_do_Curso)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Nome_do_Cursro == null) or (trim($in.0.Nome_do_Cursro) == '')) { $out.0.Nome_do_Cursro = 'N/A'; } else { $out.0.Nome_do_Cursro = translate(trim(upperCase($in.0.Nome_do_Cursro)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Descricao_do_Curso == null) or (trim($in.0.Descricao_do_Curso) == '')) { $out.0.Descricao_do_Curso = 'N/A'; } else { $out.0.Descricao_do_Curso = translate(trim(upperCase($in.0.Descricao_do_Curso)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Data_Inicio == null) or (trim($in.0.Data_Inicio) == '')) {
+		$out.0.Data_Inicio = null;
+	} else {
+		data = str2date($in.0.Data_Inicio, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Inicio = null;
+		} else {
+			$out.0.Data_Inicio = data;
+		}
+	}
+	
+	if(($in.0.Data_Final == null) or (trim($in.0.Data_Final) == '')) {
+		$out.0.Data_Final = null;
+	} else {
+		data = str2date($in.0.Data_Final, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Final = null;
+		} else {
+			$out.0.Data_Final = data;
+		}
+	}
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Livre0_Turmas == null) or (trim($in.0.Livre0_Turmas) == '')) { $out.0.Livre0_Turmas = 'N/A'; } else { $out.0.Livre0_Turmas = translate(trim(upperCase($in.0.Livre0_Turmas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Turmas == null) or (trim($in.0.Livre1_Turmas) == '')) { $out.0.Livre1_Turmas = 'N/A'; } else { $out.0.Livre1_Turmas = translate(trim(upperCase($in.0.Livre1_Turmas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Turmas == null) or (trim($in.0.Livre2_Turmas) == '')) { $out.0.Livre2_Turmas = 'N/A'; } else { $out.0.Livre2_Turmas = translate(trim(upperCase($in.0.Livre2_Turmas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Turmas == null) or (trim($in.0.Livre3_Turmas) == '')) { $out.0.Livre3_Turmas = 'N/A'; } else { $out.0.Livre3_Turmas = translate(trim(upperCase($in.0.Livre3_Turmas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Turmas == null) or (trim($in.0.Livre4_Turmas) == '')) { $out.0.Livre4_Turmas = 'N/A'; } else { $out.0.Livre4_Turmas = translate(trim(upperCase($in.0.Livre4_Turmas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Turmas == null) or (trim($in.0.Livre5_Turmas) == 'INDEFINIDO')) { $out.0.Livre5_Turmas = 0; } else { $out.0.Livre5_Turmas = str2decimal($in.0.Livre5_Turmas); }
+	if(($in.0.Livre6_Turmas == null) or (trim($in.0.Livre6_Turmas) == 'INDEFINIDO')) { $out.0.Livre6_Turmas = 0; } else { $out.0.Livre6_Turmas = str2decimal($in.0.Livre6_Turmas); }
+	if(($in.0.Livre7_Turmas == null) or (trim($in.0.Livre7_Turmas) == 'INDEFINIDO')) { $out.0.Livre7_Turmas = 0; } else { $out.0.Livre7_Turmas = str2decimal($in.0.Livre7_Turmas); }
+	if(($in.0.Livre8_Turmas == null) or (trim($in.0.Livre8_Turmas) == 'INDEFINIDO')) { $out.0.Livre8_Turmas = 0; } else { $out.0.Livre8_Turmas = str2decimal($in.0.Livre8_Turmas); }
+	if(($in.0.Livre9_Turmas == null) or (trim($in.0.Livre9_Turmas) == 'INDEFINIDO')) { $out.0.Livre9_Turmas = 0; } else { $out.0.Livre9_Turmas = str2decimal($in.0.Livre9_Turmas); }
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="878" guiY="23" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.turmasdetreinamento.pkturma} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="495" guiY="23" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_TURMATREINAMENTOS.csv" guiName="VIEW_GD_TURMATREINAMENTOS" guiX="15" guiY="23" id="VIEW_GD_TURMATREINAMENTOS" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="TURMA_TREINAMENTOS:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_TURMATREINAMENTOS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.turmasdetreinamento" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.turmasdetreinamento&quot;,&quot;datasetTitle&quot;:&quot;Turmas de Treinamento&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.codigodaentidade&quot;,&quot;title&quot;:&quot;Código da Entidade&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_codigodaentidade&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.codigodaentidade&quot;,&quot;title&quot;:&quot;Código da Entidade&quot;,&quot;prettyId&quot;:&quot;codigodaentidade&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_da_Entidade&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.codigodaturma&quot;,&quot;title&quot;:&quot;Código da Turma&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_codigodaturma&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.codigodaturma&quot;,&quot;title&quot;:&quot;Código da Turma&quot;,&quot;prettyId&quot;:&quot;codigodaturma&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_da_Turma&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.codigodocurso&quot;,&quot;title&quot;:&quot;Código do Curso&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_codigodocurso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.codigodocurso&quot;,&quot;title&quot;:&quot;Código do Curso&quot;,&quot;prettyId&quot;:&quot;codigodocurso&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_do_Curso&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.descricaodocurso&quot;,&quot;title&quot;:&quot;Descrição do Curso&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_descricaodocurso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.descricaodocurso&quot;,&quot;title&quot;:&quot;Descrição do Curso&quot;,&quot;prettyId&quot;:&quot;descricaodocurso&quot;,&quot;assignedMetadataField&quot;:&quot;Descricao_do_Curso&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.livre0turmas&quot;,&quot;title&quot;:&quot;Livre0 Turmas&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_livre0turmas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.livre0turmas&quot;,&quot;title&quot;:&quot;Livre0 Turmas&quot;,&quot;prettyId&quot;:&quot;livre0turmas&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Turmas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.livre1turmas&quot;,&quot;title&quot;:&quot;Livre1 Turmas&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_livre1turmas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.livre1turmas&quot;,&quot;title&quot;:&quot;Livre1 Turmas&quot;,&quot;prettyId&quot;:&quot;livre1turmas&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Turmas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.livre2turmas&quot;,&quot;title&quot;:&quot;Livre2 Turmas&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_livre2turmas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.livre2turmas&quot;,&quot;title&quot;:&quot;Livre2 Turmas&quot;,&quot;prettyId&quot;:&quot;livre2turmas&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Turmas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.livre3turmas&quot;,&quot;title&quot;:&quot;Livre3 Turmas&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_livre3turmas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.livre3turmas&quot;,&quot;title&quot;:&quot;Livre3 Turmas&quot;,&quot;prettyId&quot;:&quot;livre3turmas&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Turmas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.livre4turmas&quot;,&quot;title&quot;:&quot;Livre4 Turmas&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_livre4turmas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.livre4turmas&quot;,&quot;title&quot;:&quot;Livre4 Turmas&quot;,&quot;prettyId&quot;:&quot;livre4turmas&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Turmas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.local&quot;,&quot;title&quot;:&quot;Local&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_local&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.local&quot;,&quot;title&quot;:&quot;Local&quot;,&quot;prettyId&quot;:&quot;local&quot;,&quot;assignedMetadataField&quot;:&quot;Local&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.local&quot;,&quot;title&quot;:&quot;Local&quot;,&quot;prettyId&quot;:&quot;local&quot;,&quot;assignedMetadataField&quot;:&quot;Local&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.nomedaturma&quot;,&quot;title&quot;:&quot;Nome da  Turma&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_nomedaturma&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.nomedaturma&quot;,&quot;title&quot;:&quot;Nome da  Turma&quot;,&quot;prettyId&quot;:&quot;nomedaturma&quot;,&quot;assignedMetadataField&quot;:&quot;Nome_da_Turma&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.nomedocurso&quot;,&quot;title&quot;:&quot;Nome do Curso&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_nomedocurso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.nomedocurso&quot;,&quot;title&quot;:&quot;Nome do Curso&quot;,&quot;prettyId&quot;:&quot;nomedocurso&quot;,&quot;assignedMetadataField&quot;:&quot;Nome_do_Cursro&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.pkturma&quot;,&quot;title&quot;:&quot;PKTURMA&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_pkturma&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.pkturma&quot;,&quot;title&quot;:&quot;PKTURMA&quot;,&quot;prettyId&quot;:&quot;pkturma&quot;,&quot;assignedMetadataField&quot;:&quot;PKTURMA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.pkturma&quot;,&quot;title&quot;:&quot;PKTURMA&quot;,&quot;prettyId&quot;:&quot;pkturma&quot;,&quot;assignedMetadataField&quot;:&quot;PKTURMA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.turmaativa&quot;,&quot;title&quot;:&quot;Turma Ativa?&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_turmaativa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.turmaativa&quot;,&quot;title&quot;:&quot;Turma Ativa?&quot;,&quot;prettyId&quot;:&quot;turmaativa&quot;,&quot;assignedMetadataField&quot;:&quot;Turma_Ativa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodepessoas_pkpessoa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKPESSOA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadefimdotreinamento.date&quot;,&quot;title&quot;:&quot;Date (Data de Fim do Treinamento)&quot;,&quot;prettyId&quot;:&quot;datadefimdotreinamento&quot;,&quot;assignedMetadataField&quot;:&quot;Data_Final&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadefimdotreinamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Fim do Treinamento)&quot;,&quot;prettyId&quot;:&quot;datadefimdotreinamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadefimdotreinamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Fim do Treinamento)&quot;,&quot;prettyId&quot;:&quot;datadefimdotreinamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadeiniciodotreinamento.date&quot;,&quot;title&quot;:&quot;Date (Data de Início do Treinamento)&quot;,&quot;prettyId&quot;:&quot;datadeiniciodotreinamento&quot;,&quot;assignedMetadataField&quot;:&quot;Data_Inicio&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeiniciodotreinamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Início do Treinamento)&quot;,&quot;prettyId&quot;:&quot;datadeiniciodotreinamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeiniciodotreinamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Início do Treinamento)&quot;,&quot;prettyId&quot;:&quot;datadeiniciodotreinamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.cargahorariadaturma&quot;,&quot;title&quot;:&quot;Carga Horária da Turma&quot;,&quot;prettyId&quot;:&quot;cargahorariadaturma&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Carga_Horaria_da_Turma&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.cargahorariadocurso&quot;,&quot;title&quot;:&quot;Carga Horária do Curso&quot;,&quot;prettyId&quot;:&quot;cargahorariadocurso&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Carga_Horaria_do_Curso&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.horariodeentrada&quot;,&quot;title&quot;:&quot;Horário de Entrada&quot;,&quot;prettyId&quot;:&quot;horariodeentrada&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Horario_Inicial&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.horariodesaida&quot;,&quot;title&quot;:&quot;Horário de Saída&quot;,&quot;prettyId&quot;:&quot;horariodesaida&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Horario_Final&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.livre5turmas&quot;,&quot;title&quot;:&quot;Livre5 Turmas&quot;,&quot;prettyId&quot;:&quot;livre5turmas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Turmas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.livre6turmas&quot;,&quot;title&quot;:&quot;Livre6 Turmas&quot;,&quot;prettyId&quot;:&quot;livre6turmas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Turmas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.livre7turmas&quot;,&quot;title&quot;:&quot;Livre7 Turmas&quot;,&quot;prettyId&quot;:&quot;livre7turmas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Turmas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.livre8turmas&quot;,&quot;title&quot;:&quot;Livre8 Turmas&quot;,&quot;prettyId&quot;:&quot;livre8turmas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Turmas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.livre9turmas&quot;,&quot;title&quot;:&quot;Livre9 Turmas&quot;,&quot;prettyId&quot;:&quot;livre9turmas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Turmas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmasdetreinamento.numerodevagas&quot;,&quot;title&quot;:&quot;Número de Vagas&quot;,&quot;prettyId&quot;:&quot;numerodevagas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Numero_de_Vagas&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="TURMA TREINAMENTOS" guiX="687" guiY="277" id="TURMA_TREINAMENTOS" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

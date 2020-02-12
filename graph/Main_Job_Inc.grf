@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500497294149" licenseType="Commercial" modified="Mon Sep 10 12:39:59 CST 2018" modifiedBy="elisangela.madeira" name="MAIN_JOBS" revision="1.146" showComponentDetails="true">
+<Global>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="200" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="2. - Carga das Tabelas Dimensionais" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="273" x="244" y="20">
+<attr name="text"><![CDATA[
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="901" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="3. - Carga das Tabelas Fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="581" x="540" y="20"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="200" id="Note2" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="1. - Download do Arquivo" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="223" x="3" y="20">
+<attr name="text"><![CDATA[
+]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="10">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@secure-di.gooddata.com/project-uploads/${GDC_PROJECT_ID}/${gdc_agent_zip}" destination="${DATA_SOURCE_DIR}" enabled="enabled" guiName="DOWNLOAD" guiX="51" guiY="98" id="DOWNLOAD" type="FILE_DOWNLOAD">
+<attr name="guiDescription"><![CDATA[FILE DOWNLOAD]]></attr>
+</Node>
+</Phase>
+<Phase number="20">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Dimensao.grf" guiName="Dimensões" guiX="317" guiY="98" id="DIMENSOES" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="30">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_ABONOSFUNCIONARIO.grf" guiName="Abono Funcionários" guiX="565" guiY="98" id="ABONO_FUNCIONARIOS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="40">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_ATESTADOS.grf" guiName="Atestados" guiX="728" guiY="98" id="ATESTADOS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="50">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_ENVELOPEFERIAS.grf" guiName="Envelope Férias" guiX="889" guiY="98" id="ENVELOPE_FERIAS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="60">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_ENVELOPEPAGAMENTO.grf" guiName="Envelope Pagamento" guiX="564" guiY="219" id="ENVELOPE_PAGAMENTO" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="70">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_HISTORICOAFASTAMENTO.grf" guiName="Histórico Afastamento" guiX="747" guiY="219" id="HISTORICO_AFASTAMENTO" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="80">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_HISTORICOASSMEDICA.grf" guiName="Histórico ASS Médica" guiX="938" guiY="219" id="HISTORICO_ASS_MEDICA" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="90">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_HISTORICOFERIAS.grf" guiName="Histórico Férias" guiX="565" guiY="337" id="HISTORICO_FERIAS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="100">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_HISTORICOFUNCAO.grf" guiName="Histórico Função" guiX="728" guiY="337" id="HISTORICO_FUNCAO" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="110">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_HISTORICOSALARIAL.grf" guiName="Histórico Salarial" guiX="889" guiY="337" id="HISTORICO_SALARIAL" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="120">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_HISTORICOSECAO.grf" guiName="Histórico Seção" guiX="565" guiY="455" id="HISTORICO_SECAO" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="130">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_MOVIMENTODIARIOFUNCIONARIO.grf" guiName="Movimento Diário Funcionário" guiX="718" guiY="455" id="MOVIMENTO_DIARIO_FUNCIONARIO" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="140">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_MOVIMENTOTURNOVER.grf" guiName="Movimento Turnover" guiX="947" guiY="455" id="MOVIMENTO_TURNOVER1" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="150">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_PFENCARGO.grf" guiName="Encargos" guiX="565" guiY="573" id="ENCARGOS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="160">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_PFHSTPROV.grf" guiName="Provisão" guiX="728" guiY="573" id="PROVISAO" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="170">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_PROCESSOSTRABALHISTAS.grf" guiName="Processos Trabalhistas" guiX="889" guiY="573" id="PROCESSOS_TRABALHISTAS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="180">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_SALDODEBANCODEHORAS.grf" guiName="Banco de Horas" guiX="565" guiY="690" id="BANCO_DE_HORAS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="190">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_TURMADESPESA.grf" guiName="Turma Despesa" guiX="728" guiY="690" id="TURMA_DESPESA" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="200">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_TURMAPARTICIPANTES.grf" guiName="Turma Participantes" guiX="895" guiY="690" id="TURMA_PARTICIPANTES" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="210">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_TURMATREINAMENTOS.grf" guiName="Turma Treinamentos" guiX="566" guiY="808" id="TURMA_TREINAMENTOS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+</Graph>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:05:14 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.75" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_HISTORICOASSMEDICA.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/Agent_zipado_2016_8.zip)#VIEW_GD_HISTORICOASSMEDICA.csv" name="HISTORICOASSMEDICA_Output" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_HISTORICOASSMEDICA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODEVENTO" name="FKCODEVENTO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="PKHISTORICOFUNCAO" name="PKHISTORICOFUNCAO" type="string"/>
+<Field label="Nome do Dependente" name="Nome_do_Dependente" type="string"/>
+<Field label="Numero do Dependente" name="Numero_do_Dependente" type="string"/>
+<Field label="Ano de Competencia" name="Ano_de_Competencia" type="string"/>
+<Field label="Mes de Competencia" name="Mes_de_Competencia" type="string"/>
+<Field label="Periodo de Competencia" name="Periodo_de_Competencia" type="string"/>
+<Field label="Ano de Referencia" name="Ano_de_Referencia" type="string"/>
+<Field label="Mes de Referencia" name="Mes_de_Referencia" type="string"/>
+<Field label="Periodo de Referencia" name="Periodo_de_Referencia" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Competencia" name="Data_de_Competencia" type="date"/>
+<Field format="yyyyMMdd" label="Data de Pagamento" name="Data_de_Pagamento" type="date"/>
+<Field label="Livre0 Ass.Medica" name="Livre0_Ass_Medica" type="string"/>
+<Field label="Livre1 Ass.Medica" name="Livre1_Ass_Medica" type="string"/>
+<Field label="Livre2 Ass.Medica" name="Livre2_Ass_Medica" type="string"/>
+<Field label="Livre3 Ass.Medica" name="Livre3_Ass_Medica" type="string"/>
+<Field label="Livre4 Ass.Medica" name="Livre4_Ass_Medica" type="string"/>
+<Field label="Livre5 Ass.Medica" name="Livre5_Ass_Medica" type="decimal"/>
+<Field label="Livre6 Ass.Medica" name="Livre6_Ass_Medica" type="decimal"/>
+<Field label="Livre7 Ass.Medica" name="Livre7_Ass_Medica" type="decimal"/>
+<Field label="Livre8 Ass.Medica" name="Livre8_Ass_Medica" type="decimal"/>
+<Field label="Livre9 Ass.Medica" name="Livre9_Ass_Medica" type="decimal"/>
+<Field label="Valor" name="Valor" type="decimal"/>
+<Field eofAsDelimiter="false" label="Valor Original" name="Valor_Original" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOASSMEDICA.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_HISTORICOASSMEDICA.csv" name="HISTORICOASSMEDICA_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOASSMEDICA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODEVENTO" name="FKCODEVENTO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="PKHISTORICOFUNCAO" name="PKHISTORICOFUNCAO" type="string"/>
+<Field label="Nome do Dependente" name="Nome_do_Dependente" type="string"/>
+<Field label="Numero do Dependente" name="Numero_do_Dependente" type="string"/>
+<Field label="Ano de Competencia" name="Ano_de_Competencia" type="string"/>
+<Field label="Mes de Competencia" name="Mes_de_Competencia" type="string"/>
+<Field label="Periodo de Competencia" name="Periodo_de_Competencia" type="string"/>
+<Field label="Ano de Referencia" name="Ano_de_Referencia" type="string"/>
+<Field label="Mes de Referencia" name="Mes_de_Referencia" type="string"/>
+<Field label="Periodo de Referencia" name="Periodo_de_Referencia" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Data de Competencia" name="Data_de_Competencia" type="string"/>
+<Field label="Data de Pagamento" name="Data_de_Pagamento" type="string"/>
+<Field label="Livre0 Ass.Medica" name="Livre0_Ass_Medica" type="string"/>
+<Field label="Livre1 Ass.Medica" name="Livre1_Ass_Medica" type="string"/>
+<Field label="Livre2 Ass.Medica" name="Livre2_Ass_Medica" type="string"/>
+<Field label="Livre3 Ass.Medica" name="Livre3_Ass_Medica" type="string"/>
+<Field label="Livre4 Ass.Medica" name="Livre4_Ass_Medica" type="string"/>
+<Field label="Livre5 Ass.Medica" name="Livre5_Ass_Medica" type="string"/>
+<Field label="Livre6 Ass.Medica" name="Livre6_Ass_Medica" type="string"/>
+<Field label="Livre7 Ass.Medica" name="Livre7_Ass_Medica" type="string"/>
+<Field label="Livre8 Ass.Medica" name="Livre8_Ass_Medica" type="string"/>
+<Field label="Livre9 Ass.Medica" name="Livre9_Ass_Medica" type="string"/>
+<Field label="Valor" name="Valor" type="string"/>
+<Field eofAsDelimiter="false" label="Valor Original" name="Valor_Original" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="633" guiY="35" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1018" guiY="35" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="291" guiY="35" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODEVENTO == null) or (trim($in.0.FKCODEVENTO) == '')) { $out.0.FKCODEVENTO = 'N/A'; } else { $out.0.FKCODEVENTO = translate(trim(upperCase($in.0.FKCODEVENTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }	
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSECAO == null) or (trim($in.0.FKCODSECAO) == '')) { $out.0.FKCODSECAO = 'N/A'; } else { $out.0.FKCODSECAO = translate(trim(upperCase($in.0.FKCODSECAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFUNCAO == null) or (trim($in.0.FKCODFUNCAO) == '')) { $out.0.FKCODFUNCAO = 'N/A'; } else { $out.0.FKCODFUNCAO = translate(trim(upperCase($in.0.FKCODFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSITUACAO == null) or (trim($in.0.FKCODSITUACAO) == '')) { $out.0.FKCODSITUACAO = 'N/A'; } else { $out.0.FKCODSITUACAO = translate(trim(upperCase($in.0.FKCODSITUACAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKHISTORICOFUNCAO == null) or (trim($in.0.PKHISTORICOFUNCAO) == '')) { $out.0.PKHISTORICOFUNCAO = 'N/A'; } else { $out.0.PKHISTORICOFUNCAO = translate(trim(upperCase($in.0.PKHISTORICOFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+
+	
+	if(($in.0.Nome_do_Dependente == null) or (trim($in.0.Nome_do_Dependente) == '')) { $out.0.Nome_do_Dependente = 'N/A'; } else { $out.0.Nome_do_Dependente = translate(trim(upperCase($in.0.Nome_do_Dependente)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Numero_do_Dependente == null) or (trim($in.0.Numero_do_Dependente) == '')) { $out.0.Numero_do_Dependente = 'N/A'; } else { $out.0.Numero_do_Dependente = translate(trim(upperCase($in.0.Numero_do_Dependente)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Ano_de_Competencia == null) or (trim($in.0.Ano_de_Competencia) == '')) { $out.0.Ano_de_Competencia = 'N/A'; } else { $out.0.Ano_de_Competencia = translate(trim(upperCase($in.0.Ano_de_Competencia)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Mes_de_Competencia == null) or (trim($in.0.Mes_de_Competencia) == '')) { $out.0.Mes_de_Competencia = 'N/A'; } else { $out.0.Mes_de_Competencia = translate(trim(upperCase($in.0.Mes_de_Competencia)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Periodo_de_Competencia == null) or (trim($in.0.Periodo_de_Competencia) == '')) { $out.0.Periodo_de_Competencia = 'N/A'; } else { $out.0.Periodo_de_Competencia = translate(trim(upperCase($in.0.Periodo_de_Competencia)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Ano_de_Referencia == null) or (trim($in.0.Ano_de_Referencia) == '')) { $out.0.Ano_de_Referencia = 'N/A'; } else { $out.0.Ano_de_Referencia = translate(trim(upperCase($in.0.Ano_de_Referencia)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Mes_de_Referencia == null) or (trim($in.0.Mes_de_Referencia) == '')) { $out.0.Mes_de_Referencia = 'N/A'; } else { $out.0.Mes_de_Referencia = translate(trim(upperCase($in.0.Mes_de_Referencia)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Periodo_de_Referencia == null) or (trim($in.0.Periodo_de_Referencia) == '')) { $out.0.Periodo_de_Referencia = 'N/A'; } else { $out.0.Periodo_de_Referencia = translate(trim(upperCase($in.0.Periodo_de_Referencia)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	
+	
+	
+	
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data; 
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	
+	if(($in.0.Data_de_Competencia == null) or (trim($in.0.Data_de_Competencia) == '')) {
+		$out.0.Data_de_Competencia = null;
+	} else {
+		data = str2date($in.0.Data_de_Competencia, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Competencia = null;
+		} else {
+			$out.0.Data_de_Competencia = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Pagamento == null) or (trim($in.0.Data_de_Pagamento) == '')) {
+		$out.0.Data_de_Pagamento = null;
+	} else {
+		data = str2date($in.0.Data_de_Pagamento, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Pagamento = null;
+		} else {
+			$out.0.Data_de_Pagamento = data;
+		}
+	}
+	
+
+	if(($in.0.Livre0_Ass_Medica == null) or (trim($in.0.Livre0_Ass_Medica) == '')) { $out.0.Livre0_Ass_Medica = 'N/A'; } else { $out.0.Livre0_Ass_Medica = translate(trim(upperCase($in.0.Livre0_Ass_Medica)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Ass_Medica == null) or (trim($in.0.Livre1_Ass_Medica) == '')) { $out.0.Livre1_Ass_Medica = 'N/A'; } else { $out.0.Livre1_Ass_Medica = translate(trim(upperCase($in.0.Livre1_Ass_Medica)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Ass_Medica == null) or (trim($in.0.Livre2_Ass_Medica) == '')) { $out.0.Livre2_Ass_Medica = 'N/A'; } else { $out.0.Livre2_Ass_Medica = translate(trim(upperCase($in.0.Livre2_Ass_Medica)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Ass_Medica == null) or (trim($in.0.Livre3_Ass_Medica) == '')) { $out.0.Livre3_Ass_Medica = 'N/A'; } else { $out.0.Livre3_Ass_Medica = translate(trim(upperCase($in.0.Livre3_Ass_Medica)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Ass_Medica == null) or (trim($in.0.Livre4_Ass_Medica) == '')) { $out.0.Livre4_Ass_Medica = 'N/A'; } else { $out.0.Livre4_Ass_Medica = translate(trim(upperCase($in.0.Livre4_Ass_Medica)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Ass_Medica == null) or (trim($in.0.Livre5_Ass_Medica) == 'INDEFINIDO')) { $out.0.Livre5_Ass_Medica = 0; } else { $out.0.Livre5_Ass_Medica = str2decimal($in.0.Livre5_Ass_Medica); }
+	if(($in.0.Livre6_Ass_Medica == null) or (trim($in.0.Livre6_Ass_Medica) == 'INDEFINIDO')) { $out.0.Livre6_Ass_Medica = 0; } else { $out.0.Livre6_Ass_Medica = str2decimal($in.0.Livre6_Ass_Medica); }
+	if(($in.0.Livre7_Ass_Medica == null) or (trim($in.0.Livre7_Ass_Medica) == 'INDEFINIDO')) { $out.0.Livre7_Ass_Medica = 0; } else { $out.0.Livre7_Ass_Medica = str2decimal($in.0.Livre7_Ass_Medica); }
+	if(($in.0.Livre8_Ass_Medica == null) or (trim($in.0.Livre8_Ass_Medica) == 'INDEFINIDO')) { $out.0.Livre8_Ass_Medica = 0; } else { $out.0.Livre8_Ass_Medica = str2decimal($in.0.Livre8_Ass_Medica); }
+	if(($in.0.Livre9_Ass_Medica == null) or (trim($in.0.Livre9_Ass_Medica) == 'INDEFINIDO')) { $out.0.Livre9_Ass_Medica = 0; } else { $out.0.Livre9_Ass_Medica = str2decimal($in.0.Livre9_Ass_Medica); }
+	if(($in.0.Valor == null) or (trim($in.0.Valor) == 'INDEFINIDO')) { $out.0.Valor = 0; } else { $out.0.Valor = str2decimal($in.0.Valor); }
+	if(($in.0.Valor_Original == null) or (trim($in.0.Valor_Original) == 'INDEFINIDO')) { $out.0.Valor_Original = 0; } else { $out.0.Valor_Original = str2decimal($in.0.Valor_Original); }
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="821" guiY="35" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.historicodeassistenciamedica.pkhistoricoassmedica} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="457" guiY="35" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_HISTORICOASSMEDICA.csv" guiName="VIEW_GD_HISTORICOASSMEDICA" guiX="19" guiY="35" id="VIEW_GD_HISTORICOASSMEDICA" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="HISTORICO_ASSMEDICA1:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_HISTORICOASSMEDICA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.historicodeassistenciamedica" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.historicodeassistenciamedica&quot;,&quot;datasetTitle&quot;:&quot;Histórico de Assistência Médica&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.livre0assmedica&quot;,&quot;title&quot;:&quot;Livre0 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_livre0assmedica&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.livre0assmedica&quot;,&quot;title&quot;:&quot;Livre0 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre0assmedica&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Ass_Medica&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.livre1assmedica&quot;,&quot;title&quot;:&quot;Livre1 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_livre1assmedica&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.livre1assmedica&quot;,&quot;title&quot;:&quot;Livre1 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre1assmedica&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Ass_Medica&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.livre2assmedica&quot;,&quot;title&quot;:&quot;Livre2 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_livre2assmedica&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.livre2assmedica&quot;,&quot;title&quot;:&quot;Livre2 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre2assmedica&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Ass_Medica&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.livre3assmedica&quot;,&quot;title&quot;:&quot;Livre3 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_livre3assmedica&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.livre3assmedica&quot;,&quot;title&quot;:&quot;Livre3 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre3assmedica&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Ass_Medica&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.livre4assmedica&quot;,&quot;title&quot;:&quot;Livre4 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_livre4assmedica&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.livre4assmedica&quot;,&quot;title&quot;:&quot;Livre4 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre4assmedica&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Ass_Medica&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.nomedodependente&quot;,&quot;title&quot;:&quot;Nome do Dependente&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_nomedodependente&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.nomedodependente&quot;,&quot;title&quot;:&quot;Nome do Dependente&quot;,&quot;prettyId&quot;:&quot;nomedodependente&quot;,&quot;assignedMetadataField&quot;:&quot;Nome_do_Dependente&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.numerododependente&quot;,&quot;title&quot;:&quot;Número do Dependente&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_numerododependente&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.numerododependente&quot;,&quot;title&quot;:&quot;Número do Dependente&quot;,&quot;prettyId&quot;:&quot;numerododependente&quot;,&quot;assignedMetadataField&quot;:&quot;Numero_do_Dependente&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.pkhistoricoassmedica&quot;,&quot;title&quot;:&quot;PKHISTORICOASSMEDICA&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_pkhistoricoassmedica&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.pkhistoricoassmedica&quot;,&quot;title&quot;:&quot;PKHISTORICOASSMEDICA&quot;,&quot;prettyId&quot;:&quot;pkhistoricoassmedica&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeassistenciamedica.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_historicodeassistenciamedica_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeassistenciamedica.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeeventos.pkcodevento&quot;,&quot;title&quot;:&quot;PKCODEVENTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeeventos_pkcodevento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeeventos.pkcodevento&quot;,&quot;title&quot;:&quot;PKCODEVENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodeeventos__pkcodevento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODEVENTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeeventos.pkcodevento&quot;,&quot;title&quot;:&quot;PKCODEVENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodeeventos__pkcodevento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncoes_pkcodfuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFUNCAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesecoes_pkcodsecao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSECAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesituacoesdofuncionario_pkcodsituacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSITUACAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadecompentencia.date&quot;,&quot;title&quot;:&quot;Date (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Competencia&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadepagamentoenvelope.date&quot;,&quot;title&quot;:&quot;Date (Data de Pagamento Envelope)&quot;,&quot;prettyId&quot;:&quot;datadepagamentoenvelope&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Pagamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadepagamentoenvelope.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Pagamento Envelope)&quot;,&quot;prettyId&quot;:&quot;datadepagamentoenvelope_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadepagamentoenvelope.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Pagamento Envelope)&quot;,&quot;prettyId&quot;:&quot;datadepagamentoenvelope_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeassistenciamedica.dummy&quot;,&quot;title&quot;:&quot;Dummy&quot;,&quot;prettyId&quot;:&quot;dummy&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Valor&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeassistenciamedica.livre5assmedica&quot;,&quot;title&quot;:&quot;Livre5 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre5assmedica&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Ass_Medica&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeassistenciamedica.livre6assmedica&quot;,&quot;title&quot;:&quot;Livre6 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre6assmedica&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Ass_Medica&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeassistenciamedica.livre7assmedica&quot;,&quot;title&quot;:&quot;Livre7 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre7assmedica&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Ass_Medica&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeassistenciamedica.livre8assmedica&quot;,&quot;title&quot;:&quot;Livre8 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre8assmedica&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Ass_Medica&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeassistenciamedica.livre9assmedica&quot;,&quot;title&quot;:&quot;Livre9 Ass. Médica&quot;,&quot;prettyId&quot;:&quot;livre9assmedica&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Ass_Medica&quot;}}],&quot;dateFacts&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[]}}" enabled="enabled" guiName="HISTÓRICO ASSMEDICA" guiX="647" guiY="263" id="HISTORICO_ASSMEDICA1" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

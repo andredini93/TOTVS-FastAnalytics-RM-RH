@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:08:05 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.81" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="${DATA_SOURCE_DIR}/VIEW_GD_HISTORICOFERIAS.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="VIEW_GD_HISTORICOFERIAS.csv" name="HISTORICOFERIAS_Output" previewAttachment="${DATA_SOURCE_DIR}/VIEW_GD_HISTORICOFERIAS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="PKHISTORICOFERIAS" name="PKHISTORICOFERIAS" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Pagamento de Ferias" name="Data_de_Pagamento_de_Ferias" type="date"/>
+<Field format="yyyyMMdd" label="Data de Aviso de Ferias" name="Data_de_Aviso_de_Ferias" type="date"/>
+<Field label="Livre0 Hist.Ferias" name="Livre0_Hist_Ferias" type="string"/>
+<Field label="Livre1 Hist.Ferias" name="Livre1_Hist_Ferias" type="string"/>
+<Field label="Livre2 Hist.Ferias" name="Livre2_Hist_Ferias" type="string"/>
+<Field label="Livre3 Hist.Ferias" name="Livre3_Hist_Ferias" type="string"/>
+<Field label="Livre4 Hist.Ferias" name="Livre4_Hist_Ferias" type="string"/>
+<Field label="Livre5 Hist.Ferias" name="Livre5_Hist_Ferias" type="decimal"/>
+<Field label="Livre6 Hist.Ferias" name="Livre6_Hist_Ferias" type="decimal"/>
+<Field label="Livre7 Hist.Ferias" name="Livre7_Hist_Ferias" type="decimal"/>
+<Field label="Livre8 Hist.Ferias" name="Livre8_Hist_Ferias" type="decimal"/>
+<Field label="Livre9 Hist.Ferias" name="Livre9_Hist_Ferias" type="decimal"/>
+<Field label="Situacao Ferias" name="Situacao_Ferias" type="string"/>
+<Field label="Dias de Abono" name="Dias_de_Abono" type="decimal"/>
+<Field label="Dias de Ferias" name="Dias_de_Ferias" type="decimal"/>
+<Field eofAsDelimiter="false" label="Faltas" name="Faltas" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOFERIAS.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_HISTORICOFERIAS.csv" name="HISTORICOFERIAS_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOFERIAS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="PKHISTORICOFERIAS" name="PKHISTORICOFERIAS" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Data de Pagamento de Ferias" name="Data_de_Pagamento_de_Ferias" type="string"/>
+<Field label="Data de Aviso de Ferias" name="Data_de_Aviso_de_Ferias" type="string"/>
+<Field label="Livre0 Hist.Ferias" name="Livre0_Hist_Ferias" type="string"/>
+<Field label="Livre1 Hist.Ferias" name="Livre1_Hist_Ferias" type="string"/>
+<Field label="Livre2 Hist.Ferias" name="Livre2_Hist_Ferias" type="string"/>
+<Field label="Livre3 Hist.Ferias" name="Livre3_Hist_Ferias" type="string"/>
+<Field label="Livre4 Hist.Ferias" name="Livre4_Hist_Ferias" type="string"/>
+<Field label="Livre5 Hist.Ferias" name="Livre5_Hist_Ferias" type="string"/>
+<Field label="Livre6 Hist.Ferias" name="Livre6_Hist_Ferias" type="string"/>
+<Field label="Livre7 Hist.Ferias" name="Livre7_Hist_Ferias" type="string"/>
+<Field label="Livre8 Hist.Ferias" name="Livre8_Hist_Ferias" type="string"/>
+<Field label="Livre9 Hist.Ferias" name="Livre9_Hist_Ferias" type="string"/>
+<Field label="Situacao Ferias" name="Situacao_Ferias" type="string"/>
+<Field label="Dias de Abono" name="Dias_de_Abono" type="string"/>
+<Field label="Dias de Ferias" name="Dias_de_Ferias" type="string"/>
+<Field eofAsDelimiter="false" label="Faltas" name="Faltas" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="639" guiY="25" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1065" guiY="25" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="280" guiY="25" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKHISTORICOFERIAS == null) or (trim($in.0.PKHISTORICOFERIAS) == '')) { $out.0.PKHISTORICOFERIAS = 'N/A'; } else { $out.0.PKHISTORICOFERIAS = translate(trim(upperCase($in.0.PKHISTORICOFERIAS)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Situacao_Ferias == null) or (trim($in.0.Situacao_Ferias) == '')) { $out.0.Situacao_Ferias = 'N/A'; } else { $out.0.Situacao_Ferias = translate(trim(upperCase($in.0.Situacao_Ferias)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data; 
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	
+	if(($in.0.Data_de_Pagamento_de_Ferias == null) or (trim($in.0.Data_de_Pagamento_de_Ferias) == '')) {
+		$out.0.Data_de_Pagamento_de_Ferias = null;
+	} else {
+		data = str2date($in.0.Data_de_Pagamento_de_Ferias, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Pagamento_de_Ferias = null;
+		} else {
+			$out.0.Data_de_Pagamento_de_Ferias = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Aviso_de_Ferias == null) or (trim($in.0.Data_de_Aviso_de_Ferias) == '')) {
+		$out.0.Data_de_Aviso_de_Ferias = null;
+	} else {
+		data = str2date($in.0.Data_de_Aviso_de_Ferias, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Aviso_de_Ferias = null;
+		} else {
+			$out.0.Data_de_Aviso_de_Ferias = data;
+		}
+	}
+	
+
+	if(($in.0.Livre0_Hist_Ferias == null) or (trim($in.0.Livre0_Hist_Ferias) == '')) { $out.0.Livre0_Hist_Ferias = 'N/A'; } else { $out.0.Livre0_Hist_Ferias = translate(trim(upperCase($in.0.Livre0_Hist_Ferias)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Hist_Ferias == null) or (trim($in.0.Livre1_Hist_Ferias) == '')) { $out.0.Livre1_Hist_Ferias = 'N/A'; } else { $out.0.Livre1_Hist_Ferias = translate(trim(upperCase($in.0.Livre1_Hist_Ferias)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Hist_Ferias == null) or (trim($in.0.Livre2_Hist_Ferias) == '')) { $out.0.Livre2_Hist_Ferias = 'N/A'; } else { $out.0.Livre2_Hist_Ferias = translate(trim(upperCase($in.0.Livre2_Hist_Ferias)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Hist_Ferias == null) or (trim($in.0.Livre3_Hist_Ferias) == '')) { $out.0.Livre3_Hist_Ferias = 'N/A'; } else { $out.0.Livre3_Hist_Ferias = translate(trim(upperCase($in.0.Livre3_Hist_Ferias)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Hist_Ferias == null) or (trim($in.0.Livre4_Hist_Ferias) == '')) { $out.0.Livre4_Hist_Ferias = 'N/A'; } else { $out.0.Livre4_Hist_Ferias = translate(trim(upperCase($in.0.Livre4_Hist_Ferias)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Hist_Ferias == null) or (trim($in.0.Livre5_Hist_Ferias) == 'INDEFINIDO')) { $out.0.Livre5_Hist_Ferias = 0; } else { $out.0.Livre5_Hist_Ferias = str2decimal($in.0.Livre5_Hist_Ferias); }
+	if(($in.0.Livre6_Hist_Ferias == null) or (trim($in.0.Livre6_Hist_Ferias) == 'INDEFINIDO')) { $out.0.Livre6_Hist_Ferias = 0; } else { $out.0.Livre6_Hist_Ferias = str2decimal($in.0.Livre6_Hist_Ferias); }
+	if(($in.0.Livre7_Hist_Ferias == null) or (trim($in.0.Livre7_Hist_Ferias) == 'INDEFINIDO')) { $out.0.Livre7_Hist_Ferias = 0; } else { $out.0.Livre7_Hist_Ferias = str2decimal($in.0.Livre7_Hist_Ferias); }
+	if(($in.0.Livre8_Hist_Ferias == null) or (trim($in.0.Livre8_Hist_Ferias) == 'INDEFINIDO')) { $out.0.Livre8_Hist_Ferias = 0; } else { $out.0.Livre8_Hist_Ferias = str2decimal($in.0.Livre8_Hist_Ferias); }
+	if(($in.0.Livre9_Hist_Ferias == null) or (trim($in.0.Livre9_Hist_Ferias) == 'INDEFINIDO')) { $out.0.Livre9_Hist_Ferias = 0; } else { $out.0.Livre9_Hist_Ferias = str2decimal($in.0.Livre9_Hist_Ferias); }
+	if(($in.0.Dias_de_Abono == null) or (trim($in.0.Dias_de_Abono) == 'INDEFINIDO')) { $out.0.Dias_de_Abono = 0; } else { $out.0.Dias_de_Abono = str2decimal($in.0.Dias_de_Abono); }
+	if(($in.0.Dias_de_Ferias == null) or (trim($in.0.Dias_de_Ferias) == 'INDEFINIDO')) { $out.0.Dias_de_Ferias = 0; } else { $out.0.Dias_de_Ferias = str2decimal($in.0.Dias_de_Ferias); }
+	if(($in.0.Faltas == null) or (trim($in.0.Faltas) == 'INDEFINIDO')) { $out.0.Faltas = 0; } else { $out.0.Faltas = str2decimal($in.0.Faltas); }
+	
+
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="853" guiY="25" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.historicodeferias.pkhistoricoferias} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="454" guiY="25" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_HISTORICOFERIAS.csv" guiName="VIEW_GD_HISTORICOFERIAS" guiX="14" guiY="25" id="VIEW_GD_HISTORICOFERIAS" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="HISTORICO_FERIAS:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_HISTORICOFERIAS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.historicodeferias" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.historicodeferias&quot;,&quot;datasetTitle&quot;:&quot;Histórico de Férias&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.livre0histferias&quot;,&quot;title&quot;:&quot;Livre0 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_livre0histferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.livre0histferias&quot;,&quot;title&quot;:&quot;Livre0 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre0histferias&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Hist_Ferias&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.livre1histferias&quot;,&quot;title&quot;:&quot;Livre1 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_livre1histferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.livre1histferias&quot;,&quot;title&quot;:&quot;Livre1 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre1histferias&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Hist_Ferias&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.livre2histferias&quot;,&quot;title&quot;:&quot;Livre2 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_livre2histferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.livre2histferias&quot;,&quot;title&quot;:&quot;Livre2 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre2histferias&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Hist_Ferias&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.livre3histferias&quot;,&quot;title&quot;:&quot;Livre3 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_livre3histferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.livre3histferias&quot;,&quot;title&quot;:&quot;Livre3 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre3histferias&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Hist_Ferias&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.livre4histferias&quot;,&quot;title&quot;:&quot;Livre4 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_livre4histferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.livre4histferias&quot;,&quot;title&quot;:&quot;Livre4 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre4histferias&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Hist_Ferias&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.pkhistoricoferias&quot;,&quot;title&quot;:&quot;PKHISTORICOFERIAS&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_pkhistoricoferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.pkhistoricoferias&quot;,&quot;title&quot;:&quot;PKHISTORICOFERIAS&quot;,&quot;prettyId&quot;:&quot;pkhistoricoferias&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOFERIAS&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.pkhistoricoferias&quot;,&quot;title&quot;:&quot;PKHISTORICOFERIAS&quot;,&quot;prettyId&quot;:&quot;pkhistoricoferias&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOFERIAS&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.situacaodasferias&quot;,&quot;title&quot;:&quot;Situação das Férias&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_situacaodasferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.situacaodasferias&quot;,&quot;title&quot;:&quot;Situação das Férias&quot;,&quot;prettyId&quot;:&quot;situacaodasferias&quot;,&quot;assignedMetadataField&quot;:&quot;Situacao_Ferias&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodeferias.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_historicodeferias_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodeferias.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadeavisodeferias.date&quot;,&quot;title&quot;:&quot;Date (Data de Aviso de Férias)&quot;,&quot;prettyId&quot;:&quot;datadeavisodeferias&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Aviso_de_Ferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeavisodeferias.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Aviso de Férias)&quot;,&quot;prettyId&quot;:&quot;datadeavisodeferias_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeavisodeferias.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Aviso de Férias)&quot;,&quot;prettyId&quot;:&quot;datadeavisodeferias_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadepagamentoenvelope.date&quot;,&quot;title&quot;:&quot;Date (Data de Pagamento Envelope)&quot;,&quot;prettyId&quot;:&quot;datadepagamentoenvelope&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Pagamento_de_Ferias&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadepagamentoenvelope.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Pagamento Envelope)&quot;,&quot;prettyId&quot;:&quot;datadepagamentoenvelope_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadepagamentoenvelope.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Pagamento Envelope)&quot;,&quot;prettyId&quot;:&quot;datadepagamentoenvelope_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.diasdeabono&quot;,&quot;title&quot;:&quot;Dias de Abono&quot;,&quot;prettyId&quot;:&quot;diasdeabono&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Dias_de_Abono&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.diasdeferias&quot;,&quot;title&quot;:&quot;Dias de Férias&quot;,&quot;prettyId&quot;:&quot;diasdeferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Dias_de_Ferias&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.faltas&quot;,&quot;title&quot;:&quot;Faltas&quot;,&quot;prettyId&quot;:&quot;faltas&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Faltas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.livre5histferias&quot;,&quot;title&quot;:&quot;Livre5 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre5histferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Hist_Ferias&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.livre6histferias&quot;,&quot;title&quot;:&quot;Livre6 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre6histferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Hist_Ferias&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.livre7histferias&quot;,&quot;title&quot;:&quot;Livre7 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre7histferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Hist_Ferias&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.livre8histferias&quot;,&quot;title&quot;:&quot;Livre8 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre8histferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Hist_Ferias&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicodeferias.livre9histferias&quot;,&quot;title&quot;:&quot;Livre9 Hist. Férias&quot;,&quot;prettyId&quot;:&quot;livre9histferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Hist_Ferias&quot;}}],&quot;dateFacts&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[]}}" enabled="enabled" guiName="HISTÓRICO FÉRIAS" guiX="648" guiY="222" id="HISTORICO_FERIAS" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

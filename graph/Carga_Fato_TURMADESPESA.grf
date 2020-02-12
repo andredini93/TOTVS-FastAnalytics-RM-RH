@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:42:32 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.67" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_TURMAVDESPESA.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/Agent_zipado_2016_8.zip)#VIEW_GD_TURMAVDESPESA.csv" name="TURMADESPESA_Output" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_TURMAVDESPESA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKTURMA" name="FKTURMA" type="string"/>
+<Field label="FKCODCCUSTO" name="FKCODCCUSTO" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKDESPESA" name="PKDESPESA" type="string"/>
+<Field label="Codido da Despesa" name="Codido_da_Despesa" type="string"/>
+<Field format="yyyyMMdd" label="Data Inicio Periodo" name="Data_Inicio_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Data Fim Periodo" name="Data_Fim_Periodo" type="date"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field label="Livre0 Despesa" name="Livre0_Despesa" type="string"/>
+<Field label="Livre1 Despesa" name="Livre1_Despesa" type="string"/>
+<Field label="Livre2 Despesa" name="Livre2_Despesa" type="string"/>
+<Field label="Livre3 Despesa" name="Livre3_Despesa" type="string"/>
+<Field label="Livre4 Despesa" name="Livre4_Despesa" type="string"/>
+<Field label="Livre5 Despesa" name="Livre5_Despesa" type="decimal"/>
+<Field label="Livre6 Despesa" name="Livre6_Despesa" type="decimal"/>
+<Field label="Livre7 Despesa" name="Livre7_Despesa" type="decimal"/>
+<Field label="Livre8 Despesa" name="Livre8_Despesa" type="decimal"/>
+<Field label="Livre9 Despesa" name="Livre9_Despesa" type="decimal"/>
+<Field name="Valor" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_TURMAVDESPESA.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_TURMAVDESPESA.csv" name="TURMADESPESA_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_TURMAVDESPESA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKTURMA" name="FKTURMA" type="string"/>
+<Field label="FKCODCCUSTO" name="FKCODCCUSTO" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKDESPESA" name="PKDESPESA" type="string"/>
+<Field label="Codido da Despesa" name="Codido_da_Despesa" type="string"/>
+<Field label="Data Inicio Periodo" name="Data_Inicio_Periodo" type="string"/>
+<Field label="Data Fim Periodo" name="Data_Fim_Periodo" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Livre0 Despesa" name="Livre0_Despesa" type="string"/>
+<Field label="Livre1 Despesa" name="Livre1_Despesa" type="string"/>
+<Field label="Livre2 Despesa" name="Livre2_Despesa" type="string"/>
+<Field label="Livre3 Despesa" name="Livre3_Despesa" type="string"/>
+<Field label="Livre4 Despesa" name="Livre4_Despesa" type="string"/>
+<Field label="Livre5 Despesa" name="Livre5_Despesa" type="string"/>
+<Field label="Livre6 Despesa" name="Livre6_Despesa" type="string"/>
+<Field label="Livre7 Despesa" name="Livre7_Despesa" type="string"/>
+<Field label="Livre8 Despesa" name="Livre8_Despesa" type="string"/>
+<Field label="Livre9 Despesa" name="Livre9_Despesa" type="string"/>
+<Field eofAsDelimiter="false" label="Valor" name="Valor" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="712" guiY="19" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1086" guiY="19" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="284" guiY="19" id="REFORMAT1" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKTURMA == null) or (trim($in.0.FKTURMA) == '')) { $out.0.FKTURMA = 'N/A'; } else { $out.0.FKTURMA = translate(trim(upperCase($in.0.FKTURMA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCCUSTO == null) or (trim($in.0.FKCODCCUSTO) == '')) { $out.0.FKCODCCUSTO = 'N/A'; } else { $out.0.FKCODCCUSTO = translate(trim(upperCase($in.0.FKCODCCUSTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKPESSOA == null) or (trim($in.0.FKPESSOA) == '')) { $out.0.FKPESSOA = 'N/A'; } else { $out.0.FKPESSOA = translate(trim(upperCase($in.0.FKPESSOA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKDESPESA == null) or (trim($in.0.PKDESPESA) == '')) { $out.0.PKDESPESA = 'N/A'; } else { $out.0.PKDESPESA = translate(trim(upperCase($in.0.PKDESPESA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Codido_da_Despesa == null) or (trim($in.0.Codido_da_Despesa) == '')) { $out.0.Codido_da_Despesa = 'N/A'; } else { $out.0.Codido_da_Despesa = translate(trim(upperCase($in.0.Codido_da_Despesa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	
+		
+	if(($in.0.Data_Inicio_Periodo == null) or (trim($in.0.Data_Inicio_Periodo) == '')) {
+		$out.0.Data_Inicio_Periodo = null;
+	} else {
+		data = str2date($in.0.Data_Inicio_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Inicio_Periodo = null;
+		} else {
+			$out.0.Data_Inicio_Periodo = data;
+		}
+	}
+	
+	if(($in.0.Data_Fim_Periodo == null) or (trim($in.0.Data_Fim_Periodo) == '')) {
+		$out.0.Data_Fim_Periodo = null;
+	} else {
+		data = str2date($in.0.Data_Fim_Periodo, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Fim_Periodo = null;
+		} else {
+			$out.0.Data_Fim_Periodo = data;
+		}
+	}
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data; 
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Livre0_Despesa == null) or (trim($in.0.Livre0_Despesa) == '')) { $out.0.Livre0_Despesa = 'N/A'; } else { $out.0.Livre0_Despesa = translate(trim(upperCase($in.0.Livre0_Despesa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Despesa == null) or (trim($in.0.Livre1_Despesa) == '')) { $out.0.Livre1_Despesa = 'N/A'; } else { $out.0.Livre1_Despesa = translate(trim(upperCase($in.0.Livre1_Despesa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Despesa == null) or (trim($in.0.Livre2_Despesa) == '')) { $out.0.Livre2_Despesa = 'N/A'; } else { $out.0.Livre2_Despesa = translate(trim(upperCase($in.0.Livre2_Despesa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Despesa == null) or (trim($in.0.Livre3_Despesa) == '')) { $out.0.Livre3_Despesa = 'N/A'; } else { $out.0.Livre3_Despesa = translate(trim(upperCase($in.0.Livre3_Despesa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Despesa == null) or (trim($in.0.Livre4_Despesa) == '')) { $out.0.Livre4_Despesa = 'N/A'; } else { $out.0.Livre4_Despesa = translate(trim(upperCase($in.0.Livre4_Despesa)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Despesa == null) or (trim($in.0.Livre5_Despesa) == 'INDEFINIDO')) { $out.0.Livre5_Despesa = 0; } else { $out.0.Livre5_Despesa = str2decimal($in.0.Livre5_Despesa); }
+	if(($in.0.Livre6_Despesa == null) or (trim($in.0.Livre6_Despesa) == 'INDEFINIDO')) { $out.0.Livre6_Despesa = 0; } else { $out.0.Livre6_Despesa = str2decimal($in.0.Livre6_Despesa); }
+	if(($in.0.Livre7_Despesa == null) or (trim($in.0.Livre7_Despesa) == 'INDEFINIDO')) { $out.0.Livre7_Despesa = 0; } else { $out.0.Livre7_Despesa = str2decimal($in.0.Livre7_Despesa); }
+	if(($in.0.Livre8_Despesa == null) or (trim($in.0.Livre8_Despesa) == 'INDEFINIDO')) { $out.0.Livre8_Despesa = 0; } else { $out.0.Livre8_Despesa = str2decimal($in.0.Livre8_Despesa); }
+	if(($in.0.Livre9_Despesa == null) or (trim($in.0.Livre9_Despesa) == 'INDEFINIDO')) { $out.0.Livre9_Despesa = 0; } else { $out.0.Livre9_Despesa = str2decimal($in.0.Livre9_Despesa); }
+	if(($in.0.Valor == null) or (trim($in.0.Valor) == 'INDEFINIDO')) { $out.0.Valor = 0; } else { $out.0.Valor = str2decimal($in.0.Valor); }
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="896" guiY="19" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.turmadespesa.pkdespesa} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="502" guiY="19" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_TURMAVDESPESA.csv" guiName="VIEW_GD_TURMAVDESPESA" guiX="7" guiY="19" id="VIEW_GD_TURMAVDESPESA" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 1 (out)" toNode="TURMA_DESPESA:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_TURMAVDESPESA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="REFORMAT1:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.turmadespesa" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.turmadespesa&quot;,&quot;datasetTitle&quot;:&quot;Turma Despesa&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.codigodadespesa&quot;,&quot;title&quot;:&quot;Código da Despesa&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_codigodadespesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.codigodadespesa&quot;,&quot;title&quot;:&quot;Código da Despesa&quot;,&quot;prettyId&quot;:&quot;codigodadespesa&quot;,&quot;assignedMetadataField&quot;:&quot;Codido_da_Despesa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.livre0despesa&quot;,&quot;title&quot;:&quot;Livre0 Despesa&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_livre0despesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.livre0despesa&quot;,&quot;title&quot;:&quot;Livre0 Despesa&quot;,&quot;prettyId&quot;:&quot;livre0despesa&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Despesa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.livre1despesa&quot;,&quot;title&quot;:&quot;Livre1 Despesa&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_livre1despesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.livre1despesa&quot;,&quot;title&quot;:&quot;Livre1 Despesa&quot;,&quot;prettyId&quot;:&quot;livre1despesa&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Despesa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.livre2despesa&quot;,&quot;title&quot;:&quot;Livre2 Despesa&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_livre2despesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.livre2despesa&quot;,&quot;title&quot;:&quot;Livre2 Despesa&quot;,&quot;prettyId&quot;:&quot;livre2despesa&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Despesa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.livre3despesa&quot;,&quot;title&quot;:&quot;Livre3 Despesa&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_livre3despesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.livre3despesa&quot;,&quot;title&quot;:&quot;Livre3 Despesa&quot;,&quot;prettyId&quot;:&quot;livre3despesa&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Despesa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.livre4despesa&quot;,&quot;title&quot;:&quot;Livre4 Despesa&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_livre4despesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.livre4despesa&quot;,&quot;title&quot;:&quot;Livre4 Despesa&quot;,&quot;prettyId&quot;:&quot;livre4despesa&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Despesa&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.pkdespesa&quot;,&quot;title&quot;:&quot;PKDESPESA&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_pkdespesa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.pkdespesa&quot;,&quot;title&quot;:&quot;PKDESPESA&quot;,&quot;prettyId&quot;:&quot;pkdespesa&quot;,&quot;assignedMetadataField&quot;:&quot;PKDESPESA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.pkdespesa&quot;,&quot;title&quot;:&quot;PKDESPESA&quot;,&quot;prettyId&quot;:&quot;pkdespesa&quot;,&quot;assignedMetadataField&quot;:&quot;PKDESPESA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmadespesa.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_turmadespesa_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmadespesa.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastroccustofolhadepagamento_pkcodcusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCCUSTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodepessoas_pkpessoa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKPESSOA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.turmasdetreinamento.pkturma&quot;,&quot;title&quot;:&quot;PKTURMA&quot;,&quot;prettyId&quot;:&quot;attr_turmasdetreinamento_pkturma&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.pkturma&quot;,&quot;title&quot;:&quot;PKTURMA&quot;,&quot;prettyId&quot;:&quot;turmasdetreinamento__pkturma&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKTURMA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.turmasdetreinamento.pkturma&quot;,&quot;title&quot;:&quot;PKTURMA&quot;,&quot;prettyId&quot;:&quot;turmasdetreinamento__pkturma&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmadespesa.livre5despesa&quot;,&quot;title&quot;:&quot;Livre5 Despesa&quot;,&quot;prettyId&quot;:&quot;livre5despesa&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Despesa&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmadespesa.livre6despesa&quot;,&quot;title&quot;:&quot;Livre6 Despesa&quot;,&quot;prettyId&quot;:&quot;livre6despesa&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Despesa&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmadespesa.livre7despesa&quot;,&quot;title&quot;:&quot;Livre7 Despesa&quot;,&quot;prettyId&quot;:&quot;livre7despesa&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Despesa&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmadespesa.livre8despesa&quot;,&quot;title&quot;:&quot;Livre8 Despesa&quot;,&quot;prettyId&quot;:&quot;livre8despesa&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Despesa&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmadespesa.livre9despesa&quot;,&quot;title&quot;:&quot;Livre9 Despesa&quot;,&quot;prettyId&quot;:&quot;livre9despesa&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Despesa&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.turmadespesa.valordadespesa&quot;,&quot;title&quot;:&quot;Valor da Despesa&quot;,&quot;prettyId&quot;:&quot;valordadespesa&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Valor&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="TURMA DESPESA" guiX="728" guiY="305" id="TURMA_DESPESA" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500497294149" licenseType="Commercial" modified="Mon Sep 10 12:40:07 CST 2018" modifiedBy="elisangela.madeira" name="MAIN_JOBS" revision="1.147" showComponentDetails="true">
+<Global>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="160" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="1. - Download do Arquivo" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="206" x="24" y="81"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="160" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="3. - Carga das Tabelas Fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="200" x="595" y="81"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="160" id="Note2" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="2. - Carga das Tabelas Dimensionais" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="255" x="285" y="81"/>
+<Dictionary/>
+</Global>
+<Phase number="10">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@secure-di.gooddata.com/project-uploads/${GDC_PROJECT_ID}/${gdc_agent_zip}" destination="${DATA_SOURCE_DIR}" enabled="enabled" guiName="DOWNLOAD" guiX="63" guiY="127" id="DOWNLOAD" type="FILE_DOWNLOAD">
+<attr name="guiDescription"><![CDATA[FILE DOWNLOAD]]></attr>
+</Node>
+</Phase>
+<Phase number="20">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Dimensao.grf" guiName="Dimensões" guiX="349" guiY="117" id="DIMENSOES" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+<Phase number="30">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/Carga_Fato_Full.grf" guiName="Fatos" guiX="631" guiY="120" id="FATOS" paramsToPass="gdc_agent_zip" type="RUN_GRAPH"/>
+</Phase>
+</Graph>

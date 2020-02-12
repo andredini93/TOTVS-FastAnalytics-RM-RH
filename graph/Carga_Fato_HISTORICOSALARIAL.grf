@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:15:41 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.81" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="${DATA_SOURCE_DIR}/VIEW_GD_HISTORICOSALARIAL.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="VIEW_GD_HISTORICOSALARIAL.csv" name="HISTORICOSALARIAL_Output" previewAttachment="${DATA_SOURCE_DIR}/VIEW_GD_HISTORICOSALARIAL.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODEVENTO" name="FKCODEVENTO" type="string"/>
+<Field label="PKHISTORICOSALARIAL" name="PKHISTORICOSALARIAL" type="string"/>
+<Field label="Codigo Motivo" name="Codigo_Motivo" type="string"/>
+<Field label="Descricao do Motivo" name="Descricao_do_Motivo" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field label="Livre0 Hist.Salarial" name="Livre0_Hist_Salarial" type="string"/>
+<Field label="Livre1 Hist.Salarial" name="Livre1_Hist_Salarial" type="string"/>
+<Field label="Livre2 Hist.Salarial" name="Livre2_Hist_Salarial" type="string"/>
+<Field label="Livre3 Hist.Salarial" name="Livre3_Hist_Salarial" type="string"/>
+<Field label="Livre4 Hist.Salarial" name="Livre4_Hist_Salarial" type="string"/>
+<Field label="Livre5 Hist.Salarial" name="Livre5_Hist_Salarial" type="decimal"/>
+<Field label="Livre6 Hist.Salarial" name="Livre6_Hist_Salarial" type="decimal"/>
+<Field label="Livre7 Hist.Salarial" name="Livre7_Hist_Salarial" type="decimal"/>
+<Field label="Livre8 Hist.Salarial" name="Livre8_Hist_Salarial" type="decimal"/>
+<Field label="Livre9 Hist.Salarial" name="Livre9_Hist_Salarial" type="decimal"/>
+<Field eofAsDelimiter="false" label="Salario Historico" name="Salario_Historico" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOSALARIAL.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_HISTORICOSALARIAL.csv" name="HISTORICOSALARIAL_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOSALARIAL.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODEVENTO" name="FKCODEVENTO" type="string"/>
+<Field label="PKHISTORICOSALARIAL" name="PKHISTORICOSALARIAL" type="string"/>
+<Field label="Codigo Motivo" name="Codigo_Motivo" type="string"/>
+<Field label="Descricao do Motivo" name="Descricao_do_Motivo" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Livre0 Hist.Salarial" name="Livre0_Hist_Salarial" type="string"/>
+<Field label="Livre1 Hist.Salarial" name="Livre1_Hist_Salarial" type="string"/>
+<Field label="Livre2 Hist.Salarial" name="Livre2_Hist_Salarial" type="string"/>
+<Field label="Livre3 Hist.Salarial" name="Livre3_Hist_Salarial" type="string"/>
+<Field label="Livre4 Hist.Salarial" name="Livre4_Hist_Salarial" type="string"/>
+<Field label="Livre5 Hist.Salarial" name="Livre5_Hist_Salarial" type="string"/>
+<Field label="Livre6 Hist.Salarial" name="Livre6_Hist_Salarial" type="string"/>
+<Field label="Livre7 Hist.Salarial" name="Livre7_Hist_Salarial" type="string"/>
+<Field label="Livre8 Hist.Salarial" name="Livre8_Hist_Salarial" type="string"/>
+<Field label="Livre9 Hist.Salarial" name="Livre9_Hist_Salarial" type="string"/>
+<Field eofAsDelimiter="false" label="Salario Historico" name="Salario_Historico" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="656" guiY="25" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1074" guiY="25" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="297" guiY="25" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODEVENTO == null) or (trim($in.0.FKCODEVENTO) == '')) { $out.0.FKCODEVENTO = 'N/A'; } else { $out.0.FKCODEVENTO = translate(trim(upperCase($in.0.FKCODEVENTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKHISTORICOSALARIAL == null) or (trim($in.0.PKHISTORICOSALARIAL) == '')) { $out.0.PKHISTORICOSALARIAL = 'N/A'; } else { $out.0.PKHISTORICOSALARIAL = translate(trim(upperCase($in.0.PKHISTORICOSALARIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Codigo_Motivo == null) or (trim($in.0.Codigo_Motivo) == '')) { $out.0.Codigo_Motivo = 'N/A'; } else { $out.0.Codigo_Motivo = translate(trim(upperCase($in.0.Codigo_Motivo)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Descricao_do_Motivo == null) or (trim($in.0.Descricao_do_Motivo) == '')) { $out.0.Descricao_do_Motivo = 'N/A'; } else { $out.0.Descricao_do_Motivo = translate(trim(upperCase($in.0.Descricao_do_Motivo)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data; 
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}	
+
+	if(($in.0.Livre0_Hist_Salarial == null) or (trim($in.0.Livre0_Hist_Salarial) == '')) { $out.0.Livre0_Hist_Salarial = 'N/A'; } else { $out.0.Livre0_Hist_Salarial = translate(trim(upperCase($in.0.Livre0_Hist_Salarial)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Hist_Salarial == null) or (trim($in.0.Livre1_Hist_Salarial) == '')) { $out.0.Livre1_Hist_Salarial = 'N/A'; } else { $out.0.Livre1_Hist_Salarial = translate(trim(upperCase($in.0.Livre1_Hist_Salarial)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Hist_Salarial == null) or (trim($in.0.Livre2_Hist_Salarial) == '')) { $out.0.Livre2_Hist_Salarial = 'N/A'; } else { $out.0.Livre2_Hist_Salarial = translate(trim(upperCase($in.0.Livre2_Hist_Salarial)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Hist_Salarial == null) or (trim($in.0.Livre3_Hist_Salarial) == '')) { $out.0.Livre3_Hist_Salarial = 'N/A'; } else { $out.0.Livre3_Hist_Salarial = translate(trim(upperCase($in.0.Livre3_Hist_Salarial)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Hist_Salarial == null) or (trim($in.0.Livre4_Hist_Salarial) == '')) { $out.0.Livre4_Hist_Salarial = 'N/A'; } else { $out.0.Livre4_Hist_Salarial = translate(trim(upperCase($in.0.Livre4_Hist_Salarial)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Hist_Salarial == null) or (trim($in.0.Livre5_Hist_Salarial) == 'INDEFINIDO')) { $out.0.Livre5_Hist_Salarial = 0; } else { $out.0.Livre5_Hist_Salarial = str2decimal($in.0.Livre5_Hist_Salarial); }
+	if(($in.0.Livre6_Hist_Salarial == null) or (trim($in.0.Livre6_Hist_Salarial) == 'INDEFINIDO')) { $out.0.Livre6_Hist_Salarial = 0; } else { $out.0.Livre6_Hist_Salarial = str2decimal($in.0.Livre6_Hist_Salarial); }
+	if(($in.0.Livre7_Hist_Salarial == null) or (trim($in.0.Livre7_Hist_Salarial) == 'INDEFINIDO')) { $out.0.Livre7_Hist_Salarial = 0; } else { $out.0.Livre7_Hist_Salarial = str2decimal($in.0.Livre7_Hist_Salarial); }
+	if(($in.0.Livre8_Hist_Salarial == null) or (trim($in.0.Livre8_Hist_Salarial) == 'INDEFINIDO')) { $out.0.Livre8_Hist_Salarial = 0; } else { $out.0.Livre8_Hist_Salarial = str2decimal($in.0.Livre8_Hist_Salarial); }
+	if(($in.0.Livre9_Hist_Salarial == null) or (trim($in.0.Livre9_Hist_Salarial) == 'INDEFINIDO')) { $out.0.Livre9_Hist_Salarial = 0; } else { $out.0.Livre9_Hist_Salarial = str2decimal($in.0.Livre9_Hist_Salarial); }
+	
+	if(($in.0.Salario_Historico == null) or (trim($in.0.Salario_Historico) == 'INDEFINIDO')) { $out.0.Salario_Historico = 0; } else { $out.0.Salario_Historico = str2decimal($in.0.Salario_Historico); }
+	
+
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="859" guiY="25" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.historicosalarial.pkhistoricosalarial} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="477" guiY="25" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_HISTORICOSALARIAL.csv" guiName="VIEW_GD_HISTORICOSALARIAL" guiX="8" guiY="25" id="VIEW_GD_HISTORICOSALARIAL" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="HISTORICO_SALARIAL:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_HISTORICOSALARIAL:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.historicosalarial" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.historicosalarial&quot;,&quot;datasetTitle&quot;:&quot;Histórico Salarial&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.codigodomotivo&quot;,&quot;title&quot;:&quot;Código do Motivo&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_codigodomotivo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.codigodomotivo&quot;,&quot;title&quot;:&quot;Código do Motivo&quot;,&quot;prettyId&quot;:&quot;codigodomotivo&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_Motivo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.descricaodomotivo&quot;,&quot;title&quot;:&quot;Descrição do Motivo&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_descricaodomotivo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.descricaodomotivo&quot;,&quot;title&quot;:&quot;Descrição do Motivo&quot;,&quot;prettyId&quot;:&quot;descricaodomotivo&quot;,&quot;assignedMetadataField&quot;:&quot;Descricao_do_Motivo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.livre0histsalarial&quot;,&quot;title&quot;:&quot;Livre0 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_livre0histsalarial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.livre0histsalarial&quot;,&quot;title&quot;:&quot;Livre0 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre0histsalarial&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Hist_Salarial&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.livre1histsalarial&quot;,&quot;title&quot;:&quot;Livre1 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_livre1histsalarial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.livre1histsalarial&quot;,&quot;title&quot;:&quot;Livre1 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre1histsalarial&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Hist_Salarial&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.livre2histsalarial&quot;,&quot;title&quot;:&quot;Livre2 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_livre2histsalarial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.livre2histsalarial&quot;,&quot;title&quot;:&quot;Livre2 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre2histsalarial&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Hist_Salarial&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.livre3histsalarial&quot;,&quot;title&quot;:&quot;Livre3 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_livre3histsalarial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.livre3histsalarial&quot;,&quot;title&quot;:&quot;Livre3 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre3histsalarial&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Hist_Salarial&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.livre4histsalarial&quot;,&quot;title&quot;:&quot;Livre4 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_livre4histsalarial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.livre4histsalarial&quot;,&quot;title&quot;:&quot;Livre4 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre4histsalarial&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Hist_Salarial&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.pkhistoricosalarial&quot;,&quot;title&quot;:&quot;PKHISTORICOSALARIAL&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_pkhistoricosalarial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.pkhistoricosalarial&quot;,&quot;title&quot;:&quot;PKHISTORICOSALARIAL&quot;,&quot;prettyId&quot;:&quot;pkhistoricosalarial&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOSALARIAL&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.pkhistoricosalarial&quot;,&quot;title&quot;:&quot;PKHISTORICOSALARIAL&quot;,&quot;prettyId&quot;:&quot;pkhistoricosalarial&quot;,&quot;assignedMetadataField&quot;:&quot;PKHISTORICOSALARIAL&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicosalarial.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_historicosalarial_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicosalarial.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeeventos.pkcodevento&quot;,&quot;title&quot;:&quot;PKCODEVENTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeeventos_pkcodevento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeeventos.pkcodevento&quot;,&quot;title&quot;:&quot;PKCODEVENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodeeventos__pkcodevento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODEVENTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeeventos.pkcodevento&quot;,&quot;title&quot;:&quot;PKCODEVENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodeeventos__pkcodevento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicosalarial.livre5histsalarial&quot;,&quot;title&quot;:&quot;Livre5 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre5histsalarial&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Hist_Salarial&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicosalarial.livre6histsalarial&quot;,&quot;title&quot;:&quot;Livre6 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre6histsalarial&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Hist_Salarial&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicosalarial.livre7histsalarial&quot;,&quot;title&quot;:&quot;Livre7 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre7histsalarial&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Hist_Salarial&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicosalarial.livre8histsalarial&quot;,&quot;title&quot;:&quot;Livre8 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre8histsalarial&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Hist_Salarial&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicosalarial.livre9histsalarial&quot;,&quot;title&quot;:&quot;Livre9 Hist. Salarial&quot;,&quot;prettyId&quot;:&quot;livre9histsalarial&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Hist_Salarial&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicosalarial.salario&quot;,&quot;title&quot;:&quot;Salário&quot;,&quot;prettyId&quot;:&quot;salario&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Salario_Historico&quot;}}],&quot;dateFacts&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[]}}" enabled="enabled" guiName="HISTÓRICO SALARIAL" guiX="668" guiY="241" id="HISTORICO_SALARIAL" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

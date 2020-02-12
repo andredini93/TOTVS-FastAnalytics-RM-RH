@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:39:57 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.53" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="zip:(${DATA_TMP_DIR}/FOLHA_FATOS.zip)#VIEW_GD_SALDODEBANCODEHORAS.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/tmp/FOLHA_FATOS.zip)#VIEW_GD_SALDODEBANCODEHORAS.csv" name="BANCODEHORAS_Output" previewAttachment="zip:(${DATA_TMP_DIR}/FOLHA_FATOS.zip)#VIEW_GD_SALDODEBANCODEHORAS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCHAPA" name="FKCHAPA" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="FKCODDEPARTAMENTO" name="FKCODDEPARTAMENTO" type="string"/>
+<Field label="FKCODCUSTO" name="FKCODCUSTO" type="string"/>
+<Field label="PKBANCODEHORAS" name="PKBANCODEHORAS" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Competencia Banco Horas" name="Data_de_Competencia_Banco_Horas" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field label="Livre0 Banco Horas" name="Livre0_Banco_Horas" type="string"/>
+<Field label="Livre1 Banco Horas" name="Livre1_Banco_Horas" type="string"/>
+<Field label="Livre2 Banco Horas" name="Livre2_Banco_Horas" type="string"/>
+<Field label="Livre3 Banco Horas" name="Livre3_Banco_Horas" type="string"/>
+<Field label="Livre4 Banco Horas" name="Livre4_Banco_Horas" type="string"/>
+<Field label="Extra Anterior Banco Horas" name="Extra_Anterior_Banco_Horas" type="decimal"/>
+<Field label="Atraso Anterior Banco Horas" name="Atraso_Anterior_Banco_Horas" type="decimal"/>
+<Field label="Falta Anterior Banco Horas" name="Falta_Anterior_Banco_Horas" type="decimal"/>
+<Field label="Extra Atual Banco Horas" name="Extra_Atual_Banco_Horas" type="decimal"/>
+<Field label="Atraso Atual Banco Horas" name="Atraso_Atual_Banco_Horas" type="decimal"/>
+<Field label="Falta Atual Banco Horas" name="Falta_Atual_Banco_Horas" type="decimal"/>
+<Field label="Livre5 Banco Horas" name="Livre5_Banco_Horas" type="decimal"/>
+<Field label="Livre6 Banco Horas" name="Livre6_Banco_Horas" type="decimal"/>
+<Field label="Livre7 Banco Horas" name="Livre7_Banco_Horas" type="decimal"/>
+<Field label="Livre8 Banco Horas" name="Livre8_Banco_Horas" type="decimal"/>
+<Field label="Livre9 Banco Horas" name="Livre9_Banco_Horas" type="decimal"/>
+<Field eofAsDelimiter="false" label="Recno_ Ferias" name="Recno__Ferias" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_SALDODEBANCODEHORAS.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_SALDODEBANCODEHORAS.csv" name="BANCODEHORAS_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_SALDODEBANCODEHORAS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="&quot;LINHA&quot;" name="LINHA" type="string"/>
+<Field label="&quot;TABELA&quot;" name="TABELA" type="string"/>
+<Field label="&quot;FKCODCOLIGADA&quot;" name="FKCODCOLIGADA" type="string"/>
+<Field label="&quot;FKCODFILIAL&quot;" name="FKCODFILIAL" type="string"/>
+<Field label="&quot;FKCODSECAO&quot;" name="FKCODSECAO" type="string"/>
+<Field label="&quot;FKCODFUNCAO&quot;" name="FKCODFUNCAO" type="string"/>
+<Field label="&quot;FKCODSINDICATO&quot;" name="FKCODSINDICATO" type="string"/>
+<Field label="&quot;FKCHAPA&quot;" name="FKCHAPA" type="string"/>
+<Field label="&quot;FKCODSITUACAO&quot;" name="FKCODSITUACAO" type="string"/>
+<Field label="&quot;FKCODDEPARTAMENTO&quot;" name="FKCODDEPARTAMENTO" type="string"/>
+<Field label="&quot;FKCODCUSTO&quot;" name="FKCODCUSTO" type="string"/>
+<Field label="&quot;PKBANCODEHORAS&quot;" name="PKBANCODEHORAS" type="string"/>
+<Field label="&quot;Data da Carga&quot;" name="Data_da_Carga" type="string"/>
+<Field label="&quot;Data de Competencia Banco Horas&quot;" name="Data_de_Competencia_Banco_Horas" type="string"/>
+<Field label="&quot;Data de Criacao RECNO&quot;" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="&quot;Data de Alteracao RECNO&quot;" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="&quot;Livre0 Banco Horas&quot;" name="Livre0_Banco_Horas" type="string"/>
+<Field label="&quot;Livre1 Banco Horas&quot;" name="Livre1_Banco_Horas" type="string"/>
+<Field label="&quot;Livre2 Banco Horas&quot;" name="Livre2_Banco_Horas" type="string"/>
+<Field label="&quot;Livre3 Banco Horas&quot;" name="Livre3_Banco_Horas" type="string"/>
+<Field label="&quot;Livre4 Banco Horas&quot;" name="Livre4_Banco_Horas" type="string"/>
+<Field label="&quot;Extra Anterior Banco Horas&quot;" name="Extra_Anterior_Banco_Horas" type="string"/>
+<Field label="&quot;Atraso Anterior Banco Horas&quot;" name="Atraso_Anterior_Banco_Horas" type="string"/>
+<Field label="&quot;Falta Anterior Banco Horas&quot;" name="Falta_Anterior_Banco_Horas" type="string"/>
+<Field label="&quot;Extra Atual Banco Horas&quot;" name="Extra_Atual_Banco_Horas" type="string"/>
+<Field label="&quot;Atraso Atual Banco Horas&quot;" name="Atraso_Atual_Banco_Horas" type="string"/>
+<Field label="&quot;Falta Atual Banco Horas&quot;" name="Falta_Atual_Banco_Horas" type="string"/>
+<Field label="&quot;Livre5 Banco Horas&quot;" name="Livre5_Banco_Horas" type="string"/>
+<Field label="&quot;Livre6 Banco Horas&quot;" name="Livre6_Banco_Horas" type="string"/>
+<Field label="&quot;Livre7 Banco Horas&quot;" name="Livre7_Banco_Horas" type="string"/>
+<Field label="&quot;Livre8 Banco Horas&quot;" name="Livre8_Banco_Horas" type="string"/>
+<Field label="&quot;Livre9 Banco Horas&quot;" name="Livre9_Banco_Horas" type="string"/>
+<Field eofAsDelimiter="false" label="&quot;Recno_ Ferias&quot;" name="Recno__Ferias" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="727" guiY="18" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1094" guiY="18" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="331" guiY="18" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSECAO == null) or (trim($in.0.FKCODSECAO) == '')) { $out.0.FKCODSECAO = 'N/A'; } else { $out.0.FKCODSECAO = translate(trim(upperCase($in.0.FKCODSECAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFUNCAO == null) or (trim($in.0.FKCODFUNCAO) == '')) { $out.0.FKCODFUNCAO = 'N/A'; } else { $out.0.FKCODFUNCAO = translate(trim(upperCase($in.0.FKCODFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCHAPA == null) or (trim($in.0.FKCHAPA) == '')) { $out.0.FKCHAPA = 'N/A'; } else { $out.0.FKCHAPA = translate(trim(upperCase($in.0.FKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSITUACAO == null) or (trim($in.0.FKCODSITUACAO) == '')) { $out.0.FKCODSITUACAO = 'N/A'; } else { $out.0.FKCODSITUACAO = translate(trim(upperCase($in.0.FKCODSITUACAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODDEPARTAMENTO == null) or (trim($in.0.FKCODDEPARTAMENTO) == '')) { $out.0.FKCODDEPARTAMENTO = 'N/A'; } else { $out.0.FKCODDEPARTAMENTO = translate(trim(upperCase($in.0.FKCODDEPARTAMENTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCUSTO == null) or (trim($in.0.FKCODCUSTO) == '')) { $out.0.FKCODCUSTO = 'N/A'; } else { $out.0.FKCODCUSTO = translate(trim(upperCase($in.0.FKCODCUSTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKBANCODEHORAS == null) or (trim($in.0.PKBANCODEHORAS) == '')) { $out.0.PKBANCODEHORAS = 'N/A'; } else { $out.0.PKBANCODEHORAS = translate(trim(upperCase($in.0.PKBANCODEHORAS)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Competencia_Banco_Horas == null) or (trim($in.0.Data_de_Competencia_Banco_Horas) == '')) {
+		$out.0.Data_de_Competencia_Banco_Horas = null;
+	} else {
+		data = str2date($in.0.Data_de_Competencia_Banco_Horas, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Competencia_Banco_Horas = null;
+		} else {
+			$out.0.Data_de_Competencia_Banco_Horas = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Livre0_Banco_Horas == null) or (trim($in.0.Livre0_Banco_Horas) == '')) { $out.0.Livre0_Banco_Horas = 'N/A'; } else { $out.0.Livre0_Banco_Horas = translate(trim(upperCase($in.0.Livre0_Banco_Horas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Banco_Horas == null) or (trim($in.0.Livre1_Banco_Horas) == '')) { $out.0.Livre1_Banco_Horas = 'N/A'; } else { $out.0.Livre1_Banco_Horas = translate(trim(upperCase($in.0.Livre1_Banco_Horas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Banco_Horas == null) or (trim($in.0.Livre2_Banco_Horas) == '')) { $out.0.Livre2_Banco_Horas = 'N/A'; } else { $out.0.Livre2_Banco_Horas = translate(trim(upperCase($in.0.Livre2_Banco_Horas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Banco_Horas == null) or (trim($in.0.Livre3_Banco_Horas) == '')) { $out.0.Livre3_Banco_Horas = 'N/A'; } else { $out.0.Livre3_Banco_Horas = translate(trim(upperCase($in.0.Livre3_Banco_Horas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Banco_Horas == null) or (trim($in.0.Livre4_Banco_Horas) == '')) { $out.0.Livre4_Banco_Horas = 'N/A'; } else { $out.0.Livre4_Banco_Horas = translate(trim(upperCase($in.0.Livre4_Banco_Horas)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Extra_Anterior_Banco_Horas == null) or (trim($in.0.Extra_Anterior_Banco_Horas) == '')) { $out.0.Extra_Anterior_Banco_Horas = 0; } else { $out.0.Extra_Anterior_Banco_Horas = str2decimal($in.0.Extra_Anterior_Banco_Horas); }
+	if(($in.0.Atraso_Anterior_Banco_Horas == null) or (trim($in.0.Atraso_Anterior_Banco_Horas) == '')) { $out.0.Atraso_Anterior_Banco_Horas = 0; } else { $out.0.Atraso_Anterior_Banco_Horas = str2decimal($in.0.Atraso_Anterior_Banco_Horas); }
+	if(($in.0.Falta_Anterior_Banco_Horas == null) or (trim($in.0.Falta_Anterior_Banco_Horas) == '')) { $out.0.Falta_Anterior_Banco_Horas = 0; } else { $out.0.Falta_Anterior_Banco_Horas = str2decimal($in.0.Falta_Anterior_Banco_Horas); }
+	if(($in.0.Extra_Atual_Banco_Horas == null) or (trim($in.0.Extra_Atual_Banco_Horas) == '')) { $out.0.Extra_Atual_Banco_Horas = 0; } else { $out.0.Extra_Atual_Banco_Horas = str2decimal($in.0.Extra_Atual_Banco_Horas); }
+	if(($in.0.Atraso_Atual_Banco_Horas == null) or (trim($in.0.Atraso_Atual_Banco_Horas) == '')) { $out.0.Atraso_Atual_Banco_Horas = 0; } else { $out.0.Atraso_Atual_Banco_Horas = str2decimal($in.0.Atraso_Atual_Banco_Horas); }
+	if(($in.0.Falta_Atual_Banco_Horas == null) or (trim($in.0.Falta_Atual_Banco_Horas) == '')) { $out.0.Falta_Atual_Banco_Horas = 0; } else { $out.0.Falta_Atual_Banco_Horas = str2decimal($in.0.Falta_Atual_Banco_Horas); }
+	if(($in.0.Livre5_Banco_Horas == null) or (trim($in.0.Livre5_Banco_Horas) == 'INDEFINIDO')) { $out.0.Livre5_Banco_Horas = 0; } else { $out.0.Livre5_Banco_Horas = str2decimal($in.0.Livre5_Banco_Horas); }
+	if(($in.0.Livre6_Banco_Horas == null) or (trim($in.0.Livre6_Banco_Horas) == 'INDEFINIDO')) { $out.0.Livre6_Banco_Horas = 0; } else { $out.0.Livre6_Banco_Horas = str2decimal($in.0.Livre6_Banco_Horas); }
+	if(($in.0.Livre7_Banco_Horas == null) or (trim($in.0.Livre7_Banco_Horas) == 'INDEFINIDO')) { $out.0.Livre7_Banco_Horas = 0; } else { $out.0.Livre7_Banco_Horas = str2decimal($in.0.Livre7_Banco_Horas); }
+	if(($in.0.Livre8_Banco_Horas == null) or (trim($in.0.Livre8_Banco_Horas) == 'INDEFINIDO')) { $out.0.Livre8_Banco_Horas = 0; } else { $out.0.Livre8_Banco_Horas = str2decimal($in.0.Livre8_Banco_Horas); }
+	if(($in.0.Livre9_Banco_Horas == null) or (trim($in.0.Livre9_Banco_Horas) == 'INDEFINIDO')) { $out.0.Livre9_Banco_Horas = 0; } else { $out.0.Livre9_Banco_Horas = str2decimal($in.0.Livre9_Banco_Horas); }
+	if(($in.0.Recno__Ferias == null) or (trim($in.0.Recno__Ferias) == '')) { $out.0.Recno__Ferias = 0; } else { $out.0.Recno__Ferias = str2decimal($in.0.Recno__Ferias); }
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="905" guiY="18" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.bancodehoras.pkbancodehoras} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="531" guiY="18" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_SALDODEBANCODEHORAS.csv" guiName="VIEW_GD_SALDODEBANCODEHORAS" guiX="11" guiY="18" id="VIEW_GD_SALDODEBANCODEHORAS" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="BANCO_DE_HORAS:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_SALDODEBANCODEHORAS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.bancodehoras" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.bancodehoras&quot;,&quot;datasetTitle&quot;:&quot;Banco de Horas&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.livre0bancohoras&quot;,&quot;title&quot;:&quot;Livre0 Banco Horas&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_livre0bancohoras&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.livre0bancohoras&quot;,&quot;title&quot;:&quot;Livre0 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre0bancohoras&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Banco_Horas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.livre1bancohoras&quot;,&quot;title&quot;:&quot;Livre1 Banco Horas&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_livre1bancohoras&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.livre1bancohoras&quot;,&quot;title&quot;:&quot;Livre1 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre1bancohoras&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Banco_Horas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.livre2bancohoras&quot;,&quot;title&quot;:&quot;Livre2 Banco Horas&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_livre2bancohoras&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.livre2bancohoras&quot;,&quot;title&quot;:&quot;Livre2 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre2bancohoras&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Banco_Horas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.livre3bancohoras&quot;,&quot;title&quot;:&quot;Livre3 Banco Horas&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_livre3bancohoras&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.livre3bancohoras&quot;,&quot;title&quot;:&quot;Livre3 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre3bancohoras&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Banco_Horas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.livre4bancohoras&quot;,&quot;title&quot;:&quot;Livre4 Banco Horas&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_livre4bancohoras&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.livre4bancohoras&quot;,&quot;title&quot;:&quot;Livre4 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre4bancohoras&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Banco_Horas&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.pkbancodehoras&quot;,&quot;title&quot;:&quot;PKBANCODEHORAS&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_pkbancodehoras&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.pkbancodehoras&quot;,&quot;title&quot;:&quot;PKBANCODEHORAS&quot;,&quot;prettyId&quot;:&quot;pkbancodehoras&quot;,&quot;assignedMetadataField&quot;:&quot;PKBANCODEHORAS&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.pkbancodehoras&quot;,&quot;title&quot;:&quot;PKBANCODEHORAS&quot;,&quot;prettyId&quot;:&quot;pkbancodehoras&quot;,&quot;assignedMetadataField&quot;:&quot;PKBANCODEHORAS&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.bancodehoras.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_bancodehoras_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.bancodehoras.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastroccustofolhadepagamento_pkcodcusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCUSTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodedepartamentos_pkcoddepartamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodedepartamentos__pkcoddepartamento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODDEPARTAMENTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodedepartamentos__pkcoddepartamento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncoes_pkcodfuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFUNCAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesecoes_pkcodsecao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSECAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesituacoesdofuncionario_pkcodsituacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSITUACAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadecompentencia.date&quot;,&quot;title&quot;:&quot;Date (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Competencia_Banco_Horas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.atrasoanteriorbancohoras&quot;,&quot;title&quot;:&quot;Atraso Anterior Banco Horas&quot;,&quot;prettyId&quot;:&quot;atrasoanteriorbancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Atraso_Anterior_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.atrasoatualbancohoras&quot;,&quot;title&quot;:&quot;Atraso Atual Banco Horas&quot;,&quot;prettyId&quot;:&quot;atrasoatualbancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Atraso_Atual_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.extraanteriorbancohoras&quot;,&quot;title&quot;:&quot;Extra Anterior Banco Horas&quot;,&quot;prettyId&quot;:&quot;extraanteriorbancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Extra_Anterior_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.extraatualbancohoras&quot;,&quot;title&quot;:&quot;Extra Atual Banco Horas&quot;,&quot;prettyId&quot;:&quot;extraatualbancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Extra_Atual_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.faltaanteriorbancohoras&quot;,&quot;title&quot;:&quot;Falta Anterior Banco Horas&quot;,&quot;prettyId&quot;:&quot;faltaanteriorbancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Falta_Anterior_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.faltaatualbancohoras&quot;,&quot;title&quot;:&quot;Falta Atual Banco Horas&quot;,&quot;prettyId&quot;:&quot;faltaatualbancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Falta_Atual_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.livre5bancohoras&quot;,&quot;title&quot;:&quot;Livre5 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre5bancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.livre6bancohoras&quot;,&quot;title&quot;:&quot;Livre6 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre6bancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.livre7bancohoras&quot;,&quot;title&quot;:&quot;Livre7 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre7bancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.livre8bancohoras&quot;,&quot;title&quot;:&quot;Livre8 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre8bancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.livre9bancohoras&quot;,&quot;title&quot;:&quot;Livre9 Banco Horas&quot;,&quot;prettyId&quot;:&quot;livre9bancohoras&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Banco_Horas&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.bancodehoras.recno_ferias&quot;,&quot;title&quot;:&quot;Recno_ Ferias&quot;,&quot;prettyId&quot;:&quot;recno_ferias&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Recno__Ferias&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="BANCO DE HORAS" guiX="770" guiY="294" id="BANCO_DE_HORAS" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

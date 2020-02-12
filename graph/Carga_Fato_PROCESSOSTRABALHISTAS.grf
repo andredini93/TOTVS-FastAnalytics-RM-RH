@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:37:21 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.55" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_PROCESSOSTRABALHISTA.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/Agent_zipado_2016_8.zip)#VIEW_GD_PROCESSOSTRABALHISTA.csv" name="PROCESSOSTRABALHISTAS_Output" previewAttachment="zip:(${DATA_SOURCE_DIR}/Agent_zipado_2016_8.zip)#VIEW_GD_PROCESSOSTRABALHISTA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKPROCESSO" name="PKPROCESSO" type="string"/>
+<Field label="Codigo do Forum" name="Codigo_do_Forum" type="string"/>
+<Field label="Nome do Forum" name="Nome_do_Forum" type="string"/>
+<Field label="Numero do Processo" name="Numero_do_Processo" type="string"/>
+<Field label="Codigo da Entidade" name="Codigo_da_Entidade" type="string"/>
+<Field label="Nome da Entidade" name="Nome_da_Entidade" type="string"/>
+<Field label="Codigo da Descricao" name="Codigo_da_Descricao" type="string"/>
+<Field label="Tipo do Processo" name="Tipo_do_Processo" type="string"/>
+<Field label="Descricao do Tipo de Processo" name="Descricao_do_Tipo_de_Processo" type="string"/>
+<Field format="yyyyMMdd" label="Data de Abertura" name="Data_de_Abertura" type="date"/>
+<Field format="yyyyMMdd" label="Data de Encerramento" name="Data_de_Encerramento" type="date"/>
+<Field format="yyyyMMdd" label="Data de Reclamacao" name="Data_de_Reclamacao" type="date"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field label="Livre0 Processos" name="Livre0_Processos" type="string"/>
+<Field label="Livre1 Processos" name="Livre1_Processos" type="string"/>
+<Field label="Livre2 Processos" name="Livre2_Processos" type="string"/>
+<Field label="Livre3 Processos" name="Livre3_Processos" type="string"/>
+<Field label="Livre4 Processos" name="Livre4_Processos" type="string"/>
+<Field label="Livre5 Processos" name="Livre5_Processos" type="decimal"/>
+<Field label="Livre6 Processos" name="Livre6_Processos" type="decimal"/>
+<Field label="Livre7 Processos" name="Livre7_Processos" type="decimal"/>
+<Field label="Livre8 Processos" name="Livre8_Processos" type="decimal"/>
+<Field eofAsDelimiter="false" label="Livre9 Processos" name="Livre9_Processos" type="decimal"/>
+<Field name="Dummy" type="long"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_PROCESSOSTRABALHISTA.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_PROCESSOSTRABALHISTA.csv" name="PROCESSOSTRABALHISTAS_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_PROCESSOSTRABALHISTA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKPROCESSO" name="PKPROCESSO" type="string"/>
+<Field label="Codigo do Forum" name="Codigo_do_Forum" type="string"/>
+<Field label="Nome do Forum" name="Nome_do_Forum" type="string"/>
+<Field label="Numero do Processo" name="Numero_do_Processo" type="string"/>
+<Field label="Codigo da Entidade" name="Codigo_da_Entidade" type="string"/>
+<Field label="Nome da Entidade" name="Nome_da_Entidade" type="string"/>
+<Field label="Codigo da Descricao" name="Codigo_da_Descricao" type="string"/>
+<Field label="Tipo do Processo" name="Tipo_do_Processo" type="string"/>
+<Field label="Descricao do Tipo de Processo" name="Descricao_do_Tipo_de_Processo" type="string"/>
+<Field label="Data de Abertura" name="Data_de_Abertura" type="string"/>
+<Field label="Data de Encerramento" name="Data_de_Encerramento" type="string"/>
+<Field label="Data de Reclamacao" name="Data_de_Reclamacao" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Livre0 Processos" name="Livre0_Processos" type="string"/>
+<Field label="Livre1 Processos" name="Livre1_Processos" type="string"/>
+<Field label="Livre2 Processos" name="Livre2_Processos" type="string"/>
+<Field label="Livre3 Processos" name="Livre3_Processos" type="string"/>
+<Field label="Livre4 Processos" name="Livre4_Processos" type="string"/>
+<Field label="Livre5 Processos" name="Livre5_Processos" type="string"/>
+<Field label="Livre6 Processos" name="Livre6_Processos" type="string"/>
+<Field label="Livre7 Processos" name="Livre7_Processos" type="string"/>
+<Field label="Livre8 Processos" name="Livre8_Processos" type="string"/>
+<Field eofAsDelimiter="false" label="Livre9 Processos" name="Livre9_Processos" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="735" guiY="19" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1098" guiY="19" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="333" guiY="19" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+		
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKPESSOA == null) or (trim($in.0.FKPESSOA) == '')) { $out.0.FKPESSOA = 'N/A'; } else { $out.0.FKPESSOA = translate(trim(upperCase($in.0.FKPESSOA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKPROCESSO == null) or (trim($in.0.PKPROCESSO) == '')) { $out.0.PKPROCESSO = 'N/A'; } else { $out.0.PKPROCESSO = translate(trim(upperCase($in.0.PKPROCESSO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Codigo_do_Forum == null) or (trim($in.0.Codigo_do_Forum) == '')) { $out.0.Codigo_do_Forum = 'N/A'; } else { $out.0.Codigo_do_Forum = translate(trim(upperCase($in.0.Codigo_do_Forum)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Nome_do_Forum == null) or (trim($in.0.Nome_do_Forum) == '')) { $out.0.Nome_do_Forum = 'N/A'; } else { $out.0.Nome_do_Forum = translate(trim(upperCase($in.0.Nome_do_Forum)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Numero_do_Processo == null) or (trim($in.0.Numero_do_Processo) == '')) { $out.0.Numero_do_Processo = 'N/A'; } else { $out.0.Numero_do_Processo = translate(trim(upperCase($in.0.Numero_do_Processo)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Codigo_da_Entidade == null) or (trim($in.0.Codigo_da_Entidade) == '')) { $out.0.Codigo_da_Entidade = 'N/A'; } else { $out.0.Codigo_da_Entidade = translate(trim(upperCase($in.0.Codigo_da_Entidade)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Nome_da_Entidade == null) or (trim($in.0.Nome_da_Entidade) == '')) { $out.0.Nome_da_Entidade = 'N/A'; } else { $out.0.Nome_da_Entidade = translate(trim(upperCase($in.0.Nome_da_Entidade)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Codigo_da_Descricao == null) or (trim($in.0.Codigo_da_Descricao) == '')) { $out.0.Codigo_da_Descricao = 'N/A'; } else { $out.0.Codigo_da_Descricao = translate(trim(upperCase($in.0.Codigo_da_Descricao)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Tipo_do_Processo == null) or (trim($in.0.Tipo_do_Processo) == '')) { $out.0.Tipo_do_Processo = 'N/A'; } else { $out.0.Tipo_do_Processo = translate(trim(upperCase($in.0.Tipo_do_Processo)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Descricao_do_Tipo_de_Processo == null) or (trim($in.0.Descricao_do_Tipo_de_Processo) == '')) { $out.0.Descricao_do_Tipo_de_Processo = 'N/A'; } else { $out.0.Descricao_do_Tipo_de_Processo = translate(trim(upperCase($in.0.Descricao_do_Tipo_de_Processo)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	
+	if(($in.0.Data_de_Abertura == null) or (trim($in.0.Data_de_Abertura) == '')) {
+		$out.0.Data_de_Abertura = null;
+	} else {
+		data = str2date($in.0.Data_de_Abertura, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Abertura = null;
+		} else {
+			$out.0.Data_de_Abertura = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Encerramento == null) or (trim($in.0.Data_de_Encerramento) == '')) {
+		$out.0.Data_de_Encerramento = null;
+	} else {
+		data = str2date($in.0.Data_de_Encerramento, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Encerramento = null;
+		} else {
+			$out.0.Data_de_Encerramento = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Reclamacao == null) or (trim($in.0.Data_de_Reclamacao) == '')) {
+		$out.0.Data_de_Reclamacao = null;
+	} else {
+		data = str2date($in.0.Data_de_Reclamacao, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Reclamacao = null;
+		} else {
+			$out.0.Data_de_Reclamacao = data;
+		}
+	}
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+	if(($in.0.Livre0_Processos == null) or (trim($in.0.Livre0_Processos) == '')) { $out.0.Livre0_Processos = 'N/A'; } else { $out.0.Livre0_Processos = translate(trim(upperCase($in.0.Livre0_Processos)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre1_Processos == null) or (trim($in.0.Livre1_Processos) == '')) { $out.0.Livre1_Processos = 'N/A'; } else { $out.0.Livre0_Processos = translate(trim(upperCase($in.0.Livre1_Processos)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre2_Processos == null) or (trim($in.0.Livre2_Processos) == '')) { $out.0.Livre2_Processos = 'N/A'; } else { $out.0.Livre0_Processos = translate(trim(upperCase($in.0.Livre2_Processos)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre3_Processos == null) or (trim($in.0.Livre3_Processos) == '')) { $out.0.Livre3_Processos = 'N/A'; } else { $out.0.Livre0_Processos = translate(trim(upperCase($in.0.Livre3_Processos)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre4_Processos == null) or (trim($in.0.Livre4_Processos) == '')) { $out.0.Livre4_Processos = 'N/A'; } else { $out.0.Livre0_Processos = translate(trim(upperCase($in.0.Livre4_Processos)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.Livre5_Processos == null) or (trim($in.0.Livre5_Processos) == 'INDEFINIDO')) { $out.0.Livre5_Processos = 0; } else { $out.0.Livre5_Processos = str2decimal($in.0.Livre5_Processos); }
+	if(($in.0.Livre6_Processos == null) or (trim($in.0.Livre6_Processos) == 'INDEFINIDO')) { $out.0.Livre6_Processos = 0; } else { $out.0.Livre6_Processos = str2decimal($in.0.Livre6_Processos); }
+	if(($in.0.Livre7_Processos == null) or (trim($in.0.Livre7_Processos) == 'INDEFINIDO')) { $out.0.Livre7_Processos = 0; } else { $out.0.Livre7_Processos = str2decimal($in.0.Livre7_Processos); }
+	if(($in.0.Livre8_Processos == null) or (trim($in.0.Livre8_Processos) == 'INDEFINIDO')) { $out.0.Livre8_Processos = 0; } else { $out.0.Livre8_Processos = str2decimal($in.0.Livre8_Processos); }
+	if(($in.0.Livre9_Processos == null) or (trim($in.0.Livre9_Processos) == 'INDEFINIDO')) { $out.0.Livre9_Processos = 0; } else { $out.0.Livre9_Processos = str2decimal($in.0.Livre9_Processos); }
+	
+	$out.0.Dummy = 1;
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="914" guiY="19" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.processostrabalhistas.pkprocesso} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="547" guiY="19" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_PROCESSOSTRABALHISTA.csv" guiName="VIEW_GD_PROCESSOSTRABALHISTAS" guiX="11" guiY="19" id="VIEW_GD_PROCESSOSTRABALHISTAS" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 1 (out)" toNode="PROCESSOS_TRABALHISTAS:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_PROCESSOSTRABALHISTAS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.processostrabalhistas" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.processostrabalhistas&quot;,&quot;datasetTitle&quot;:&quot;Processos Trabalhistas&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.codigodadescricao&quot;,&quot;title&quot;:&quot;Código da Descrição&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_codigodadescricao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.codigodadescricao&quot;,&quot;title&quot;:&quot;Código da Descrição&quot;,&quot;prettyId&quot;:&quot;codigodadescricao&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_da_Descricao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.codigodaentidade&quot;,&quot;title&quot;:&quot;Código da Entidade&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_codigodaentidade&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.codigodaentidade&quot;,&quot;title&quot;:&quot;Código da Entidade&quot;,&quot;prettyId&quot;:&quot;codigodaentidade&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_da_Entidade&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.codigodoforum&quot;,&quot;title&quot;:&quot;Código do Fórum&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_codigodoforum&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.codigodoforum&quot;,&quot;title&quot;:&quot;Código do Fórum&quot;,&quot;prettyId&quot;:&quot;codigodoforum&quot;,&quot;assignedMetadataField&quot;:&quot;Codigo_do_Forum&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.descricaodotipodoprocesso&quot;,&quot;title&quot;:&quot;Descrição do Tipo do Processo&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_descricaodotipodoprocesso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.descricaodotipodoprocesso&quot;,&quot;title&quot;:&quot;Descrição do Tipo do Processo&quot;,&quot;prettyId&quot;:&quot;descricaodotipodoprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;Descricao_do_Tipo_de_Processo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.livre0processos&quot;,&quot;title&quot;:&quot;Livre0 Processos&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_livre0processos&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.livre0processos&quot;,&quot;title&quot;:&quot;Livre0 Processos&quot;,&quot;prettyId&quot;:&quot;livre0processos&quot;,&quot;assignedMetadataField&quot;:&quot;Livre0_Processos&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.livre1processos&quot;,&quot;title&quot;:&quot;Livre1 Processos&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_livre1processos&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.livre1processos&quot;,&quot;title&quot;:&quot;Livre1 Processos&quot;,&quot;prettyId&quot;:&quot;livre1processos&quot;,&quot;assignedMetadataField&quot;:&quot;Livre1_Processos&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.livre2processos&quot;,&quot;title&quot;:&quot;Livre2 Processos&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_livre2processos&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.livre2processos&quot;,&quot;title&quot;:&quot;Livre2 Processos&quot;,&quot;prettyId&quot;:&quot;livre2processos&quot;,&quot;assignedMetadataField&quot;:&quot;Livre2_Processos&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.livre3processos&quot;,&quot;title&quot;:&quot;Livre3 Processos&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_livre3processos&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.livre3processos&quot;,&quot;title&quot;:&quot;Livre3 Processos&quot;,&quot;prettyId&quot;:&quot;livre3processos&quot;,&quot;assignedMetadataField&quot;:&quot;Livre3_Processos&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.livre4processos&quot;,&quot;title&quot;:&quot;Livre4 Processos&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_livre4processos&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.livre4processos&quot;,&quot;title&quot;:&quot;Livre4 Processos&quot;,&quot;prettyId&quot;:&quot;livre4processos&quot;,&quot;assignedMetadataField&quot;:&quot;Livre4_Processos&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.nomedaentidade&quot;,&quot;title&quot;:&quot;Nome da Entidade&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_nomedaentidade&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.nomedaentidade&quot;,&quot;title&quot;:&quot;Nome da Entidade&quot;,&quot;prettyId&quot;:&quot;nomedaentidade&quot;,&quot;assignedMetadataField&quot;:&quot;Nome_da_Entidade&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.nomedoforum&quot;,&quot;title&quot;:&quot;Nome do Fórum&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_nomedoforum&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.nomedoforum&quot;,&quot;title&quot;:&quot;Nome do Fórum&quot;,&quot;prettyId&quot;:&quot;nomedoforum&quot;,&quot;assignedMetadataField&quot;:&quot;Nome_do_Forum&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.numerodoprocesso&quot;,&quot;title&quot;:&quot;Número do Processo&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_numerodoprocesso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.numerodoprocesso&quot;,&quot;title&quot;:&quot;Número do Processo&quot;,&quot;prettyId&quot;:&quot;numerodoprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;Numero_do_Processo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.pkprocesso&quot;,&quot;title&quot;:&quot;PKPROCESSO&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_pkprocesso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.pkprocesso&quot;,&quot;title&quot;:&quot;PKPROCESSO&quot;,&quot;prettyId&quot;:&quot;pkprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;PKPROCESSO&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.pkprocesso&quot;,&quot;title&quot;:&quot;PKPROCESSO&quot;,&quot;prettyId&quot;:&quot;pkprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;PKPROCESSO&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.processostrabalhistas.tipodoprocesso&quot;,&quot;title&quot;:&quot;Tipo do Processo&quot;,&quot;prettyId&quot;:&quot;attr_processostrabalhistas_tipodoprocesso&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.processostrabalhistas.tipodoprocesso&quot;,&quot;title&quot;:&quot;Tipo do Processo&quot;,&quot;prettyId&quot;:&quot;tipodoprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;Tipo_do_Processo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodepessoas_pkpessoa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKPESSOA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadeaberturadoprocesso.date&quot;,&quot;title&quot;:&quot;Date (Data de Abertura do Processo)&quot;,&quot;prettyId&quot;:&quot;datadeaberturadoprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Abertura&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeaberturadoprocesso.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Abertura do Processo)&quot;,&quot;prettyId&quot;:&quot;datadeaberturadoprocesso_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeaberturadoprocesso.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Abertura do Processo)&quot;,&quot;prettyId&quot;:&quot;datadeaberturadoprocesso_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadeencerramentodoprocesso.date&quot;,&quot;title&quot;:&quot;Date (Data de Encerramento do Processo)&quot;,&quot;prettyId&quot;:&quot;datadeencerramentodoprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Encerramento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeencerramentodoprocesso.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Encerramento do Processo)&quot;,&quot;prettyId&quot;:&quot;datadeencerramentodoprocesso_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeencerramentodoprocesso.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Encerramento do Processo)&quot;,&quot;prettyId&quot;:&quot;datadeencerramentodoprocesso_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadereclamacaodoprocesso.date&quot;,&quot;title&quot;:&quot;Date (Data de Reclamação do Processo)&quot;,&quot;prettyId&quot;:&quot;datadereclamacaodoprocesso&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Reclamacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadereclamacaodoprocesso.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Reclamação do Processo)&quot;,&quot;prettyId&quot;:&quot;datadereclamacaodoprocesso_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadereclamacaodoprocesso.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Reclamação do Processo)&quot;,&quot;prettyId&quot;:&quot;datadereclamacaodoprocesso_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.processostrabalhistas.dummy&quot;,&quot;title&quot;:&quot;Dummy&quot;,&quot;prettyId&quot;:&quot;dummy&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Dummy&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.processostrabalhistas.livre5processos&quot;,&quot;title&quot;:&quot;Livre5 Processos&quot;,&quot;prettyId&quot;:&quot;livre5processos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Processos&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.processostrabalhistas.livre6processos&quot;,&quot;title&quot;:&quot;Livre6 Processos&quot;,&quot;prettyId&quot;:&quot;livre6processos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Processos&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.processostrabalhistas.livre7processos&quot;,&quot;title&quot;:&quot;Livre7 Processos&quot;,&quot;prettyId&quot;:&quot;livre7processos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Processos&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.processostrabalhistas.livre8processos&quot;,&quot;title&quot;:&quot;Livre8 Processos&quot;,&quot;prettyId&quot;:&quot;livre8processos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Processos&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.processostrabalhistas.livre9processos&quot;,&quot;title&quot;:&quot;Livre9 Processos&quot;,&quot;prettyId&quot;:&quot;livre9processos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Processos&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="PROCESSOS TRABALHISTAS" guiX="729" guiY="250" id="PROCESSOS_TRABALHISTAS" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>

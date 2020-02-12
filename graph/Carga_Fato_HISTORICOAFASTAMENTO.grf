@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="rimeson.pereira" created="Wed Jul 19 09:18:37 BRT 2017" guiVersion="3.4.4.P" id="1500494986615" licenseType="Commercial" modified="Tue Sep 25 16:00:43 CST 2018" modifiedBy="elisangela.madeira" name="FATO" revision="1.66" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata35" previewAttachment="${DATA_SOURCE_DIR}/PROTHEUS (1)/VIEW_GD_HISTORICOAFASTAMENTO.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="VIEW_GD_HISTORICOAFASTAMENTO.csv" name="HISTORICOAFASTAMENTO_Output" previewAttachment="${DATA_SOURCE_DIR}/PROTHEUS (1)/VIEW_GD_HISTORICOAFASTAMENTO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field name="FKCODSECAO" type="string"/>
+<Field name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field name="FKCODSITUACAO" type="string"/>
+<Field name="FKCODDEPARTAMENTO" type="string"/>
+<Field name="FKCODCUSTO" type="string"/>
+<Field name="FKPESSOA" type="string"/>
+<Field label="PKCHAPA" name="PKCHAPA" type="string"/>
+<Field label="PKHISTORICOFUNCAO" name="PKHISTORICOFUNCAO" type="string"/>
+<Field format="yyyyMMdd" label="Data da Carga" name="Data_da_Carga" type="date"/>
+<Field format="yyyyMMdd" label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="date"/>
+<Field format="yyyyMMdd" label="Data Inicio do Afastamento" name="Data_Inicio_do_Afastamento" type="date"/>
+<Field format="yyyyMMdd" label="Data Final do Afastamento" name="Data_Final_do_Afastamento" type="date"/>
+<Field format="yyyyMMdd" name="Data_De_Competencia" type="date"/>
+<Field label="Qtde Dias de Afastamento" name="Qtde_Dias_de_Afastamento" type="decimal"/>
+<Field label="Qtde Horas de Afastamento" name="Qtde_Horas_de_Afastamento" type="decimal"/>
+<Field label="Tipo do Afastamento" name="Tipo_do_Afastamento" type="string"/>
+<Field label="Descriocao do Tipo" name="Descriocao_do_Tipo" type="string"/>
+<Field label="Motivo do Afastamento" name="Motivo_do_Afastamento" type="string"/>
+<Field label="Descriocao do Motivo" name="Descriocao_do_Motivo" type="string"/>
+<Field label="Observacao" name="Observacao" type="string"/>
+<Field label="Livre0 Hist.Afastamento" name="Livre0_Hist_Afastamento" type="string"/>
+<Field label="Livre1 Hist.Afastamento" name="Livre1_Hist_Afastamento" type="string"/>
+<Field label="Livre2 Hist.Afastamento" name="Livre2_Hist_Afastamento" type="string"/>
+<Field label="Livre3 Hist.Afastamento" name="Livre3_Hist_Afastamento" type="string"/>
+<Field label="Livre4 Hist.Afastamento" name="Livre4_Hist_Afastamento" type="string"/>
+<Field label="Livre5 Hist.Afastamento" name="Livre5_Hist_Afastamento" type="decimal"/>
+<Field label="Livre6 Hist.Afastamento" name="Livre6_Hist_Afastamento" type="decimal"/>
+<Field label="Livre7 Hist.Afastamento" name="Livre7_Hist_Afastamento" type="decimal"/>
+<Field label="Livre8 Hist.Afastamento" name="Livre8_Hist_Afastamento" type="decimal"/>
+<Field eofAsDelimiter="false" label="Livre9 Hist.Afastamento" name="Livre9_Hist_Afastamento" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="sintax" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="syntax_content" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOAFASTAMENTO.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="zip:(./data/source/RM.zip)#VIEW_GD_HISTORICOAFASTAMENTO.csv" name="HISTORICOAFASTAMENTO_Input" previewAttachment="zip:(${DATA_SOURCE_DIR}/RM.zip)#VIEW_GD_HISTORICOAFASTAMENTO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field label="LINHA" name="LINHA" type="string"/>
+<Field label="TABELA" name="TABELA" type="string"/>
+<Field label="FKCODCOLIGADA" name="FKCODCOLIGADA" type="string"/>
+<Field label="FKCODFILIAL" name="FKCODFILIAL" type="string"/>
+<Field label="FKCODSECAO" name="FKCODSECAO" type="string"/>
+<Field label="FKCODFUNCAO" name="FKCODFUNCAO" type="string"/>
+<Field label="FKCODSINDICATO" name="FKCODSINDICATO" type="string"/>
+<Field label="FKCODSITUACAO" name="FKCODSITUACAO" type="string"/>
+<Field label="FKCODDEPARTAMENTO" name="FKCODDEPARTAMENTO" type="string"/>
+<Field label="FKCODCUSTO" name="FKCODCUSTO" type="string"/>
+<Field label="FKPESSOA" name="FKPESSOA" type="string"/>
+<Field label="PKCHAPA" name="PKCHAPA" type="string"/>
+<Field label="PKHISTORICOFUNCAO" name="PKHISTORICOFUNCAO" type="string"/>
+<Field label="Data da Carga" name="Data_da_Carga" type="string"/>
+<Field label="Data de Criacao RECNO" name="Data_de_Criacao_RECNO" type="string"/>
+<Field label="Data de Alteracao RECNO" name="Data_de_Alteracao_RECNO" type="string"/>
+<Field label="Data Inicio do Afastamento" name="Data_Inicio_do_Afastamento" type="string"/>
+<Field label="Data Final do Afastamento" name="Data_Final_do_Afastamento" type="string"/>
+<Field label="Data De Competencia" name="Data_De_Competencia" type="string"/>
+<Field label="Qtde Dias de Afastamento" name="Qtde_Dias_de_Afastamento" type="string"/>
+<Field label="Qtde Horas de Afastamento" name="Qtde_Horas_de_Afastamento" type="string"/>
+<Field label="Tipo do Afastamento" name="Tipo_do_Afastamento" type="string"/>
+<Field label="Descriocao do Tipo" name="Descriocao_do_Tipo" type="string"/>
+<Field label="Motivo do Afastamento" name="Motivo_do_Afastamento" type="string"/>
+<Field label="Descriocao do Motivo" name="Descriocao_do_Motivo" type="string"/>
+<Field label="Observacao" name="Observacao" type="string"/>
+<Field label="Livre0 Hist.Afastamento" name="Livre0_Hist_Afastamento" type="string"/>
+<Field label="Livre1 Hist.Afastamento" name="Livre1_Hist_Afastamento" type="string"/>
+<Field label="Livre2 Hist.Afastamento" name="Livre2_Hist_Afastamento" type="string"/>
+<Field label="Livre3 Hist.Afastamento" name="Livre3_Hist_Afastamento" type="string"/>
+<Field label="Livre4 Hist.Afastamento" name="Livre4_Hist_Afastamento" type="string"/>
+<Field label="Livre5 Hist.Afastamento" name="Livre5_Hist_Afastamento" type="string"/>
+<Field label="Livre6 Hist.Afastamento" name="Livre6_Hist_Afastamento" type="string"/>
+<Field label="Livre7 Hist.Afastamento" name="Livre7_Hist_Afastamento" type="string"/>
+<Field label="Livre8 Hist.Afastamento" name="Livre8_Hist_Afastamento" type="string"/>
+<Field eofAsDelimiter="false" label="Livre9 Hist.Afastamento" name="Livre9_Hist_Afastamento" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="20">
+<Node enabled="enabled" guiName="Aggregate" guiX="642" guiY="25" id="AGGREGATE" mapping="$Min_Date:=min($Data_de_Alteracao_RECNO);$Max_Date:=max($Data_de_Alteracao_RECNO);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1029" guiY="25" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="310" guiY="25" id="REFORMAT15" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	
+	date data;
+	date mindate;
+	date maxdate;
+	mindate = str2date('19000101', 'yyyyMMdd');
+	maxdate = str2date('20501231', 'yyyyMMdd');
+	
+	if(($in.0.LINHA == null) or (trim($in.0.LINHA) == '')) { $out.0.LINHA = 'N/A'; } else { $out.0.LINHA = translate(trim(upperCase($in.0.LINHA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.TABELA == null) or (trim($in.0.TABELA) == '')) { $out.0.TABELA = 'N/A'; } else { $out.0.TABELA = translate(trim(upperCase($in.0.TABELA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCOLIGADA == null) or (trim($in.0.FKCODCOLIGADA) == '')) { $out.0.FKCODCOLIGADA = 'N/A'; } else { $out.0.FKCODCOLIGADA = translate(trim(upperCase($in.0.FKCODCOLIGADA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFILIAL == null) or (trim($in.0.FKCODFILIAL) == '')) { $out.0.FKCODFILIAL = 'N/A'; } else { $out.0.FKCODFILIAL = translate(trim(upperCase($in.0.FKCODFILIAL)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSECAO == null) or (trim($in.0.FKCODSECAO) == '')) { $out.0.FKCODSECAO = 'N/A'; } else { $out.0.FKCODSECAO = translate(trim(upperCase($in.0.FKCODSECAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODFUNCAO == null) or (trim($in.0.FKCODFUNCAO) == '')) { $out.0.FKCODFUNCAO = 'N/A'; } else { $out.0.FKCODFUNCAO = translate(trim(upperCase($in.0.FKCODFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }	
+	if(($in.0.FKCODSINDICATO == null) or (trim($in.0.FKCODSINDICATO) == '')) { $out.0.FKCODSINDICATO = 'N/A'; } else { $out.0.FKCODSINDICATO = translate(trim(upperCase($in.0.FKCODSINDICATO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODSITUACAO == null) or (trim($in.0.FKCODSITUACAO) == '')) { $out.0.FKCODSITUACAO = 'N/A'; } else { $out.0.FKCODSITUACAO = translate(trim(upperCase($in.0.FKCODSITUACAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODDEPARTAMENTO == null) or (trim($in.0.FKCODDEPARTAMENTO) == '')) { $out.0.FKCODDEPARTAMENTO = 'N/A'; } else { $out.0.FKCODDEPARTAMENTO = translate(trim(upperCase($in.0.FKCODDEPARTAMENTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKCODCUSTO == null) or (trim($in.0.FKCODCUSTO) == '')) { $out.0.FKCODCUSTO = 'N/A'; } else { $out.0.FKCODCUSTO = translate(trim(upperCase($in.0.FKCODCUSTO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.FKPESSOA == null) or (trim($in.0.FKPESSOA) == '')) { $out.0.FKPESSOA = 'N/A'; } else { $out.0.FKPESSOA = translate(trim(upperCase($in.0.FKPESSOA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKCHAPA == null) or (trim($in.0.PKCHAPA) == '')) { $out.0.PKCHAPA = 'N/A'; } else { $out.0.PKCHAPA = translate(trim(upperCase($in.0.PKCHAPA)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+	if(($in.0.PKHISTORICOFUNCAO == null) or (trim($in.0.PKHISTORICOFUNCAO) == '')) { $out.0.PKHISTORICOFUNCAO = 'N/A'; } else { $out.0.PKHISTORICOFUNCAO = translate(trim(upperCase($in.0.PKHISTORICOFUNCAO)), 'ÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÂÊÎÔÛÃÕ', 'AEIOUAEIOUAEIOUAEIOUAO'); }
+
+	
+
+	
+	if(($in.0.Data_da_Carga == null) or (trim($in.0.Data_da_Carga) == '')) {
+		$out.0.Data_da_Carga = null;
+	} else {
+		data = str2date($in.0.Data_da_Carga, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_da_Carga = null;
+		} else {
+			$out.0.Data_da_Carga = data;
+		}
+	}
+	
+
+	
+	if(($in.0.Data_de_Criacao_RECNO == null) or (trim($in.0.Data_de_Criacao_RECNO) == '')) {
+		$out.0.Data_de_Criacao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Criacao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Criacao_RECNO = null;
+		} else {
+			$out.0.Data_de_Criacao_RECNO = data;
+		}
+	}
+	
+	
+	
+	if(($in.0.Data_de_Alteracao_RECNO == null) or (trim($in.0.Data_de_Alteracao_RECNO) == '')) {
+		$out.0.Data_de_Alteracao_RECNO = null;
+	} else {
+		data = str2date($in.0.Data_de_Alteracao_RECNO, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_de_Alteracao_RECNO = null;
+		} else {
+			$out.0.Data_de_Alteracao_RECNO = data;
+		}
+	}
+	
+
+	
+	if(($in.0.Data_Inicio_do_Afastamento == null) or (trim($in.0.Data_Inicio_do_Afastamento) == '')) {
+		$out.0.Data_Inicio_do_Afastamento = null;
+	} else {
+		data = str2date($in.0.Data_Inicio_do_Afastamento, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Inicio_do_Afastamento = null;
+		} else {
+			$out.0.Data_Inicio_do_Afastamento = data;
+		}
+	}
+		
+	if(($in.0.Data_Final_do_Afastamento == null) or (trim($in.0.Data_Final_do_Afastamento) == '')) {
+		$out.0.Data_Final_do_Afastamento = null;
+	} else {
+		data = str2date($in.0.Data_Final_do_Afastamento, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_Final_do_Afastamento = null;
+		} else {
+			$out.0.Data_Final_do_Afastamento = data;
+		}
+	}
+	
+	if(($in.0.Data_De_Competencia == null) or (trim($in.0.Data_De_Competencia) == '')) {
+		$out.0.Data_De_Competencia = null;
+	} else {
+		data = str2date($in.0.Data_De_Competencia, '${DATE_FORMAT}');
+		if ((data < mindate) || (data > maxdate)) {
+			$out.0.Data_De_Competencia = null;
+		} else {
+			$out.0.Data_De_Competencia = data;
+		}
+	}
+	
+	if(($in.0.Qtde_Dias_de_Afastamento == null) or (trim($in.0.Qtde_Dias_de_Afastamento) == 'INDEFINIDO')) { $out.0.Qtde_Dias_de_Afastamento = 0; } else { $out.0.Qtde_Dias_de_Afastamento = str2decimal($in.0.Qtde_Dias_de_Afastamento); }
+	if(($in.0.Qtde_Horas_de_Afastamento == null) or (trim($in.0.Qtde_Horas_de_Afastamento) == 'INDEFINIDO')) { $out.0.Qtde_Horas_de_Afastamento = 0; } else { $out.0.Qtde_Horas_de_Afastamento = str2decimal($in.0.Qtde_Horas_de_Afastamento); }
+	
+	
+	$out.0.Tipo_do_Afastamento = $in.0.Tipo_do_Afastamento;
+	$out.0.Descriocao_do_Tipo = $in.0.Descriocao_do_Tipo;
+	$out.0.Motivo_do_Afastamento = $in.0.Motivo_do_Afastamento;
+	$out.0.Descriocao_do_Motivo = $in.0.Descriocao_do_Motivo;
+	$out.0.Observacao = $in.0.Observacao;
+	$out.0.Livre0_Hist_Afastamento = $in.0.Livre0_Hist_Afastamento;
+	$out.0.Livre1_Hist_Afastamento = $in.0.Livre1_Hist_Afastamento;
+	$out.0.Livre2_Hist_Afastamento = $in.0.Livre2_Hist_Afastamento;
+	$out.0.Livre3_Hist_Afastamento = $in.0.Livre3_Hist_Afastamento;
+	$out.0.Livre4_Hist_Afastamento = $in.0.Livre4_Hist_Afastamento;
+	
+	
+	
+	if(($in.0.Livre5_Hist_Afastamento == null) or (trim($in.0.Livre5_Hist_Afastamento) == 'INDEFINIDO')) { $out.0.Livre5_Hist_Afastamento = 0; } else { $out.0.Livre5_Hist_Afastamento = str2decimal($in.0.Livre5_Hist_Afastamento); }
+	if(($in.0.Livre6_Hist_Afastamento == null) or (trim($in.0.Livre6_Hist_Afastamento) == 'INDEFINIDO')) { $out.0.Livre6_Hist_Afastamento = 0; } else { $out.0.Livre6_Hist_Afastamento = str2decimal($in.0.Livre6_Hist_Afastamento); }
+	if(($in.0.Livre7_Hist_Afastamento == null) or (trim($in.0.Livre7_Hist_Afastamento) == 'INDEFINIDO')) { $out.0.Livre7_Hist_Afastamento = 0; } else { $out.0.Livre7_Hist_Afastamento = str2decimal($in.0.Livre7_Hist_Afastamento); }
+	if(($in.0.Livre8_Hist_Afastamento == null) or (trim($in.0.Livre8_Hist_Afastamento) == 'INDEFINIDO')) { $out.0.Livre8_Hist_Afastamento = 0; } else { $out.0.Livre8_Hist_Afastamento = str2decimal($in.0.Livre8_Hist_Afastamento); }
+	if(($in.0.Livre9_Hist_Afastamento == null) or (trim($in.0.Livre9_Hist_Afastamento) == 'INDEFINIDO')) { $out.0.Livre9_Hist_Afastamento = 0; } else { $out.0.Livre9_Hist_Afastamento = str2decimal($in.0.Livre9_Hist_Afastamento); }
+	
+
+	
+	
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="833" guiY="25" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.historicoafastamento.factsof} WHERE {dataalteracaorecno.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="474" guiY="25" id="SIMPLE_COPY" type="SIMPLE_COPY"/>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_SOURCE_DIR}/${gdc_agent_zip})#VIEW_GD_HISTORICOAFASTAMENTO.csv" guiName="VIEW_GD_HISTORICOAFASTAMENTO" guiX="19" guiY="25" id="VIEW_GD_HISTORICOAFASTAMENTO1" quotedStrings="true" type="DATA_READER"/>
+<Edge debugMode="true" fromNode="AGGREGATE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="REFORMAT15:0" guiBendpoints="" guiRouter="Manhattan" id="Edge10" inPort="Port 0 (in)" metadata="Metadata35" outPort="Port 0 (out)" toNode="SIMPLE_COPY:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (input)" metadata="Metadata4" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKL:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata35" outPort="Port 0 (out)" toNode="AGGREGATE:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY:1" guiBendpoints="" guiRouter="Manhattan" id="Edge12" inPort="Port 0 (in)" metadata="Metadata35" outPort="Port 1 (out)" toNode="HISTORICO_AFASTAMENTO:0"/>
+<Edge debugMode="true" fromNode="VIEW_GD_HISTORICOAFASTAMENTO1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="REFORMAT15:0"/>
+</Phase>
+<Phase number="30">
+<Node dataset="dataset.historicoafastamento" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.historicoafastamento&quot;,&quot;datasetTitle&quot;:&quot;Histórico Afastamento&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.descriocaodomotivo&quot;,&quot;title&quot;:&quot;Descricao do Motivo&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_descriocaodomotivo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.descriocaodomotivo&quot;,&quot;title&quot;:&quot;Descricao do Motivo&quot;,&quot;prettyId&quot;:&quot;descriocaodomotivo&quot;,&quot;assignedMetadataField&quot;:&quot;Descriocao_do_Motivo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.descriocaodotipo&quot;,&quot;title&quot;:&quot;Descricao do Tipo&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_descriocaodotipo&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.descriocaodotipo&quot;,&quot;title&quot;:&quot;Descricao do Tipo&quot;,&quot;prettyId&quot;:&quot;descriocaodotipo&quot;,&quot;assignedMetadataField&quot;:&quot;Descriocao_do_Tipo&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_linha&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.linha&quot;,&quot;title&quot;:&quot;LINHA&quot;,&quot;prettyId&quot;:&quot;linha&quot;,&quot;assignedMetadataField&quot;:&quot;LINHA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.livre5histafastamento&quot;,&quot;title&quot;:&quot;Livre5 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_livre5histafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.livre5histafastamento&quot;,&quot;title&quot;:&quot;Livre5 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;livre5histafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Livre5_Hist_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.livre6histafastamento&quot;,&quot;title&quot;:&quot;Livre6 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_livre6histafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.livre6histafastamento&quot;,&quot;title&quot;:&quot;Livre6 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;livre6histafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Livre6_Hist_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.livre7histafastamento&quot;,&quot;title&quot;:&quot;Livre7 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_livre7histafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.livre7histafastamento&quot;,&quot;title&quot;:&quot;Livre7 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;livre7histafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Livre7_Hist_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.livre8histafastamento&quot;,&quot;title&quot;:&quot;Livre8 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_livre8histafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.livre8histafastamento&quot;,&quot;title&quot;:&quot;Livre8 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;livre8histafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Livre8_Hist_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.livre9histafastamento&quot;,&quot;title&quot;:&quot;Livre9 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_livre9histafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.livre9histafastamento&quot;,&quot;title&quot;:&quot;Livre9 Hist.Afastamento&quot;,&quot;prettyId&quot;:&quot;livre9histafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Livre9_Hist_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.motivodoafastamento&quot;,&quot;title&quot;:&quot;Motivo do Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_motivodoafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.motivodoafastamento&quot;,&quot;title&quot;:&quot;Motivo do Afastamento&quot;,&quot;prettyId&quot;:&quot;motivodoafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Motivo_do_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.observacao&quot;,&quot;title&quot;:&quot;Observacao&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_observacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.observacao&quot;,&quot;title&quot;:&quot;Observacao&quot;,&quot;prettyId&quot;:&quot;observacao&quot;,&quot;assignedMetadataField&quot;:&quot;Observacao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.observacao&quot;,&quot;title&quot;:&quot;Observacao&quot;,&quot;prettyId&quot;:&quot;observacao&quot;,&quot;assignedMetadataField&quot;:&quot;Observacao&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_tabela&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.tabela&quot;,&quot;title&quot;:&quot;TABELA&quot;,&quot;prettyId&quot;:&quot;tabela&quot;,&quot;assignedMetadataField&quot;:&quot;TABELA&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicoafastamento.tipodoafastamento&quot;,&quot;title&quot;:&quot;Tipo do Afastamento&quot;,&quot;prettyId&quot;:&quot;attr_historicoafastamento_tipodoafastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicoafastamento.tipodoafastamento&quot;,&quot;title&quot;:&quot;Tipo do Afastamento&quot;,&quot;prettyId&quot;:&quot;tipodoafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Tipo_do_Afastamento&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastroccustofolhadepagamento_pkcodcusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCUSTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastroccustofolhadepagamento.pkcodcusto&quot;,&quot;title&quot;:&quot;PKCODCUSTO&quot;,&quot;prettyId&quot;:&quot;cadastroccustofolhadepagamento__pkcodcusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodedepartamentos_pkcoddepartamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodedepartamentos__pkcoddepartamento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODDEPARTAMENTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodedepartamentos.pkcoddepartamento&quot;,&quot;title&quot;:&quot;PKCODDEPARTAMENTO&quot;,&quot;prettyId&quot;:&quot;cadastrodedepartamentos__pkcoddepartamento&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodeempresas_pkcodcoligada&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODCOLIGADA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodeempresas.pkcodcoligada&quot;,&quot;title&quot;:&quot;PKCODCOLIGADA&quot;,&quot;prettyId&quot;:&quot;cadastrodeempresas__pkcodcoligada&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefiliais_pkcodfilial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFILIAL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefiliais.pkcodfilial&quot;,&quot;title&quot;:&quot;PKCODFILIAL&quot;,&quot;prettyId&quot;:&quot;cadastrodefiliais__pkcodfilial&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncionarios_pkchapa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;PKCHAPA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncionarios.pkchapa&quot;,&quot;title&quot;:&quot;PKCHAPA&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncionarios__pkchapa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodefuncoes_pkcodfuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODFUNCAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodefuncoes.pkcodfuncao&quot;,&quot;title&quot;:&quot;PKCODFUNCAO&quot;,&quot;prettyId&quot;:&quot;cadastrodefuncoes__pkcodfuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodepessoas_pkpessoa&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKPESSOA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodepessoas.pkpessoa&quot;,&quot;title&quot;:&quot;PKPESSOA&quot;,&quot;prettyId&quot;:&quot;cadastrodepessoas__pkpessoa&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesecoes_pkcodsecao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSECAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesecoes.pkcodsecao&quot;,&quot;title&quot;:&quot;PKCODSECAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesecoes__pkcodsecao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesindicatos_pkcodsindicato&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSINDICATO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesindicatos.pkcodsindicato&quot;,&quot;title&quot;:&quot;PKCODSINDICATO&quot;,&quot;prettyId&quot;:&quot;cadastrodesindicatos__pkcodsindicato&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;attr_cadastrodesituacoesdofuncionario_pkcodsituacao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;FKCODSITUACAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cadastrodesituacoesdofuncionario.pkcodsituacao&quot;,&quot;title&quot;:&quot;PKCODSITUACAO&quot;,&quot;prettyId&quot;:&quot;cadastrodesituacoesdofuncionario__pkcodsituacao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.historicodefuncoes.pkhistoricofuncao&quot;,&quot;title&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;prettyId&quot;:&quot;attr_historicodefuncoes_pkhistoricofuncao&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.pkhistoricofuncao&quot;,&quot;title&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;prettyId&quot;:&quot;historicodefuncoes__pkhistoricofuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.historicodefuncoes.pkhistoricofuncao&quot;,&quot;title&quot;:&quot;PKHISTORICOFUNCAO&quot;,&quot;prettyId&quot;:&quot;historicodefuncoes__pkhistoricofuncao&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date&quot;,&quot;title&quot;:&quot;Date (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno&quot;,&quot;assignedMetadataField&quot;:&quot;Data_de_Alteracao_RECNO&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;dataalteracaorecno.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Alteracao Recno)&quot;,&quot;prettyId&quot;:&quot;dataalteracaorecno_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadecompentencia.date&quot;,&quot;title&quot;:&quot;Date (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia&quot;,&quot;assignedMetadataField&quot;:&quot;Data_De_Competencia&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadecompentencia.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Competencia)&quot;,&quot;prettyId&quot;:&quot;datadecompentencia_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datadeinicioafastamento.date&quot;,&quot;title&quot;:&quot;Date (Data de Início Afastamento)&quot;,&quot;prettyId&quot;:&quot;datadeinicioafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Data_Inicio_do_Afastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeinicioafastamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Início Afastamento)&quot;,&quot;prettyId&quot;:&quot;datadeinicioafastamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datadeinicioafastamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data de Início Afastamento)&quot;,&quot;prettyId&quot;:&quot;datadeinicioafastamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datafinaldoafastamento.date&quot;,&quot;title&quot;:&quot;Date (Data Final do Afastamento)&quot;,&quot;prettyId&quot;:&quot;datafinaldoafastamento&quot;,&quot;assignedMetadataField&quot;:&quot;Data_Final_do_Afastamento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datafinaldoafastamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Final do Afastamento)&quot;,&quot;prettyId&quot;:&quot;datafinaldoafastamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datafinaldoafastamento.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Final do Afastamento)&quot;,&quot;prettyId&quot;:&quot;datafinaldoafastamento_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;type&quot;:&quot;STRING&quot;,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicoafastamento.qtdediasdeafastamento&quot;,&quot;title&quot;:&quot;Qtde Dias de Afastamento&quot;,&quot;prettyId&quot;:&quot;qtdediasdeafastamento&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Dias_de_Afastamento&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.historicoafastamento.qtdehorasdeafastamento&quot;,&quot;title&quot;:&quot;Qtde Horas de Afastamento&quot;,&quot;prettyId&quot;:&quot;qtdehorasdeafastamento&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;Qtde_Horas_de_Afastamento&quot;}}],&quot;dateFacts&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[]}}" enabled="enabled" guiName="HISTÓRICO AFASTAMENTO" guiX="642" guiY="216" id="HISTORICO_AFASTAMENTO" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER"/>
+</Phase>
+</Graph>
