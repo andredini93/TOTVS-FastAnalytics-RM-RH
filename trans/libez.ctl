@@ -1,4 +1,4 @@
-//#CTL2
+//#CTL2.
 
 string GOODDATA_DEMOMODE = upperCase('${DEMO}');
 double GOODDATA_MAXVALUE = str2double('${NUMBER_MAXSIZE}', '${NUMBER_PATTERN}','${NUMBER_LOCALE}');
