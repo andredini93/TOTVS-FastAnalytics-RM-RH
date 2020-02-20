@@ -20,4 +20,5 @@ GDC_PROJECT_ID=lcyjqg945a2wo9due2u7ejj397h5x2bi
 USER_PWD_SECURE_DI=
 gdc_agent_zip=RM.zip
 DATE_FORMAT=yyyyMMdd
-
+DEMO_MODE=N
+DEMO_DATE=2020-02-20
