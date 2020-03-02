@@ -27,7 +27,7 @@ date   ETL_MAXDATE = dateAdd(str2date('01/' + THIS_MONTH + '/' + THIS_YEAR, 'dd/
 date  data;
 string TipoPessoa;
 
-//Teste do dini.........--dididfdsfdfdsfdserefdfdsf
+//Teste do dini.........--dididfdsfdfdsfdserefdfdsfdini
 //===============================================//
 //            FUNÇÕES DA BIBLIOTECA              //
 //===============================================//
