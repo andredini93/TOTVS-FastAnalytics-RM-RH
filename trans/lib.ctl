@@ -13,7 +13,7 @@ double GOODDATA_MAXVALUE = str2double('${NUMBER_MAXSIZE}', '${NUMBER_PATTERN}','
 date   GOODDATA_MINDATE = str2date('${GOODDATA_MINDATE}', 'yyyy-MM-dd');
 date   GOODDATA_MAXDATE = str2date('${GOODDATA_MAXDATE}', 'yyyy-MM-dd');
 
-//Mês / Ano atual.
+//Mês / Ano atual.~çl
 string THIS_MONTH = right(left(date2str(today(), 'dd/MM/yyyy'), 5), 2);
 string THIS_YEAR = right(date2str(today(), 'dd/MM/yyyy'), 4);
 
@@ -27,7 +27,7 @@ date   ETL_MAXDATE = dateAdd(str2date('01/' + THIS_MONTH + '/' + THIS_YEAR, 'dd/
 date  data;
 string TipoPessoa;
 
-
+//Teste do dini.........--dididfdsfdfdsfdserefdfdsf
 //===============================================//
 //            FUNÇÕES DA BIBLIOTECA              //
 //===============================================//
