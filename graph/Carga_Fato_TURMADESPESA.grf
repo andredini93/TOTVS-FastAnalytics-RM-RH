@@ -82,7 +82,7 @@
 <Node enabled="enabled" guiName="Reformat" guiX="284" guiY="19" id="REFORMAT1" type="REFORMAT">
 <attr name="transform"><![CDATA[//#CTL2
 
-// Transforms input record into output record.
+// Transforms input record into output record. faca
 function integer transform() {	
 	date data;
 	date mindate;
